@@ -42,9 +42,7 @@ const Page = (props) => {
           structuredData={structuredData}
         />
         <Header />
-        <div className="page-breadcrumbs-section">
-          <Breadcrumbs style="white-left" />
-        </div>
+        <Breadcrumbs style="white-left" />
         <main className="page-main">
           <div className="page-left-main-box">
             <div className="page-headertextwashermachine">
@@ -507,7 +505,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <p className="page-text49 vicetext">
                   {' '}
-                  Один из малоизвестных, но действенных методов – использование подогретого глицерина. Глицерин немного подогревают, пропитывают им ватный диск и растирают пятно с обеих сторон. Такой приём позволяет «распустить» застаревшие пятна крови. После обработки глицериновые остатки нужно тщательно смыть и постирать вещь. Хотя это немного парадоксальный метод (тепло обычно противопоказа��о!), глицерин действительно помогает вывести пятно без высоких температур.
+                  Один из малоизвестных, но действенных методов – ис��ользование подогретого глицерина. Глицерин немного подогревают, пропитывают им ватный диск и растирают пятно с обеих сторон. Такой приём позволяет «распустить» застаревшие пятна крови. После обработки глицериновые остатки нужно тщательно смыть и постирать вещь. Хотя это немного парадоксальный метод (тепло обычно противопоказа��о!), глицерин действительно помогает вывести пятно без высоких температур.
                   После любой обработки кровь лучше сразу постирать в холодной воде ��� так вы наверняка смоете все остатки. Если ткань очень деликатная или пятно очень старое, разумнее доверить вещь профессиональной химчистке: кровяные пятна считаются одними из самых сложных. Но обычно упомянутые домашние средства возвращают вещам чистоту без следов.
                   <span
                     dangerouslySetInnerHTML={{
@@ -873,7 +871,7 @@ const Page = (props) => {
             color: rgb(80, 80, 80);
             width: 100%;
             height: auto;
-            font-size: 32px;
+            font-size: 35px;
             align-self: flex-start;
             text-align: left;
             font-family: 'Noto Serif SC';
@@ -2326,6 +2324,9 @@ const Page = (props) => {
             .page-frame1299 {
               display: none;
             }
+            .page-dops-info {
+              display: none;
+            }
           }
           @media (max-width: 767px) {
             .page-breadcrumbs-section {
@@ -2394,7 +2395,7 @@ const Page = (props) => {
             .page-text10 {
               fill: #373333;
               color: rgb(55, 51, 51);
-              font-size: 25px;
+              font-size: 24px;
               font-style: normal;
               text-align: center;
               font-family: Noto Serif SC;

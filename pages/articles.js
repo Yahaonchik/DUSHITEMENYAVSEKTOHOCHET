@@ -24,13 +24,13 @@ const Articles = (props) => {
 
   const problemArticles = [
     { title: 'Стиральная машина не сливает воду', href: '/neslivaetvodu', image: '/problems 2/11-300h.webp', alt: 'Стиральная машина не сливает воду' },
-    { title: 'Стиральная машина не греет воду', href: '/negreetvodu', image: '/problems 2/21-300h.webp', alt: 'Стиральная машина не нагревает воду' },
+    { title: 'Стиральная м��шина не греет воду', href: '/negreetvodu', image: '/problems 2/21-300h.webp', alt: 'Стиральная машина не нагревает воду' },
     { title: 'Стиральная машина протекает', href: '/protekaet', image: '/problems 2/31-300h.webp', alt: 'Стиральная машина протекает' },
     { title: 'Стиральная машина шумит при отжиме', href: '/silnoshumit', image: '/problems/4-300h.webp', alt: 'Стиральная машина шумит при отжиме' },
     { title: 'Стиральная машина не включается', href: '/nevkluchaetsa', image: '/problems 2/51-300h.webp', alt: 'Стиральная машина не включается' },
     { title: 'Стиральная машина зависает на программе', href: '/zavisaetnaprogramme', image: '/problems 2/61-300h.webp', alt: 'Стиральная машина зависает на программе' },
     { title: 'Стиральная машина не отжимает', href: '/neotjimaet', image: '/problems 2/71-300h.webp', alt: 'Стиральная машина не отжимает' },
-    { title: 'Стиральная машина не набирает воду', href: '/nenabiraetvodu', image: '/problems/8-300h.webp', alt: 'Стиральная машина не набирает воду' },
+    { title: 'Стиральная ��ашина не набирает воду', href: '/nenabiraetvodu', image: '/problems/8-300h.webp', alt: 'Стиральная машина не набирает воду' },
     { title: 'У стиральной машины не открывается дверца', href: '/neotkrivaetsadverca', image: '/problems 2/91-300h.webp', alt: 'Не открывается дверца стиральной машины' },
     { title: 'Стиральная машина не крутит барабан', href: '/nekrutitbaraban', image: '/problems/10-300h.webp', alt: 'Стиральная машина не крутит барабан' }
   ]
@@ -56,14 +56,14 @@ const Articles = (props) => {
         />
         <Header />
 
+        <Breadcrumbs style="white-left" />
+
         <section className="articles-hero">
           <div className="articles-hero-content">
-            <h1 className="articles-main-title">Полезные статьи</h1>
+            <h1 className="articles-title"><span className="articles-title-blue">Полезные </span><span className="articles-title-black">статьи</span></h1>
             <p className="articles-subtitle">Экспертные советы по ремонту стиральных машин и уходу за одеждой</p>
           </div>
         </section>
-
-        <Breadcrumbs style="white-left" />
 
         <section className="articles-switcher-section">
           <div className="articles-tabs">
@@ -134,14 +134,16 @@ const Articles = (props) => {
 
           /* Hero */
           .articles-hero {
-            background: linear-gradient(135deg, #232020 0%, #2e3337 100%);
+            background: transparent;
             padding: 32px 16px 24px;
             text-align: center;
-            color: white;
+            margin-top: 32px;
           }
           .articles-hero-content { max-width: 800px; margin: 0 auto; }
-          .articles-main-title { font-size: 28px; font-weight: 400; margin-bottom: 16px; font-family: 'Noto Serif SC', serif; }
-          .articles-subtitle { font-size: 0.9rem; opacity: 0.9; font-family: 'Noto Serif SC', serif; line-height: 1.6; }
+          .articles-title { font-size: 35px; font-family: 'Noto Serif SC', serif; font-weight: 600; margin-bottom: 16px; text-align: center; }
+          .articles-title-blue { color: #87ceeb; font-weight: 700; }
+          .articles-title-black { color: #000000; }
+          .articles-subtitle { font-size: 0.9rem; opacity: 0.9; font-family: 'Noto Serif SC', serif; line-height: 1.6; color: #333333; }
 
           /* Tabs */
           .articles-switcher-section { padding: 24px 16px 16px; max-width: 1000px; margin: 0 auto; }
@@ -180,8 +182,8 @@ const Articles = (props) => {
           /* Responsive */
           @media (max-width: 768px) {
             .articles-container { background-color: white; }
-            .articles-hero { background: white; color: #232020; padding: 40px 15px 30px; margin-top: 90px; }
-            .articles-main-title { font-size: 28px; color: #232020; }
+            .articles-hero { background: transparent; padding: 30px 15px 20px; margin-top: 32px; }
+            .articles-title { font-size: 35px; }
             .articles-subtitle { color: #666; opacity: 1; font-size: 0.9rem; }
 
             .articles-tabs { grid-template-columns: 1fr; gap: 15px; }
@@ -197,8 +199,8 @@ const Articles = (props) => {
 
           @media (max-width: 480px) {
             .articles-container { background-color: white; }
-            .articles-hero { background: white; color: #232020; margin-top: 90px; }
-            .articles-main-title { font-size: 24px; color: #232020; }
+            .articles-hero { background: transparent; margin-top: 32px; }
+            .articles-title { font-size: 24px; }
             .articles-subtitle { color: #666; opacity: 1; font-size: 0.85rem; }
 
             .tab-button { padding: 14px 12px; }

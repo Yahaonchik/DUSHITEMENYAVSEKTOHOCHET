@@ -41,9 +41,7 @@ const Page = (props) => {
           structuredData={structuredData}
         />
         <Header />
-        <div className="page-breadcrumbs-section">
-          <Breadcrumbs style="white-left" />
-        </div>
+        <Breadcrumbs style="white-left" />
         <main className="page-main">
           <div className="page-left-main-box">
 
@@ -332,7 +330,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Машина не разблок��рует люк, пока в баке остаётся ��ода, это предохраняет от подтопления. Если цикл был прерван или не завершился, в барабане может остаться вода и блокировка не снимется даже после звукового сигнала об окончании. В такой ситуации попробуйте восстановить нормальную процедуру слива или дождаться автоматического завершения цикла; не дергайте дверцу насильно.
+                  Машина ��е разблок��рует люк, пока в баке остаётся ��ода, это предохраняет от подтопления. Если цикл был прерван или не завершился, в барабане может остаться вода и блокировка не снимется даже после звукового сигнала об окончании. В такой ситуации попробуйте восстановить нормальную процедуру слива или дождаться автоматического завершения цикла; не дергайте дверцу насильно.
                 </p>
               </div>
             </section>
@@ -688,7 +686,7 @@ const Page = (props) => {
               <span className="page-text72">Вам будет интересно:</span>
               <div className="page-frame12981">
                 <span className="page-text73">
-                  Ошибк��, котор��е приводят к дорогостоящему ремонту (и как их
+                  Ошибк��, котор��е приводят к д��рогостоящему ремонту (и как их
                   избежать)
                 </span>
                 <div className="page-container45"></div>
@@ -813,7 +811,7 @@ const Page = (props) => {
             color: rgb(80, 80, 80);
             width: 100%;
             height: auto;
-            font-size: 32px;
+            font-size: 35px;
             align-self: flex-start;
             text-align: left;
             font-family: 'Noto Serif SC';
@@ -2242,6 +2240,9 @@ const Page = (props) => {
             .page-frame1299 {
               display: none;
             }
+            .page-dops-info {
+              display: none;
+            }
           }
           @media (max-width: 767px) {
             .page-breadcrumbs-section {
@@ -2309,7 +2310,7 @@ const Page = (props) => {
             .page-text10 {
               fill: #373333;
               color: rgb(55, 51, 51);
-              font-size: 25px;
+              font-size: 24px;
               font-style: normal;
               text-align: center;
               font-family: Noto Serif SC;

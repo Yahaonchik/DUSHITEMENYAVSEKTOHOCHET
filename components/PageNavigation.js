@@ -22,7 +22,7 @@ const PageNavigation = ({ prevPage, nextPage }) => {
                 </svg>
               </div>
               <div className="page-nav-text-container">
-                <h4 className="page-nav-title">Предыдущая</h4>
+                <h4 className="page-nav-title">Пр��дыдущая</h4>
                 <span className="page-nav-subtitle">{prevPage.title}</span>
               </div>
             </a>
@@ -63,7 +63,7 @@ const PageNavigation = ({ prevPage, nextPage }) => {
           align-items: center;
           justify-content: center;
           gap: var(--dl-layout-space-twounits);
-          margin-top: 40px;
+          margin-top: 60px;
           margin-bottom: 40px;
         }
 

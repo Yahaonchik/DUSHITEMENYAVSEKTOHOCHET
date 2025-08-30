@@ -20,7 +20,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
       breadcrumbs.push({ name: 'Статьи', href: '/articles' })
     }
 
-    // Вык��п б/у машин
+    // ��ык��п б/у машин
     if (pathname === '/vikup') {
       breadcrumbs.push({ name: '��ыкуп б/у машин', href: '/vikup' })
     }
@@ -28,8 +28,8 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
     // Проблемы с��иральных машин
     const problemPages = {
       '/neslivaetvodu': 'Стиральная машина не сливает воду',
-      '/negreetvodu': 'Стиральная м��шина не греет воду',
-      '/protekaet': 'Стиральная машина протекает',
+      '/negreetvodu': 'Стир��льная м��шина не греет воду',
+      '/protekaet': 'Стиральная машина пр��текает',
       '/silnoshumit': 'С��иральная машина шумит при отжиме',
       '/nevkluchaetsa': 'Стиральн��я машина не включается',
       '/zavisaetnaprogramme': 'Стиральная машина зависает на программе',
@@ -62,6 +62,15 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
 
   const breadcrumbs = getBreadcrumbs()
 
+  const origin = typeof window !== 'undefined' ? window.location.origin : ''
+  const itemListElement = breadcrumbs.map((item, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: item.name,
+    item: `${origin}${item.href}`
+  }))
+  const jsonLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement }
+
   // Убираем текущую страницу из крошек - показываем только путь к ней
   const breadcrumbsWithoutCurrent = breadcrumbs.slice(0, -1)
 
@@ -71,7 +80,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
   }
 
   return (
-    <nav className={`breadcrumbs-container ${style} ${className}`}>
+    <nav aria-label="breadcrumb" className={`breadcrumbs-container ${style} ${className}`}>
       <div className={`breadcrumbs-wrapper ${isLeft ? 'left' : ''}`}>
         <ol className={`breadcrumbs-list ${isLeft ? 'align-left' : ''}`}>
           {breadcrumbsWithoutCurrent.map((item, index) => (
@@ -89,6 +98,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
             </li>
           ))}
         </ol>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </div>
 
       <style jsx>
@@ -98,6 +108,9 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
             border-bottom: none;
             padding: 12px 0;
             margin-top: 0;
+            width: 100%;
+            text-align: left;
+            display: block;
           }
 
           /* Стиль с выравниванием слева */
@@ -107,6 +120,9 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
             padding: 15px 0;
             box-shadow: none;
             margin-top: 0;
+            width: 100%;
+            text-align: left;
+            display: block;
           }
 
           .breadcrumbs-container.white-left .breadcrumbs-wrapper {
@@ -118,12 +134,17 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
           .breadcrumbs-container.white-left .breadcrumbs-list {
             justify-content: flex-start;
           }
+          .breadcrumbs-container.white-left .breadcrumbs-wrapper {
+            text-align: left;
+          }
 
           .breadcrumbs-wrapper {
-            max-width: 1400px;
+            max-width: 1300px;
+            width: auto;
             margin: 0 auto;
             padding: 0 var(--dl-layout-space-unit);
-            text-align: center;
+            text-align: left;
+            display: block;
           }
 
           .breadcrumbs-list {
@@ -134,7 +155,11 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
             padding: 0;
             flex-wrap: wrap;
             gap: 2px;
-            justify-content: center;
+            justify-content: flex-start;
+          }
+          /* Force left align when white-left variant is used */
+          .breadcrumbs-container.white-left .breadcrumbs-list {
+            justify-content: flex-start;
           }
 
           .breadcrumbs-wrapper.left {
@@ -187,15 +212,24 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
             .breadcrumbs-container {
               padding: 8px 0;
               margin-top: 0;
+              width: 100%;
+              display: block;
+              text-align: left;
             }
 
             .breadcrumbs-wrapper {
               padding: 0 15px;
+              width: auto;
+              margin: 0 auto;
+              text-align: left;
             }
 
             .breadcrumb-item {
               font-size: 0.75rem;
+              display: flex;
             }
+            .breadcrumb-item:not(:last-child) { display: none; }
+            .breadcrumb-separator { display: none; }
 
 
             .breadcrumb-separator {
@@ -216,15 +250,24 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
             .breadcrumbs-container {
               padding: 6px 0;
               margin-top: 0;
+              width: 100%;
+              display: block;
+              text-align: left;
             }
 
             .breadcrumbs-wrapper {
               padding: 0 10px;
+              width: auto;
+              margin: 0 auto;
+              text-align: left;
             }
 
             .breadcrumb-item {
               font-size: 0.7rem;
+              display: flex;
             }
+            .breadcrumb-item:not(:last-child) { display: none; }
+            .breadcrumb-separator { display: none; }
 
 
             .breadcrumb-separator {
@@ -240,10 +283,6 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
               padding: 1px 3px;
             }
 
-            /* На очень маленьких экранах показываем только последний элемент */
-            .breadcrumb-item:not(:last-child) {
-              display: none;
-            }
           }
         `}
       </style>

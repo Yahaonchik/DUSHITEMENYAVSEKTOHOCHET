@@ -130,12 +130,6 @@ const MainFooter = () => {
           </nav>
         </div>
       </footer>
-      <span className="frame1196-text291">
-        <span className="frame1196-text292">&quot;Ваше название&quot;</span>
-        <span>: сервис по ремонту стиральных машин</span>
-        <br />
-        <span>© 2025</span>
-      </span>
 
       <style jsx>
         {`
@@ -376,30 +370,6 @@ const MainFooter = () => {
             color: #87ceeb;
           }
 
-          .frame1196-text291 {
-            color: rgb(56, 56, 56);
-            height: auto;
-            font-size: 18px;
-            font-style: Regular;
-            margin-top: var(--dl-layout-space-unit);
-            text-align: center;
-            font-family: Nunito;
-            font-weight: 400;
-            line-height: normal;
-            font-stretch: normal;
-            margin-bottom: var(--dl-layout-space-unit);
-            text-decoration: none;
-            width: 100%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-          }
-
-          .frame1196-text292 {
-            color: #87ceeb;
-            font-style: normal;
-            font-weight: 600;
-          }
 
           /* Media queries - точная копия из main page */
           @media (max-width: 991px) {
@@ -591,11 +561,6 @@ const MainFooter = () => {
               color: #87ceeb;
             }
 
-            .frame1196-text291 {
-              max-width: 300px;
-              min-width: auto;
-              margin-top: 0px;
-            }
           }
         `}
       </style>

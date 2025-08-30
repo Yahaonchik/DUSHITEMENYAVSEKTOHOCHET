@@ -2394,6 +2394,9 @@ const Page = (props) => {
             .page-frame1299 {
               display: none;
             }
+            .page-dops-info {
+              display: none;
+            }
           }
           @media (max-width: 767px) {
             .page-breadcrumbs-section {

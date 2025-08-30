@@ -40,9 +40,7 @@ const Vikup = (props) => {
           structuredData={structuredData}
         />
         <Header />
-        <div className="page1-breadcrumbs-section">
-          <Breadcrumbs style="white-left" />
-        </div>
+        <Breadcrumbs style="white-left" />
         <div className="page1-main-posle-hedera">
           <div className="page1-container11">
             <div className="page1-container12">
@@ -762,7 +760,7 @@ const Vikup = (props) => {
           .page1-text10-black { color: #000000; }
           .page1-text10-blue { color: #87ceeb; font-weight: 700; }
           .page1-text13 {
-            font-size: 17.5px;
+            font-size: 16px;
             max-width: 700px;
             text-align: center;
             font-family: 'Noto Serif SC';
@@ -1457,6 +1455,7 @@ const Vikup = (props) => {
               max-width: 300px;
               margin-bottom: 67px;
             }
+            .page1-text13 { font-size: 15.5px; }
           }
           @media (max-width: 767px) {
             .page1-main-posle-hedera {

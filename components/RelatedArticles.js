@@ -48,7 +48,7 @@ const RelatedArticles = () => {
       </div>
       <style jsx>{`
         .related-articles { margin-top: 20px; margin-bottom: 40px; max-width: 980px; margin-left: auto; margin-right: auto; }
-        .related-title { margin: 0 0 12px; font-size: 1.1rem; color: #232020; font-family: 'Noto Serif SC', serif; text-align: center; }
+        .related-title { margin: 15px 0; font-size: 1.1rem; color: #232020; font-family: 'Noto Serif SC', serif; text-align: center; }
         .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 22px; justify-content: center; }
         .related-card { display: grid; grid-template-columns: 120px 1fr; align-items: center; gap: 16px; padding: 14px; border-radius: 12px; background: #fff; text-decoration: none; color: inherit; box-shadow: 0 10px 24px rgba(0,0,0,.08); transition: transform .2s ease, box-shadow .2s ease; }
         .related-card:hover { transform: translateY(-2px); box-shadow: 0 14px 32px rgba(0,0,0,.12); }
@@ -58,6 +58,7 @@ const RelatedArticles = () => {
         .card-text { margin: 0; font-size: 0.98rem; line-height: 1.35; font-family: 'Nunito', sans-serif; }
         .related-card:hover .card-text { color: #4EC8ED; }
         @media (max-width: 480px) {
+          .related-articles { margin-bottom: 10px; }
           .related-grid { grid-template-columns: 1fr; gap: 16px; }
           .related-card { grid-template-columns: 100px 1fr; padding: 12px; }
           .thumb-wrap { width: 100px; height: 76px; }

@@ -41,9 +41,7 @@ const Page = (props) => {
           structuredData={structuredData}
         />
         <Header />
-        <div className="page-breadcrumbs-section">
-          <Breadcrumbs style="white-left" />
-        </div>
+        <Breadcrumbs style="white-left" />
         <main className="page-main">
           <div className="page-left-main-box">
             <div className="page-headertextwashermachine">
@@ -296,7 +294,7 @@ const Page = (props) => {
                     Откройте дверцу и выньте часть белья. При необходимости
                     уменьшите загрузку, если она была слишком большой. Если
                     белья совсем мало, до��авьте ещё 2–3 вещи равного веса.
-                    ��стряхните оставшиеся вещи, равномерно распределив их по
+                    ��стряхните оставшиеся вещи, равномерно распреде��ив их по
                     барабану.
                   </p>
 
@@ -419,7 +417,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если двигатель работает, слышен гул, н�� барабан не вращ��ется
+                  Если двигатель работает, слышен гул, н�� барабан не вращ���ется
                   или вращается вяло, ве��оятно, слетел или порван приводной
                   ремен��; пр�� этом машина может выполнять другие эт���пы цик����
                   (налив, нагрев), но не передавать вращение на барабан. В таких
@@ -896,7 +894,7 @@ const Page = (props) => {
             color: rgb(80, 80, 80);
             width: 100%;
             height: auto;
-            font-size: 32px;
+            font-size: 35px;
             align-self: flex-start;
             text-align: left;
             font-family: 'Noto Serif SC';
@@ -2317,6 +2315,9 @@ const Page = (props) => {
             .page-frame1299 {
               display: none;
             }
+            .page-dops-info {
+              display: none;
+            }
           }
           @media (max-width: 767px) {
             .page-left-main-box {
@@ -2379,7 +2380,7 @@ const Page = (props) => {
             .page-text10 {
               fill: #373333;
               color: rgb(55, 51, 51);
-              font-size: 25px;
+              font-size: 24px;
               font-style: normal;
               text-align: center;
               font-family: Noto Serif SC;

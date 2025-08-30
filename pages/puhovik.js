@@ -376,7 +376,7 @@ const Page = (props) => {
                     className="page-image38230522"
                   />
                   <span className="page-text19">
-                    <span>Датчик уровня воды</span>
+                    <span>Датчи�� уровня воды</span>
                     <br></br>
                   </span>
                 </figure>
@@ -2316,6 +2316,9 @@ const Page = (props) => {
               width: auto;
             }
             .page-frame1299 {
+              display: none;
+            }
+            .page-dops-info {
               display: none;
             }
           }
