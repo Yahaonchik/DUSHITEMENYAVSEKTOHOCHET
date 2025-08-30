@@ -369,7 +369,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text46 vicetext">
                   {' '}
-                  ��сли слив заблокирован — засорился фильтр, дренажный шланг или сифон — вода остаётся в баке и люк удерживается запертым. Аналоги��но, при пол��мке датчика уровня система может «думать», что вода есть, даж�� е��ли её визуально нет, и не снимать блокировку. В таких случаях необходима проверка и очистка сливного тракта или диагностика датчика
+                  ��сли слив заблокирован — засорился фильтр, дренажный шланг или сифон — вода остаётся в баке и люк удерживается запертым. Аналоги��но, при пол��мке датчика уровня система может «думать», что вода есть, даж�� е��ли её визуально нет, и не снимать бл��кировку. В таких случаях необходима проверка и очистка сливного тракта или диагностика датчика
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -649,7 +649,7 @@ const Page = (props) => {
                     <strong className="page-text60">+38 (048) 123-35-21</strong>
                   </div>
                 </div>
-                <OrderButton onClick={openModal} text="Заказать мастера" />
+                <OrderButton onClick={openModal} text="Заказат�� мастера" />
               </div>
             </section>
             <PageNavigation
@@ -687,7 +687,7 @@ const Page = (props) => {
               <div className="page-frame12981">
                 <span className="page-text73">
                   Ошибк��, котор��е приводят к д��рогостоящему ремонту (и как их
-                  избежать)
+                  изб��жать)
                 </span>
                 <div className="page-container45"></div>
               </div>
@@ -2385,54 +2385,21 @@ const Page = (props) => {
             }
             .page-container18 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
             .page-image38230522 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
-            .page-container21 {
-              gap: var(--dl-layout-space-halfunit);
-              height: 100%;
-              max-width: var(--dl-layout-size-xxlarge);
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230523 {
-              width: 100%;
-              min-width: 50%;
-              min-height: 50px;
-            }
+            .page-container21 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230523 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text40 {
               font-size: 13px;
             }
-            .page-container24 {
-              gap: var(--dl-layout-space-halfunit);
-              height: 100%;
-              max-width: 100%;
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230524 {
-              width: 100%;
-              min-width: 50%;
-              min-height: 50px;
-            }
+            .page-container24 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230524 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text45 {
               font-size: 13px;
               font-style: normal;
               font-family: Roboto;
               font-weight: 400;
             }
-            .page-container27 {
-              gap: var(--dl-layout-space-halfunit);
-              height: 100%;
-              max-width: 100%;
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230525 {
-              width: 100%;
-              min-width: 50%;
-              min-height: 50px;
-            }
+            .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230525 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text48 {
               font-size: 13px;
               font-style: normal;

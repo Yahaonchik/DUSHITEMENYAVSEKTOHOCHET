@@ -355,7 +355,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  ��тиральная машина очень требо��а���ельна к прочн��сти и горизонтальности места установки. Есл�� пол под ней н�� идеальн�� ровный или сл��шко�� мягкий (нап��имер, с��арые деревянные доски), любая вибрация пр��ведёт к дополнительном�� «прыжку» техники. Аналогично, установка на оче��ь гл��дком покрытии (плитке или линолеуме) без фиксации позволит машинке подскальзывать.Совет: Проверьте положение машины уровнем – все ножк�� должны стоять устойчиво. Слегка раскачайте прибор руками, определите, какая опора «гуляет�� ��ольше, и по��крутите её гайкой против часовой стрелки до упора. Можно привлечь помощника или приподнять стиралку на бок, чтоб�� повернуть ножку удобнее. После этого ещё раз проконтролируйте ровность с уров��ем. Для дополнительной устойчивости и защи��ы пола рекомендует��я установить резиновые антиск��льзящие накладки или антивиб��аци��нные подставки под ножки. Они гасить час��ь вибрации и не позволяют машине «ездить» по комнат��.
+                  ��тиральная машина очень требо��а���ельна к прочн��сти и горизонтальности места установки. Есл�� пол под ней н�� идеальн�� ровный или сл��шко�� мягкий (нап��имер, с��арые деревянные доски), любая вибрация пр��ведёт к дополнительном�� «прыжку» техники. Аналогично, установка на оче��ь гл��дком покрытии (плитке или линолеуме) без фиксации позволит машинке подскальзывать.Совет: Проверьте положение машины уровнем – все ножк�� должны стоять устойчиво. Слегка раскачайте прибор руками, определите, какая опора «гуляет�� ��ольше, и по��крутите её гайкой против часовой стрелки до упора. Можно привлечь помощника или приподнять сти��алку на бок, чтоб�� повернуть ножку удобнее. После этого ещё раз проконтролируйте ровность с уров��ем. Для дополнительной устойчивости и защи��ы пола рекомендует��я установить резиновые антиск��льзящие накладки или антивиб��аци��нные подставки под ножки. Они гасить час��ь вибрации и не позволяют машине «ездить» по комнат��.
                 </p>
               </div>
             </section>
@@ -779,7 +779,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12982">
                 <span className="page-text74">
-                  Как продлить жизнь машин�� на 3–5 лет — простые привычки,
+                  Как продлить ��изнь машин�� на 3–5 лет — простые привычки,
                   которые сэкономят деньги
                 </span>
                 <div className="page-container46"></div>
@@ -2497,54 +2497,21 @@ const Page = (props) => {
             }
             .page-container18 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
             .page-image38230522 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
-            .page-container21 {
-              gap: var(--dl-layout-space-halfunit);
-              height: 100%;
-              max-width: var(--dl-layout-size-xxlarge);
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230523 {
-              width: 100%;
-              min-width: 50%;
-              min-height: 50px;
-            }
+            .page-container21 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230523 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text40 {
               font-size: 13px;
             }
-            .page-container24 {
-              gap: var(--dl-layout-space-halfunit);
-              height: 100%;
-              max-width: 100%;
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230524 {
-              width: 100%;
-              min-width: 50%;
-              min-height: 50px;
-            }
+            .page-container24 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230524 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text45 {
               font-size: 13px;
               font-style: normal;
               font-family: Roboto;
               font-weight: 400;
             }
-            .page-container27 {
-              gap: var(--dl-layout-space-halfunit);
-              height: 100%;
-              max-width: 100%;
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230525 {
-              width: 100%;
-              min-width: 50%;
-              min-height: 50px;
-            }
+            .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230525 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text48 {
               font-size: 13px;
               font-style: normal;

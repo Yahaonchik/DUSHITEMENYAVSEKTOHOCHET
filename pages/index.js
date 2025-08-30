@@ -332,7 +332,7 @@ const Frame1196 = (props) => {
         <section className="frame1196-container123">
           <p className="frame1196-text122">
             <span className="frame1196-text123">В </span>
-            <span className="frame1196-text124">РемСтирМаш </span>
+            <span className="frame1196-text124">Ваше название </span>
             <span className="frame1196-text125"></span>
             <span className="frame1196-text126">
                мы заботимся о надёжной работе ваше��� т��хники во всех уголках

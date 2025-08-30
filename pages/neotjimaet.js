@@ -9,6 +9,7 @@ import OrderButton from '../components/OrderButton'
 import OrderModal from '../components/OrderModal'
 import Breadcrumbs from '../components/Breadcrumbs'
 import RelatedArticles from '../components/RelatedArticles'
+import CallMasterSection from '../components/CallMasterSection'
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
 
@@ -172,7 +173,7 @@ const Page = (props) => {
                     className="page-vector4"
                   />
                   <a href="#4" className="page-link5 ge">
-                    3. Изношенные щетки двигателя
+                    3. Изн��шенные щетки двигателя
                   </a>
                 </li>
                 <li className="page-li6 list-item">
@@ -319,7 +320,7 @@ const Page = (props) => {
 
                   <p>
                     <strong>2. Если фильтр в порядке, ��брати��е внимание на сливной шланг.</strong><br />
-                    Он не должен быть перегнут или зажат мебелью. Изгибы мешают свободному стоку воды, и машина также отказывается переходить к отжиму. Осмотрите шланг ��о всей длине, расправьте петли и проверьте соединение с канализацией ил�� сифоном. При необходимости очистите зас��р в сифоне или замените шланг.
+                    Он не должен быть перегнут или зажат мебелью. Изгибы мешают свободному стоку воды, и машина также отказывается переходить к отжиму. Осмотрите шланг ��о всей д��ине, расправьте петли и проверьте соединение с канализацией ил�� сифоном. При необходимости очистите зас��р в сифоне или замените шланг.
                   </p>
 
                   <p>
@@ -466,7 +467,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Изноше��ные щетки двигателя. В большинстве машин двигатель имеет у��ольные ��ётки, которые со временем стираются. Из-за плохого ��онтакта мотор не набирает обороты и искрит. Вы заметите искр��ни�� вну��ри корпуса и ощущение, что барабан «лениво» пытается крутиться, но не раскручивается. Если вовремя не заменить щетки, двигатель может вообще перестать вращать барабан.
+                  Изноше��ные щетки двигателя. В большинстве машин двигатель имеет у��ольные ��ётки, которые со временем стираются. Из-за плохого ��онтакта мотор не набирает обороты и искрит. Вы заметите искр��ни�� вну��ри корпуса и о��ущение, что барабан «лениво» пытается крутиться, но не раскручивается. Если вовремя не заменить щетки, двигатель может вообще перестать вращать ��арабан.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -607,201 +608,7 @@ const Page = (props) => {
                 </p>
               </div>
             </section>
-            <section className="page-better-call-master">
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon36"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon38"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon40"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon42"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon44"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon46"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon48"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon50"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <h2 className="page-text50">Когда вызывать масте��а?</h2>
-              <p className="page-text51">
-                <span className="page-text52">
-                  Если вы выполнили все рекомендации, но проблема осталась —
-                  обратитесь в сервис
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="page-text53">&quot;</span>
-                <span className="page-text54">��емCти��Маш</span>
-                <span className="page-text55">&quot;</span>
-                <span className="page-text56">.</span>
-                <span className="page-text57">
-                  {' '}
-                  Наши специалисты быстро прие��ут к вам �� желаемое вами время в
-                  любой район Одессы и выполнят качественную диагн����тику и
-                  ремонт.
-                </span>
-              </p>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon52"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <strong className="page-text58">Работаем без выходных</strong>
-              <div className="page-container28">
-                <div className="page-container29">
-                  <div className="page-container30">
-                    <img
-                      alt="image"
-                      src="/image%203823106.svg"
-                      className="page-image3"
-                    />
-                    <strong className="page-text59">+38 (048) 253-23-23</strong>
-                  </div>
-                  <div className="page-container31">
-                    <img
-                      alt="image"
-                      src="/image%203823107.svg"
-                      className="page-image4"
-                    />
-                    <strong className="page-text60">+38 (048) 123-35-21</strong>
-                  </div>
-                </div>
-                <OrderButton onClick={openModal} text="Заказать мастера" />
-              </div>
-            </section>
+            <CallMasterSection onOrderClick={openModal} />
             <PageNavigation
               prevPage={{
                 href: '/zavisaetnaprogramme',
@@ -2501,21 +2308,8 @@ const Page = (props) => {
               width: auto;
               min-width: 100%;
             }
-            .page-container14 {
-              gap: var(--dl-layout-space-halfunit);
-              width: 100%;
-              height: 100%;
-              max-width: 100%;
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230521 {
-              width: auto;
-              max-width: auto;
-              min-width: auto;
-              min-height: 50px;
-            }
+            .page-container14 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230521 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text18 {
               width: 100%;
             }
@@ -2529,54 +2323,21 @@ const Page = (props) => {
             }
             .page-container18 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
             .page-image38230522 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
-            .page-container21 {
-              gap: var(--dl-layout-space-halfunit);
-              height: 100%;
-              max-width: var(--dl-layout-size-xxlarge);
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230523 {
-              width: 100%;
-              min-width: 50%;
-              min-height: 50px;
-            }
+            .page-container21 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230523 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text40 {
               font-size: 13px;
             }
-            .page-container24 {
-              gap: var(--dl-layout-space-halfunit);
-              height: 100%;
-              max-width: 100%;
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230524 {
-              width: 100%;
-              min-width: 50%;
-              min-height: 50px;
-            }
+            .page-container24 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230524 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text45 {
               font-size: 13px;
               font-style: normal;
               font-family: Roboto;
               font-weight: 400;
             }
-            .page-container27 {
-              gap: var(--dl-layout-space-halfunit);
-              height: 100%;
-              max-width: 100%;
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230525 {
-              width: 100%;
-              min-width: 50%;
-              min-height: 50px;
-            }
+            .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230525 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text48 {
               font-size: 13px;
               font-style: normal;

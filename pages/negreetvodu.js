@@ -9,6 +9,7 @@ import OrderButton from '../components/OrderButton'
 import OrderModal from '../components/OrderModal'
 import Breadcrumbs from '../components/Breadcrumbs'
 import RelatedArticles from '../components/RelatedArticles'
+import CallMasterSection from '../components/CallMasterSection'
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
 
@@ -26,7 +27,7 @@ const Page = (props) => {
   const baseUrl = 'https://remstirmash.od.ua'
   const structuredData = getProblemPageStructuredData(
     'Ремонт стиральной машины которая не греет воду',
-    'Профессиональный ремонт стиральных машин которые не нагревают воду в Одессе. Замена ТЭНа, ремонт термостата.',
+    'Профессиональный ремонт стиральных машин которые не нагревают воду в Одессе. Замена ТЭНа, ремонт термостат��.',
     `${baseUrl}/negreetvodu`
   )
 
@@ -510,7 +511,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <p className="page-text49 vicetext">
                   {' '}
-                  Иногда причиной «холодн��й» стирки оказывается банальная оши��ка в настройках. Если выставлен режим быстрой или энергосберегающей стирки без подогрева (или выбран ми��имальный температурный режим), машина просто не включит ТЭН. Например, регулятор температуры на панели должен соответствовать выбранной программ��. Чтобы проверить, достаточно заново установить режим с высоким подогревом (40–60 °C). После корректировки настроек проблема исчезнет – функция нагрева будет работать как положено. Такой простой совет иногда спасает до обращ��ния в сервис.
+                  Иногда причиной «холодн��й» стирки оказывается банальная оши��ка в настройках. Если выставлен режим быстрой или энергосберегающей стирки без подогрева (или выбран ми��имальный температурный режим), машина просто не включит ТЭН. Например, регулятор температуры на панели должен соответствовать выбранной программ��. Чтобы проверить, достаточно заново уста��овить режим с высоким подогревом (40–60 °C). После корректировки настроек проблема исчезнет – функция нагрева будет работать как положено. Такой простой совет иногда спасает до обращ��ния в сервис.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -519,201 +520,7 @@ const Page = (props) => {
                 </p>
               </div>
             </section>
-            <section className="page-better-call-master">
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon36"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon38"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon40"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon42"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon44"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon46"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon48"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon50"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <h2 className="page-text50">Когда вызывать мастера?</h2>
-              <p className="page-text51">
-                <span className="page-text52">
-                  Если вы выполн��ли все рекомендации, но проблема осталась —
-                  обратитесь �� сервис
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="page-text53">&quot;</span>
-                <span className="page-text54">РемCтирМаш</span>
-                <span className="page-text55">&quot;</span>
-                <span className="page-text56">.</span>
-                <span className="page-text57">
-                  {' '}
-                  Наши специалисты быстро прие��ут к ва�� в желаемое вами время в
-                  любой район Одессы и выполнят качественную диагностику и
-                  ремонт.
-                </span>
-              </p>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon52"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <strong className="page-text58">Ра��о��аем без выходных</strong>
-              <div className="page-container28">
-                <div className="page-container29">
-                  <div className="page-container30">
-                    <img
-                      alt="image"
-                      src="/image%203823106.svg"
-                      className="page-image3"
-                    />
-                    <strong className="page-text59">+38 (048) 253-23-23</strong>
-                  </div>
-                  <div className="page-container31">
-                    <img
-                      alt="image"
-                      src="/image%203823107.svg"
-                      className="page-image4"
-                    />
-                    <strong className="page-text60">+38 (048) 123-35-21</strong>
-                  </div>
-                </div>
-                <OrderButton onClick={openModal} text="Заказать мастера" />
-              </div>
-            </section>
+            <CallMasterSection onOrderClick={openModal} />
             <PageNavigation
               prevPage={{
                 href: '/neslivaetvodu',

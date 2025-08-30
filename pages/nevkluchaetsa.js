@@ -9,6 +9,7 @@ import OrderButton from '../components/OrderButton'
 import OrderModal from '../components/OrderModal'
 import Breadcrumbs from '../components/Breadcrumbs'
 import RelatedArticles from '../components/RelatedArticles'
+import CallMasterSection from '../components/CallMasterSection'
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
 
@@ -331,7 +332,7 @@ const Page = (props) => {
 
                   <p>
                     <strong>4. Проверьте подачу воды.</strong><br />
-                    Откройте кран подачи воды для стиральной машины и осмотрите заливной шланг: нет ли перегиба или засора на входе. Сломанный или перекрученный шланг и закрытый кран тоже остановят работу.
+                    Откройте кран подачи воды для стиральной машины и осмотрите заливной шланг: нет ли перегиба или засора на в��оде. Сломанный или перекрученный шланг и закрытый кран тоже остановят работу.
                   </p>
 
                   <p>
@@ -469,7 +470,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text46 vicetext">
                   {' '}
-                  Мозг ст��ральной машины — это управляющая плата. Именно она хранит программы стирки и управляет всеми процессами. Если ��на выходит из строя, техника не запускается, индикаторы не горят или ведут себя странно. Иногда помогает простой сброс: отключите питани�� на 10–20 минут и попробуйте снова. Если не помогло — скорее всего, нужна прошивк��, ��емонт или замена модуля. Этим обычно занимается специалист.
+                  Мозг ст��ральной машины — это управляющая плата. Именно она хранит программы стирки и управляет всеми процессами. Если ��на выходит из строя, техника не запускается, индикаторы не горят или ведут себя странно. Иногда ��омогает простой сброс: отключите питани�� на 10–20 минут и попробуйте снова. Если не помогло — скорее всего, нужна прошивк��, ��емонт или замена модуля. Этим обычно занимается специалист.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -513,7 +514,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Двигатель стиралки питается ��т электрических щёток на коллекторе ротор��. При сильном износе щё��ок двигатель либо не запуска��тся совсем, либо работает с перебоями. Яркий признак неисправности щёток — барабан перестаёт вращаться: машина вкл��чен��, напор воды есть, н�� барабан «не крутит». Ещё один симптом — искры или необычные «скрежещущие» звуки при попытке запустить стирку. Обычно это происходит из-за плохого контакта щёток с ротором (они коротко замк��уты или стёрлись). На дисплее в таких случаях могут появляться сервисные коды (хотя обычно исчезают, к��гда машина остывает). Проверьте щётки двигателя: в большинстве моделей это доступно после снятия задней крышк�� и корпуса мотора. Если щетки сильно короткие или имею�� сколы, их нужно заменить. Это относительно прос��ая и недорогая операция — её выполняе�� мастер или даже домашний умелец. Пока щетки не заменены, стиралк�� не запустится (особенно при больших нагрузках).
+                  Двигатель стиралки питается ��т электрических щёток на коллекторе ротор��. При сильном износе щё��ок двигатель либо не запуска��тся совсем, либо работает с перебоями. Яркий признак неисправности щёток — барабан перестаёт вращаться: машина вкл��чен��, напор воды есть, н�� барабан «не крутит». Ещё один симптом — искры или ��еобычные «скрежещущие» звуки при попытке запустить стирку. Обычно это происходит из-за плохого контакта щёток с ротором (они коротко замк��уты или стёрлись). На дисплее в таких случаях могут появляться сервисные коды (хотя обычно исчезают, к��гда машина остывает). Проверьте щётки двигателя: в большинстве моделей это доступно после снятия задней крышк�� и корпуса мотора. Если щетки сильно короткие или имею�� сколы, их нужно заменить. Это относительно прос��ая и недорогая операция — её выполняе�� мастер или даже домашний умелец. Пока щетки не заменены, стиралк�� не запустится (особенно при больших нагрузках).
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -610,201 +611,7 @@ const Page = (props) => {
                 </p>
               </div>
             </section>
-            <section className="page-better-call-master">
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon36"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon38"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon40"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon42"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon44"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon46"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon48"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon50"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <h2 className="page-text50">Когда вызывать мастера?</h2>
-              <p className="page-text51">
-                <span className="page-text52">
-                  Если вы выполнили все рек��мен��ации, но проблема осталась —
-                  обратитесь в сервис
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="page-text53">&quot;</span>
-                <span className="page-text54">РемCтирМаш</span>
-                <span className="page-text55">&quot;</span>
-                <span className="page-text56">.</span>
-                <span className="page-text57">
-                  {' '}
-                  Наши специали��ты быстро прие��ут к вам в желаемое вами время в
-                  любой ��айон Одессы и выполнят качественную диагностику и
-                  ремонт.
-                </span>
-              </p>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon52"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <strong className="page-text58">Рабо��аем без выходных</strong>
-              <div className="page-container28">
-                <div className="page-container29">
-                  <div className="page-container30">
-                    <img
-                      alt="image"
-                      src="/image%203823106.svg"
-                      className="page-image3"
-                    />
-                    <strong className="page-text59">+38 (048) 253-23-23</strong>
-                  </div>
-                  <div className="page-container31">
-                    <img
-                      alt="image"
-                      src="/image%203823107.svg"
-                      className="page-image4"
-                    />
-                    <strong className="page-text60">+38 (048) 123-35-21</strong>
-                  </div>
-                </div>
-                <OrderButton onClick={openModal} text="Заказать мастера" />
-              </div>
-            </section>
+            <CallMasterSection onOrderClick={openModal} />
             <PageNavigation
               prevPage={{
                 href: '/silnoshumit',
@@ -847,7 +654,7 @@ const Page = (props) => {
               <div className="page-frame12982">
                 <span className="page-text74">
                   Как ��родлить жизнь машине на 3–5 лет — простые привычк��,
-                  которые сэкономят деньги
+                  ��оторые сэкономят деньги
                 </span>
                 <div className="page-container46"></div>
               </div>
@@ -2512,21 +2319,8 @@ const Page = (props) => {
               width: auto;
               min-width: 100%;
             }
-            .page-container14 {
-              gap: var(--dl-layout-space-halfunit);
-              width: 100%;
-              height: 100%;
-              max-width: 100%;
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230521 {
-              width: auto;
-              max-width: auto;
-              min-width: auto;
-              min-height: 50px;
-            }
+            .page-container14 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230521 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text18 {
               width: 100%;
             }
@@ -2540,54 +2334,21 @@ const Page = (props) => {
             }
             .page-container18 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
             .page-image38230522 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
-            .page-container21 {
-              gap: var(--dl-layout-space-halfunit);
-              height: 100%;
-              max-width: var(--dl-layout-size-xxlarge);
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230523 {
-              width: 100%;
-              min-width: 50%;
-              min-height: 50px;
-            }
+            .page-container21 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230523 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text40 {
               font-size: 13px;
             }
-            .page-container24 {
-              gap: var(--dl-layout-space-halfunit);
-              height: 100%;
-              max-width: 100%;
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230524 {
-              width: 100%;
-              min-width: 50%;
-              min-height: 50px;
-            }
+            .page-container24 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230524 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text45 {
               font-size: 13px;
               font-style: normal;
               font-family: Roboto;
               font-weight: 400;
             }
-            .page-container27 {
-              gap: var(--dl-layout-space-halfunit);
-              height: 100%;
-              max-width: 100%;
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230525 {
-              width: 100%;
-              min-width: 50%;
-              min-height: 50px;
-            }
+            .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230525 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text48 {
               font-size: 13px;
               font-style: normal;

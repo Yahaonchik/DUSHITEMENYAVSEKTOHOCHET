@@ -9,6 +9,7 @@ import OrderButton from '../components/OrderButton'
 import OrderModal from '../components/OrderModal'
 import Breadcrumbs from '../components/Breadcrumbs'
 import RelatedArticles from '../components/RelatedArticles'
+import CallMasterSection from '../components/CallMasterSection'
 import { getSEOData } from '../utils/seoConfig'
 import { getArticleStructuredData } from '../utils/structuredData'
 
@@ -143,7 +144,7 @@ const Page = (props) => {
                     className="page-vector2"
                   />
                   <a href="#2" className="page-link3 ge">
-                    1. Хозяйст��енное мыло и стиральный порошок
+                    1. Хозя��ст��енное мыло и стиральный порошок
                   </a>
                 </li>
                 <li className="page-li4 list-item ge">
@@ -304,7 +305,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Один из самых надёжных способов – использовать ��орошую основу для стирки. Сначала намочите пятно тёплой водой и тщательно намыльте его хозяйственным мылом (лучше 72% жирности). Если пятно старое и въевшееся, можно присыпать намоченную ткань тёртой ст��ужкой мыла и аккуратно втереть её губкой или щёткой. Оставьте мыло впитаться: свежие пятна обычно удаляются за 20–30 минут, для застарелых понадобится от 2 часов до суток. После э��ого смойте остатки мыла влажной тряпочкой и постирайте вещь обычным способом. Такой метод хорош для любых тканей; даже хозяйственное мыло с современными добавками часто содержит усилители чистящих свойст��
+                  Один из самых надёжных способов – использовать ��орошую основу для стирки. Сначала намочите пятно тёплой водой и тщательно намыльте его хозяйственным мылом (лучше 72% жирности). Если пятно старое и въевшееся, ��ожно присыпать намоченную ткань тёртой ст��ужкой мыла и аккуратно втереть её губкой или щёткой. Оставьте мыло впитаться: свежие пятна обычно удаляются за 20–30 минут, для застарелых понадобится от 2 часов до суток. После э��ого смойте остатки мыла влажной тряпочкой и постирайте вещь обычным способом. Такой метод хорош для любых тканей; даже хозяйственное мыло с современными добавками часто содержит усилители чистящих свойст��
                 </p>
               </div>
             </section>
@@ -515,201 +516,7 @@ const Page = (props) => {
                 </p>
               </div>
             </section>
-            <section className="page-better-call-master">
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon36"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon38"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon40"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon42"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon44"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon46"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon48"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon50"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <h2 className="page-text50">Когда вызывать маст��ра?</h2>
-              <p className="page-text51">
-                <span className="page-text52">
-                  Если вы выполнили все рекомендации, но проблема осталась —
-                  обрат��тесь в сервис
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="page-text53">&quot;</span>
-                <span className="page-text54">РемCтирМаш</span>
-                <span className="page-text55">&quot;</span>
-                <span className="page-text56">.</span>
-                <span className="page-text57">
-                  {' '}
-                  Наши специалисты быстро прие��ут к ва�� в желаемое вами время в
-                  любой район Одессы и выполнят качественную диагностику и
-                  ремонт.
-                </span>
-              </p>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon52"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <strong className="page-text58">Работаем без выходных</strong>
-              <div className="page-container28">
-                <div className="page-container29">
-                  <div className="page-container30">
-                    <img
-                      alt="image"
-                      src="/image%203823106.svg"
-                      className="page-image3"
-                    />
-                    <strong className="page-text59">+38 (048) 253-23-23</strong>
-                  </div>
-                  <div className="page-container31">
-                    <img
-                      alt="image"
-                      src="/image%203823107.svg"
-                      className="page-image4"
-                    />
-                    <strong className="page-text60">+38 (048) 123-35-21</strong>
-                  </div>
-                </div>
-                <OrderButton onClick={openModal} text="Заказать мастера" />
-              </div>
-            </section>
+            <CallMasterSection onOrderClick={openModal} />
             <PageNavigation
               prevPage={{
                 href: '/neslivaetvodu',

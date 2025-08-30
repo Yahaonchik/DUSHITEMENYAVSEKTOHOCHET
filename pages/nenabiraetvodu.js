@@ -544,7 +544,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Прессостат ��� да��чик, ��пределяющий уровень воды в баке. Если прессостат «залип» (считал бак полным) или вышел из строя, машина не начнёт зали�� воды вообще. Симптомы сх��жи с клапаном: л��к блокируется, но залива нет, появляется ошибка «набор воды» или «прессостат» на дисплее. Иногда вода может сливаться сразу, создаётся ложная сигнализация об избыточном уровне. Пользова��ель может прове��ить шланг прессостата на засор (и прочистить его), но обычно требуется замена датчика.
+                  Прессостат ��� да��чик, ��пределяющий уровень воды в баке. Если прессостат «залип» (считал бак полным) или вышел из строя, машина не начнёт зали�� воды вообще. Симптомы сх��жи с клапаном: л��к блокируется, но залива нет, появляется ошибка «набор воды» или «прессостат» на дисплее. Иногда вода может сливать��я сразу, создаётся ложная сигнализация об избыточном уровне. Пользова��ель может прове��ить шланг прессостата на засор (и прочистить его), но обычно требуется замена датчика.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -2521,54 +2521,21 @@ const Page = (props) => {
             }
             .page-container18 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
             .page-image38230522 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
-            .page-container21 {
-              gap: var(--dl-layout-space-halfunit);
-              height: 100%;
-              max-width: var(--dl-layout-size-xxlarge);
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230523 {
-              width: 100%;
-              min-width: 50%;
-              min-height: 50px;
-            }
+            .page-container21 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230523 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text40 {
               font-size: 13px;
             }
-            .page-container24 {
-              gap: var(--dl-layout-space-halfunit);
-              height: 100%;
-              max-width: 100%;
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230524 {
-              width: 100%;
-              min-width: 50%;
-              min-height: 50px;
-            }
+            .page-container24 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230524 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text45 {
               font-size: 13px;
               font-style: normal;
               font-family: Roboto;
               font-weight: 400;
             }
-            .page-container27 {
-              gap: var(--dl-layout-space-halfunit);
-              height: 100%;
-              max-width: 100%;
-              min-width: 100%;
-              min-height: 100%;
-              margin-bottom: 14px;
-            }
-            .page-image38230525 {
-              width: 100%;
-              min-width: 50%;
-              min-height: 50px;
-            }
+            .page-container27 { gap: var(--dl-layout-space-halfunit); width: 280px; max-width: 280px; min-width: 280px; height: auto; min-height: 0; margin: 12px auto 16px; float: none; }
+            .page-image38230525 { width: 100%; height: 170px; object-fit: cover; min-width: 0; min-height: 0; }
             .page-text48 {
               font-size: 13px;
               font-style: normal;
