@@ -23,7 +23,7 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen)
   }
 
-  // Проверяем, явля�����ся ли текущая страница страницей проблемы
+  // Проверяем, ��вля�����ся ли текущая страница страницей проблемы
   const isProblemPage = router.pathname && (
     router.pathname.includes('NESLIVAETIVODU') ||
     router.pathname.includes('NEGREETIVODU') ||
@@ -52,7 +52,7 @@ const Header = () => {
                 <span className="frame1196-text100 clickable-title">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Ваше название',
+                      __html: 'Ваше назва��ие',
                     }}
                   ></span>
                 </span>
@@ -290,6 +290,34 @@ const Header = () => {
           }
           .frame1196-sidebar-nav a.frame1196-sidebar-link-active {
             color: #87ceeb !important;
+          }
+
+          /* Унифицированные отступы вокруг заголовков статей */
+          .page-headertextwashermachine { margin-top: 26px !important; }
+          .page-text10 { margin-top: 0 !important; }
+          /* Большие экраны: нижний отступ заголовочного блока 54px (было 60) */
+          @media (min-width: 992px) {
+            .page-headertextwashermachine { margin-bottom: 54px !important; }
+          }
+          /* Доп. диапазон для средних (768–1150): уменьшить верхний отступ вдвое */
+          @media (min-width: 768px) and (max-width: 1150px) {
+            .page-headertextwashermachine { margin-top: 26px !important; }
+            .page-text10 { margin-top: 0 !important; }
+          }
+          /* Средние экраны: вернули низ как было, уменьшаем верх вдвое */
+          @media (max-width: 991px) {
+            .page-headertextwashermachine { margin-top: 26px !important; margin-bottom: 29px !important; }
+            .page-text10 { margin-top: 0 !important; margin-bottom: 29px !important; }
+          }
+          /* Планшеты */
+          @media (max-width: 767px) {
+            .page-headertextwashermachine { margin-top: 26px !important; margin-bottom: 29px !important; }
+            .page-text10 { margin-top: 0 !important; margin-bottom: 29px !important; }
+          }
+          /* Мобилки */
+          @media (max-width: 487px) {
+            .page-headertextwashermachine { margin-top: 26px !important; margin-bottom: 29px !important; }
+            .page-text10 { margin-top: 0 !important; margin-bottom: 29px !important; }
           }
 
           /* Глобальные стили для сти��альной машины на мобильных */

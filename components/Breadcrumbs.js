@@ -106,7 +106,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
           .breadcrumbs-container {
             background-color: transparent;
             border-bottom: none;
-            padding: 12px 0;
+            padding: 6px 0;
             margin-top: 0;
             width: 100%;
             text-align: left;
@@ -117,7 +117,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
           .breadcrumbs-container.white-left {
             background-color: transparent;
             border-bottom: none;
-            padding: 15px 0;
+            padding: 8px 0;
             box-shadow: none;
             margin-top: 0;
             width: 100%;

@@ -135,9 +135,9 @@ const Articles = (props) => {
           /* Hero */
           .articles-hero {
             background: transparent;
-            padding: 32px 16px 24px;
+            padding: 16px 16px 20px;
             text-align: center;
-            margin-top: 32px;
+            margin-top: 8px;
           }
           .articles-hero-content { max-width: 800px; margin: 0 auto; }
           .articles-title { font-size: 35px; font-family: 'Noto Serif SC', serif; font-weight: 600; margin-bottom: 16px; text-align: center; }
@@ -182,7 +182,7 @@ const Articles = (props) => {
           /* Responsive */
           @media (max-width: 768px) {
             .articles-container { background-color: white; }
-            .articles-hero { background: transparent; padding: 30px 15px 20px; margin-top: 32px; }
+            .articles-hero { background: transparent; padding: 16px 15px 18px; margin-top: 8px; }
             .articles-title { font-size: 35px; }
             .articles-subtitle { color: #666; opacity: 1; font-size: 0.9rem; }
 
@@ -199,7 +199,7 @@ const Articles = (props) => {
 
           @media (max-width: 480px) {
             .articles-container { background-color: white; }
-            .articles-hero { background: transparent; margin-top: 32px; }
+            .articles-hero { background: transparent; padding: 16px 15px 16px; margin-top: 50px; }
             .articles-title { font-size: 24px; }
             .articles-subtitle { color: #666; opacity: 1; font-size: 0.85rem; }
 
