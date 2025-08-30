@@ -16,8 +16,8 @@ const MainFooter = () => {
     setIsModalOpen(false)
   }
 
-  // Проверяем, является ли текущая страница страницей проблемы
-  const isProblemPage = router.pathname && (
+  // Проверяем, является ли текущая страница страницей статей или проблемы
+  const isArticlesPage = router.pathname === '/articles' || (router.pathname && (
     router.pathname.includes('NESLIVAETIVODU') ||
     router.pathname.includes('NEGREETIVODU') ||
     router.pathname.includes('PROTEKAET') ||
@@ -26,8 +26,12 @@ const MainFooter = () => {
     router.pathname.includes('ZAVISAETNAPROGRAMME') ||
     router.pathname.includes('NEOTJIMAET') ||
     router.pathname.includes('NENABIRRAETVODU') ||
-    router.pathname.includes('NEOTKRIVATSADVERCA')
-  )
+    router.pathname.includes('NEOTKRIVATSADVERCA') ||
+    router.pathname.includes('jirniepyatna') ||
+    router.pathname.includes('jvachka') ||
+    router.pathname.includes('vlapalisvkrov') ||
+    router.pathname.includes('puhovik')
+  ))
 
   return (
     <div className="main-footer-isolation">
@@ -119,7 +123,7 @@ const MainFooter = () => {
               </span>
             </Link>
             <Link href="/articles">
-              <span className={`frame1196-text290 ${isProblemPage ? 'frame1196-nav-active' : ''}`}>
+              <span className={`frame1196-text290 ${isArticlesPage ? 'frame1196-nav-active' : ''}`}>
                 <span
                   dangerouslySetInnerHTML={{
                     __html: 'Статьи',
