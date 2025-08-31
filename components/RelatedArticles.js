@@ -34,7 +34,7 @@ const RelatedArticles = () => {
       <h4 className="related-title">Другие статьи</h4>
       <div className="related-grid">
         {RELATED.map((item, idx) => (
-          <Link legacyBehavior href={item.href} key={idx}>
+          <Link href={item.href} key={idx}>
             <a className="related-card">
               <div className="thumb-wrap">
                 <img src={item.image} alt={item.alt} className="thumb-img" loading="lazy" />
@@ -48,14 +48,14 @@ const RelatedArticles = () => {
       </div>
       <style jsx>{`
         .related-articles { margin-top: 20px; margin-bottom: 30px; max-width: 980px; margin-left: auto; margin-right: auto; }
-        .related-title { margin: 15px 0 30px 0; font-size: 1.1rem; color: #232020; font-family: var(--font-noto-serif-sc, 'Noto Serif SC'), serif; text-align: center; }
+        .related-title { margin: 15px 0 30px 0; font-size: 1.1rem; color: #232020; font-family: 'Noto Serif SC', serif; text-align: center; }
         .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 22px; justify-content: center; }
         .related-card { display: grid; grid-template-columns: 120px 1fr; align-items: center; gap: 16px; padding: 14px; border-radius: 12px; background: #fff; text-decoration: none; color: inherit; box-shadow: 0 10px 24px rgba(0,0,0,.08); transition: transform .2s ease, box-shadow .2s ease; }
         .related-card:hover { transform: translateY(-2px); box-shadow: 0 14px 32px rgba(0,0,0,.12); }
         .thumb-wrap { width: 120px; height: 90px; border-radius: 10px; overflow: hidden; background: linear-gradient(45deg, #f0f4f7, #e9eef2); display: flex; align-items: center; justify-content: center; }
         .thumb-img { width: 100%; height: 100%; object-fit: cover; }
         .card-body { display: flex; align-items: center; }
-        .card-text { margin: 0; font-size: 0.98rem; line-height: 1.35; font-family: var(--font-nunito, 'Nunito'), sans-serif; }
+        .card-text { margin: 0; font-size: 0.98rem; line-height: 1.35; font-family: 'Nunito', sans-serif; }
         .related-card:hover .card-text { color: #4EC8ED; }
         @media (max-width: 480px) {
           .related-grid { grid-template-columns: 1fr; gap: 16px; }

@@ -121,7 +121,7 @@ const Frame1196 = (props) => {
             <OrderButton onClick={openModal} variant="primary" />
           </div>
           <article className="frame1196-cards">
-            <Link legacyBehavior href="/neslivaetvodu">
+            <Link href="/neslivaetvodu">
               <a className="frame1196-container113">
                 <h3 className="frame1196-text112">
                   Ст��ральная машин�� не сливает воду
@@ -142,7 +142,7 @@ const Frame1196 = (props) => {
                 <Image alt="Стиральная машина н�� сливает воду" src="/problems 2/11-300h.webp" layout="fill" objectFit="cover" className="frame1196-image15" priority />
               </a>
             </Link>
-            <Link legacyBehavior href="/negreetvodu">
+            <Link href="/negreetvodu">
               <a className="frame1196-container114">
                 <h3 className="frame1196-text113">
                   Стирал��ная машина не греет воду
@@ -163,7 +163,7 @@ const Frame1196 = (props) => {
                 <Image alt="Стираль������я машина не нагревает воду" src="/problems 2/21-300h.webp" layout="fill" objectFit="cover" className="frame1196-image16" priority />
               </a>
             </Link>
-            <Link legacyBehavior href="/protekaet">
+            <Link href="/protekaet">
               <a className="frame1196-container115">
                 <h3 className="frame1196-text114">С��ир��льная машина протекает</h3>
                 <div className="frame1196-arrow12">
@@ -182,7 +182,7 @@ const Frame1196 = (props) => {
                 <Image alt="Стиральная ��ашина протекает" src="/problems 2/31-300h.webp" layout="fill" objectFit="cover" className="frame1196-image17" priority />
               </a>
             </Link>
-            <Link legacyBehavior href="/silnoshumit">
+            <Link href="/silnoshumit">
               <a className="frame1196-container116">
                 <h3 className="frame1196-text115">
                   Стир��льная машина шумит при отжиме
@@ -203,7 +203,7 @@ const Frame1196 = (props) => {
                 <Image alt="Стиральная машина шумит при ��тжиме" src="/problems/4-300h.webp" layout="fill" objectFit="cover" className="frame1196-image18" priority />
               </a>
             </Link>
-            <Link legacyBehavior href="/nevkluchaetsa">
+            <Link href="/nevkluchaetsa">
               <a className="frame1196-container117">
                 <h3 className="frame1196-text116">
                   Стиральная машина не включает��я
@@ -224,7 +224,7 @@ const Frame1196 = (props) => {
                 <Image alt="Стиральная машина н�� ��ключается" src="/problems 2/51-300h.webp" layout="fill" objectFit="cover" className="frame1196-image19" priority />
               </a>
             </Link>
-            <Link legacyBehavior href="/zavisaetnaprogramme">
+            <Link href="/zavisaetnaprogramme">
               <a className="frame1196-container118">
                 <h3 className="frame1196-text117">
                   Стиральная машина зав��сает на прог����амме
@@ -245,7 +245,7 @@ const Frame1196 = (props) => {
                 <Image alt="Стиральная машина зависает на программе" src="/problems 2/61-300h.webp" layout="fill" objectFit="cover" className="frame1196-image20" priority />
               </a>
             </Link>
-            <Link legacyBehavior href="/neotjimaet">
+            <Link href="/neotjimaet">
               <a className="frame1196-container119">
                 <h3 className="frame1196-text118">
                   Ст��ральна�� машина не отжимает
@@ -266,7 +266,7 @@ const Frame1196 = (props) => {
                 <Image alt="Стиральная м��шина не ����тжима��т" src="/problems 2/71-300h.webp" layout="fill" objectFit="cover" className="frame1196-image21" priority />
               </a>
             </Link>
-            <Link legacyBehavior href="/nenabiraetvodu">
+            <Link href="/nenabiraetvodu">
               <a className="frame1196-container120">
                 <h3 className="frame1196-text119">
                   Стиральная ма��ина не набирает воду
@@ -287,7 +287,7 @@ const Frame1196 = (props) => {
                 <Image alt="Стиральная машина не набирает воду" src="/problems/8-300h.webp" layout="fill" objectFit="cover" className="frame1196-image22" priority />
               </a>
             </Link>
-            <Link legacyBehavior href="/neotkrivaetsadverca">
+            <Link href="/neotkrivaetsadverca">
               <a className="frame1196-container121">
                 <h3 className="frame1196-text120">
                   У стиральной машин�� не открывается д���ерца
@@ -929,7 +929,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text164">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'о�� 400 г���н',
+                        __html: 'о�� 400 г��н',
                       }}
                     ></span>
                   </span>
@@ -1823,7 +1823,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт ст��ральн��х машин LG в Одессе - профессиональны�� се��ви��"
+                  alt="Ремонт стиральн��х машин LG в Одессе - профессиональны�� се��ви��"
                   src="/brands/lg-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image45"
@@ -1910,7 +1910,7 @@ to {transform: translateX(-2620px);}}
                     }}
                   ></span>
                 </h3>
-                <Link legacyBehavior href="/vikup">
+                <Link href="/vikup">
                   <button type="button" className="frame1196-button2 button">
                     <span
                       dangerouslySetInnerHTML={{
@@ -3123,7 +3123,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container201">
               <div className="frame1196-container202">
                 <figcaption className="frame1196-text237">
-                  Компл����ксный ремонт стиральной машины Zanussi
+                  Компл��ксный ремонт стиральной машины Zanussi
                 </figcaption>
               </div>
             </div>
@@ -3431,7 +3431,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text246">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Масте�� воз��т ���азовый набор популярных з��пчастей. Для редких моделей заказываем ����������ли за 1-2 дня. ��роверя��м наличие по т��лефону зар��нее.',
+                      __html: 'Масте�� воз��т ��азовый набор популярных з��пчастей. Для редких моделей заказываем ����������ли за 1-2 дня. ��роверя��м наличие по т��лефону зар��нее.',
                     }}
                   ></span>
                 </p>
@@ -3588,14 +3588,14 @@ to {transform: translateX(-2620px);}}
           <p className="frame1196-text251 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Ст��ральная машина — это те��ника, ко��орая должна работать исправно: отжимать, стирать и радовать стабильнос��ью. Н�� на практике даже самая над��жная техника со времен��м требует внимания. Механическ��е детали изнаш��ваются, электрони��а даёт с��ои, а ��ыто��ая нагрузка делает своё де��о. Вот почему ремонт стиральных машин в Одессе — э��о не просто разовая ус��уга, а реальна���� необходимость для большинства владельцев. Важно доверить ремонт проверенным специалистам, а не случайному маст��ру.',
+                __html: 'Ст��ральная машина — это те��ника, ко��орая должна работать исправно: отжимать, стирать и радовать стабильнос��ью. Н�� на практике даже самая над��жная техника со времен��м требует внимания. Механическ��е детали изнаш��ваются, электрони��а даёт с��ои, а ��ыто��ая нагрузка делает своё дело. Вот почему ремонт стиральных машин в Одессе — э��о не просто разовая ус��уга, а реальна���� необходимость для большинства владельцев. Важно доверить ремонт проверенным специалистам, а не случайному маст��ру.',
               }}
             ></span>
           </p>
           <p className="frame1196-text252 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Под брендом "Ваше Название"&nbsp;работа��т команда масте��ов, каждый из которых занимается ремонтом сти��альных машин боле�� семи лет. Мы обучались у лучших, прошли серт��фикацию, п��сещали техкурсы и накопили опыт работы с ��ехни����й лю��ых поколений. Сегодн�� мы предлагаем ремонт стирал��ных машин в Одессе с га��антией, использованием оригинальных з��пчасте�� и вниманием к каждой д����тали. В нашем распо��яжен��и — профессионально оснащённая мастерская, скл��д комплектующих и выездной сервис. М�� нахо��им даже редкие детали и точно знаем, как продлить жи��нь вашей технике.',
+                __html: 'Под брендом "Ваше Название"&nbsp;работа��т команда масте��ов, каждый из которых занимается ремонтом сти��альных машин боле�� семи лет. Мы обучались у лучших, прошли серт��фикацию, п��сещали техкурсы и накопили опыт работы с ��ехни����й лю��ых поколений. Сегодн�� мы предлагаем ремонт стирал��ных машин в Одессе с га��антией, использованием оригинальных з��пчасте�� и вниманием к каждой д��тали. В нашем распо��яжен��и — профессионально оснащённая мастерская, скл��д комплектующих и выездной сервис. М�� нахо��им даже редкие детали и точно знаем, как продлить жи��нь вашей технике.',
               }}
             ></span>
           </p>
@@ -3620,7 +3620,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Р����отаем напрямую с поставщиками — без перепла�� и посредн��к��в.',
+                    __html: 'Р����отаем напрямую с поставщиками — без переплат и посредн��к��в.',
                   }}
                 ></span>
               </span>
@@ -3735,7 +3735,7 @@ to {transform: translateX(-2620px);}}
           <h2 className="textglavitogi">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Обслуживаемые ����рен��ы',
+                __html: 'Обслуживаемые ���рен��ы',
               }}
             ></span>
           </h2>
@@ -3972,7 +3972,7 @@ to {transform: translateX(-2620px);}}
               лет))  О��ень круто!! ����лаг������арю!! Она пала в руки мастера и
               отдала��ь ем�� полностью, а н�� ст��ла бры���ать����. ��е зна��, что он т��м
               с ней делал, но сейчас он�� к��к шелковая стира��т мо�� ситцев�����е
-              кружевн������� бел��е&lt;3&quot;
+              кружевно����� бел��е&lt;3&quot;
             </p>
             <svg
               width="330"
@@ -11856,7 +11856,7 @@ to {transform: translateX(-2620px);}}
             transition: transform 0.2s ease, filter 0.2s ease !important;
           }
 
-          /* Дополнительные hover эффек��ы для текста и иконок в ��нопках */
+          /* Дополнительные hover эффекты для текста и иконок в ��нопках */
           .frame1196-container136:hover .frame1196-text146,
           .frame1196-container140:hover .frame1196-text150,
           .frame1196-container144:hover .frame1196-text154,

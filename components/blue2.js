@@ -23,7 +23,7 @@ const Blue2 = (props) => {
             </span>
           </div>
           {props.clickableTitle && props.titleLink ? (
-            <Link legacyBehavior href={props.titleLink}>
+            <Link href={props.titleLink}>
               <strong className="blue2-text2 clickable-service-title">
                 {props.text ?? (
                   <Fragment>

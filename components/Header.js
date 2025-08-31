@@ -52,7 +52,7 @@ const Header = () => {
                 width={isMobile ? 141 : 95}
                 height={isMobile ? 141 : 92}
               />
-              <Link legacyBehavior href="/">
+              <Link href="/">
                 <span className="frame1196-text100 clickable-title">
                   <span
                     dangerouslySetInnerHTML={{
@@ -80,7 +80,7 @@ const Header = () => {
           </div>
           <div className="frame1196-obshiy">
             <div className="frame1196-korobki">
-              <Link legacyBehavior href="/">
+              <Link href="/">
                 <div className={`${router.pathname === '/' ? 'frame1196-container105' : 'frame1196-container105-inactive'}`}>
                   <span className="frame1196-text101">
                     <span
@@ -91,7 +91,7 @@ const Header = () => {
                   </span>
                 </div>
               </Link>
-              <Link legacyBehavior href="/vikup">
+              <Link href="/vikup">
                 <div className={`${router.pathname === '/vikup' ? 'frame1196-container105' : 'frame1196-container105-inactive'}`}>
                   <span className="frame1196-text102">
                     <span
@@ -102,7 +102,7 @@ const Header = () => {
                   </span>
                 </div>
               </Link>
-              <Link legacyBehavior href="/articles">
+              <Link href="/articles">
                 <div className={`${isArticlesPage ? 'frame1196-container105' : 'frame1196-container105-inactive'}`}>
                   <span className="frame1196-text103">
                     <span
@@ -232,7 +232,7 @@ const Header = () => {
               </button>
             </div>
             <nav className="frame1196-sidebar-nav">
-              <Link legacyBehavior href="/">
+              <Link href="/">
                 <a
                   className={`frame1196-sidebar-link ${router.pathname === '/' ? 'frame1196-sidebar-link-active' : ''}`}
                   style={{ color: router.pathname === '/' ? '#87ceeb !important' : 'white !important' }}
@@ -240,7 +240,7 @@ const Header = () => {
                   Главная
                 </a>
               </Link>
-              <Link legacyBehavior href="/vikup">
+              <Link href="/vikup">
                 <a
                   className={`frame1196-sidebar-link ${router.pathname === '/vikup' ? 'frame1196-sidebar-link-active' : ''}`}
                   style={{ color: router.pathname === '/vikup' ? '#87ceeb !important' : 'white !important' }}
@@ -248,7 +248,7 @@ const Header = () => {
                   Выкуп б/у машин
                 </a>
               </Link>
-              <Link legacyBehavior href="/articles">
+              <Link href="/articles">
                 <a
                   className={`frame1196-sidebar-link ${isArticlesPage ? 'frame1196-sidebar-link-active' : ''}`}
                   style={{ color: isArticlesPage ? '#87ceeb !important' : 'white !important' }}
@@ -289,7 +289,7 @@ const Header = () => {
           /* Глобальные стили для принужде��ия цвета в sidebar */
           .frame1196-sidebar-nav a {
             color: white !important;
-            font-family: var(--font-roboto, 'Roboto'), sans-serif !important;
+            font-family: 'Roboto', sans-serif !important;
             font-weight: 500 !important;
           }
           .frame1196-sidebar-nav a.frame1196-sidebar-link-active {
@@ -309,7 +309,7 @@ const Header = () => {
             .page-headertextwashermachine { margin-top: 66px !important; }
           }
 
-          /* Большие экраны: нижний отступ заголовочного бл��ка 54px (было 60) */
+          /* Большие экраны: нижний отступ заголовочного блока 54px (было 60) */
           @media (min-width: 992px) {
             .page-headertextwashermachine { margin-bottom: 54px !important; }
           }
@@ -328,7 +328,7 @@ const Header = () => {
             .page-headertextwashermachine { margin-top: 24px !important; margin-bottom: 29px !important; }
             .page-text10 { margin-top: 0 !important; margin-bottom: 29px !important; }
           }
-          /* Мобилки: точно как у "Полезные статьи" - 50px + 16px padding = 66px о��щий отступ */
+          /* Мобилки: точно как у "Полезные статьи" - 50px + 16px padding = 66px общий отступ */
           @media (max-width: 480px) {
             .page-headertextwashermachine { margin-top: 66px !important; margin-bottom: 29px !important; }
             .page-text10 { margin-top: 0 !important; margin-bottom: 29px !important; }
@@ -366,7 +366,7 @@ const Header = () => {
             margin-top: var(--dl-layout-space-oneandhalfunits) !important;
           }
 
-          /* Скр��ваем боковую панель в момент wrap'а */
+          /* Скрываем боковую панель в момент wrap'а */
           @media (max-width: 1300px) {
             .page-dops-info {
               display: none !important;
@@ -518,7 +518,7 @@ const Header = () => {
             font-size: 23px;
             word-wrap: break-word;
             font-style: normal;
-            font-family: var(--font-noto-serif-sc, 'Noto Serif SC');
+            font-family: 'Noto Serif SC';
             font-weight: 300;
             white-space: normal;
             letter-spacing: 1.5px;
@@ -597,7 +597,7 @@ const Header = () => {
           .frame1196-text101 {
             color: #ffffff;
             font-size: 15px;
-            font-family: var(--font-roboto, 'Roboto');
+            font-family: 'Roboto';
           }
           .frame1196-container106 {
             flex: 0 0 auto;
@@ -612,7 +612,7 @@ const Header = () => {
           .frame1196-text102 {
             color: rgb(255, 255, 255);
             font-size: 15px;
-            font-family: var(--font-roboto, 'Roboto');
+            font-family: 'Roboto';
           }
           .frame1196-container107 {
             flex: 0 0 auto;
@@ -627,7 +627,7 @@ const Header = () => {
           .frame1196-text103 {
             color: rgb(255, 255, 255);
             font-size: 15px;
-            font-family: var(--font-roboto, 'Roboto');
+            font-family: 'Roboto';
           }
           .frame1196-telephonadres {
             gap: var(--dl-layout-space-oneandhalfunits);
@@ -666,7 +666,7 @@ const Header = () => {
             color: rgb(255, 255, 255);
             font-size: 15px;
             font-style: normal;
-            font-family: var(--font-roboto, 'Roboto');
+            font-family: 'Roboto';
             font-weight: 400;
             letter-spacing: 1.5px;
           }
@@ -675,7 +675,7 @@ const Header = () => {
             color: rgb(255, 255, 255);
             font-size: 15px;
             font-style: normal;
-            font-family: var(--font-roboto, 'Roboto');
+            font-family: 'Roboto';
             font-weight: 400;
             letter-spacing: 1.5px;
           }
@@ -689,7 +689,7 @@ const Header = () => {
             color: rgb(255, 255, 255);
             font-size: 12px;
             align-self: center;
-            font-family: var(--font-roboto, 'Roboto');
+            font-family: 'Roboto';
             font-weight: 300;
             letter-spacing: 1.5px;
           }
@@ -704,7 +704,7 @@ const Header = () => {
             color: rgb(255, 255, 255);
             font-size: 12px;
             align-self: flex-start;
-            font-family: var(--font-roboto, 'Roboto');
+            font-family: 'Roboto';
             font-weight: 300;
             letter-spacing: 1.5px;
             text-align: left;
@@ -855,7 +855,7 @@ const Header = () => {
             color: white !important;
             text-decoration: none !important;
             font-size: 15px;
-            font-family: var(--font-roboto, 'Roboto');
+            font-family: 'Roboto';
             font-weight: 500;
             padding: 15px 20px;
             border-radius: 8px;
@@ -937,7 +937,7 @@ const Header = () => {
           .frame1196-sidebar-phone {
             color: white;
             font-size: 16px;
-            font-family: var(--font-roboto, 'Roboto');
+            font-family: 'Roboto';
             font-weight: 400;
             letter-spacing: 1px;
           }
@@ -952,7 +952,7 @@ const Header = () => {
           .frame1196-sidebar-address-text {
             color: white;
             font-size: 14px;
-            font-family: var(--font-roboto, 'Roboto');
+            font-family: 'Roboto';
             font-weight: 300;
             line-height: 1.4;
             text-align: center;
@@ -969,7 +969,7 @@ const Header = () => {
           .frame1196-sidebar-schedule {
             color: white;
             font-size: 14px;
-            font-family: var(--font-roboto, 'Roboto');
+            font-family: 'Roboto';
             font-weight: 300;
             text-align: center;
           }

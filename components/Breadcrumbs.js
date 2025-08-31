@@ -36,7 +36,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
       '/neotjimaet': 'Стиральная машина не отжимает',
       '/nenabiraetvodu': 'Стиральная машина не набирает воду',
       '/neotkrivaetsadverca': 'У стиральной машины не открывается дверца',
-      '/nekrutitbaraban': 'Стира��ьная машина не крутит барабан'
+      '/nekrutitbaraban': 'Стиральная машина не крутит барабан'
     }
 
     if (problemPages[pathname]) {
@@ -85,7 +85,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
         <ol className={`breadcrumbs-list ${isLeft ? 'align-left' : ''}`}>
           {breadcrumbsWithoutCurrent.map((item, index) => (
             <li key={index} className="breadcrumb-item">
-              <Link legacyBehavior href={item.href}>
+              <Link href={item.href}>
                 <a className="breadcrumb-link">{item.name}</a>
               </Link>
               {index < breadcrumbsWithoutCurrent.length - 1 && (
@@ -175,7 +175,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
             display: flex;
             align-items: center;
             font-size: 0.85rem;
-            font-family: var(--font-nunito, 'Nunito'), sans-serif;
+            font-family: 'Nunito', sans-serif;
           }
 
           .breadcrumb-link {
@@ -185,7 +185,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
             padding: 2px 4px;
             border-radius: 4px;
             transition: all 0.2s ease;
-            font-family: var(--font-nunito, 'Nunito'), sans-serif;
+            font-family: 'Nunito', sans-serif;
           }
 
           .breadcrumb-link:hover {
