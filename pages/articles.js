@@ -24,7 +24,7 @@ const Articles = (props) => {
 
   const problemArticles = [
     { title: 'Стиральная машина не сливает воду', href: '/neslivaetvodu', image: '/problems 2/11-300h.webp', alt: 'Стиральная машина не сливает воду' },
-    { title: 'Стиральная м��шина не греет воду', href: '/negreetvodu', image: '/problems 2/21-300h.webp', alt: 'Стиральная машина не нагревает воду' },
+    { title: 'Стиральная м����шина не греет воду', href: '/negreetvodu', image: '/problems 2/21-300h.webp', alt: 'Стиральная машина не нагревает воду' },
     { title: 'Стиральная машина протекает', href: '/protekaet', image: '/problems 2/31-300h.webp', alt: 'Стиральная машина протекает' },
     { title: 'Стиральная машина шумит при отжиме', href: '/silnoshumit', image: '/problems/4-300h.webp', alt: 'Стиральная машина шумит при отжиме' },
     { title: 'Стиральная машина не включается', href: '/nevkluchaetsa', image: '/problems 2/51-300h.webp', alt: 'Стиральная машина не включается' },
@@ -86,7 +86,7 @@ const Articles = (props) => {
           <div className="articles-cards-grid">
             {activeTab === 'care'
               ? generalArticles.map((article, index) => (
-                  <Link href={article.href} key={index}>
+                  <Link legacyBehavior href={article.href} key={index}>
                     <a className="floating-card general-card">
                       <div className="card-image-wrapper">
                         <img alt={article.title} src={article.image} loading="lazy" className="card-image" />
@@ -100,7 +100,7 @@ const Articles = (props) => {
                   </Link>
                 ))
               : problemArticles.map((article, index) => (
-                  <Link href={article.href} key={index}>
+                  <Link legacyBehavior href={article.href} key={index}>
                     <a className="floating-card problem-card">
                       <div className="card-image-wrapper">
                         <img alt={article.alt} src={article.image} loading="lazy" className="card-image" />
@@ -129,7 +129,7 @@ const Articles = (props) => {
             width: 100%;
             min-height: 100vh;
             background-color: #f8f9fa;
-            font-family: 'Noto Serif SC', serif;
+            font-family: var(--font-noto-serif-sc, 'Noto Serif SC'), serif;
           }
 
           /* Hero */
@@ -140,10 +140,10 @@ const Articles = (props) => {
             margin-top: 8px;
           }
           .articles-hero-content { max-width: 800px; margin: 0 auto; }
-          .articles-title { font-size: 35px; font-family: 'Noto Serif SC', serif; font-weight: 600; margin-bottom: 16px; text-align: center; }
+          .articles-title { font-size: 35px; font-family: var(--font-noto-serif-sc, 'Noto Serif SC'), serif; font-weight: 600; margin-bottom: 16px; text-align: center; }
           .articles-title-blue { color: #87ceeb; font-weight: 700; }
           .articles-title-black { color: #000000; }
-          .articles-subtitle { font-size: 0.9rem; opacity: 0.9; font-family: 'Noto Serif SC', serif; line-height: 1.6; color: #333333; }
+          .articles-subtitle { font-size: 0.9rem; opacity: 0.9; font-family: var(--font-noto-serif-sc, 'Noto Serif SC'), serif; line-height: 1.6; color: #333333; }
 
           /* Tabs */
           .articles-switcher-section { padding: 24px 16px 16px; max-width: 1000px; margin: 0 auto; }
@@ -152,9 +152,9 @@ const Articles = (props) => {
           .tab-button:hover { border-color: #87ceeb; transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,0,0,.1); }
           .tab-button.active { border-color: #4EC8ED; background: linear-gradient(135deg, #4EC8ED 0%, #87ceeb 100%); color: white; transform: translateY(-3px); box-shadow: 0 10px 30px rgba(78,200,237,.3); }
           .tab-content { position: relative; z-index: 2; }
-          .tab-title { font-size: 1.1rem; font-weight: 500; margin-bottom: 6px; font-family: 'Nunito', sans-serif; font-style: normal; transition: color .3s ease; }
+          .tab-title { font-size: 1.1rem; font-weight: 500; margin-bottom: 6px; font-family: var(--font-nunito, 'Nunito'), sans-serif; font-style: normal; transition: color .3s ease; }
           .tab-button.active .tab-title { color: white; }
-          .tab-subtitle { font-size: 0.85rem; line-height: 1.4; opacity: .8; font-family: 'Nunito', sans-serif; font-style: normal; transition: color .3s ease; }
+          .tab-subtitle { font-size: 0.85rem; line-height: 1.4; opacity: .8; font-family: var(--font-nunito, 'Nunito'), sans-serif; font-style: normal; transition: color .3s ease; }
           .tab-button.active .tab-subtitle { color: white; opacity: .9; }
 
           /* Articles */
@@ -172,10 +172,10 @@ const Articles = (props) => {
           .floating-card:hover .card-image { transform: scale(1.04); }
 
           .card-content { padding: 20px; display: flex; flex-direction: column; height: calc(100% - 120px); }
-          .card-title { font-size: 1rem; font-weight: 600; color: #232020; margin-bottom: 10px; line-height: 1.3; font-family: 'Nunito', sans-serif; flex-grow: 1; }
-          .card-description { font-size: 0.85rem; color: #333333; line-height: 1.4; margin-bottom: 15px; font-family: 'Nunito', sans-serif; font-style: normal; font-weight: 300; }
+          .card-title { font-size: 1rem; font-weight: 600; color: #232020; margin-bottom: 10px; line-height: 1.3; font-family: var(--font-nunito, 'Nunito'), sans-serif; flex-grow: 1; }
+          .card-description { font-size: 0.85rem; color: #333333; line-height: 1.4; margin-bottom: 15px; font-family: var(--font-nunito, 'Nunito'), sans-serif; font-style: normal; font-weight: 300; }
 
-          .card-button { align-self: flex-start; margin-top: auto; background: linear-gradient(45deg, #4EC8ED, #87ceeb); color: white; padding: 6px 12px; border-radius: 20px; font-size: .8rem; font-weight: 500; font-family: 'Roboto', sans-serif; transition: all .3s ease; box-shadow: 0 2px 8px rgba(78,200,237,.3); }
+          .card-button { align-self: flex-start; margin-top: auto; background: linear-gradient(45deg, #4EC8ED, #87ceeb); color: white; padding: 6px 12px; border-radius: 20px; font-size: .8rem; font-weight: 500; font-family: var(--font-roboto, 'Roboto'), sans-serif; transition: all .3s ease; box-shadow: 0 2px 8px rgba(78,200,237,.3); }
           .floating-card:hover .card-button { background: linear-gradient(45deg, #87ceeb, #5bb8e8); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(78,200,237,.4); }
           .button-text { display: block; }
 
@@ -188,8 +188,8 @@ const Articles = (props) => {
 
             .articles-tabs { grid-template-columns: 1fr; gap: 15px; }
             .tab-button { padding: 16px 14px; }
-            .tab-title { font-size: 1.1rem; font-family: 'Nunito', sans-serif; font-style: normal; font-weight: 500; }
-            .tab-subtitle { font-size: 0.85rem; font-family: 'Nunito', sans-serif; font-style: normal; }
+            .tab-title { font-size: 1.1rem; font-family: var(--font-nunito, 'Nunito'), sans-serif; font-style: normal; font-weight: 500; }
+            .tab-subtitle { font-size: 0.85rem; font-family: var(--font-nunito, 'Nunito'), sans-serif; font-style: normal; }
 
             .articles-switcher-section { padding: 30px 15px 15px; background-color: white; }
             .articles-cards-grid { grid-template-columns: 1fr; gap: 20px; }
@@ -214,8 +214,8 @@ const Articles = (props) => {
 
             .card-content { padding: 16px; }
             .card-image-wrapper { height: 110px; }
-            .card-title { font-size: 0.95rem; font-family: 'Nunito', sans-serif; }
-            .card-description { font-size: 0.85rem; font-family: 'Nunito', sans-serif; font-style: normal; }
+            .card-title { font-size: 0.95rem; font-family: var(--font-nunito, 'Nunito'), sans-serif; }
+            .card-description { font-size: 0.85rem; font-family: var(--font-nunito, 'Nunito'), sans-serif; font-style: normal; }
           }
         `}</style>
     </>

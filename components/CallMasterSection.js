@@ -14,10 +14,10 @@ const CallMasterSection = ({
   return (
     <section className="callout-container" aria-label={title}>
       {/* corner dots */}
-      <svg width="100%" xmlns="http://www.w3.org/2000/svg" height="17" viewBox="0 0 10 20" preserveAspectRatio="none" className="dot top-right"><circle r="3.75" cx="5" cy="10" fill="#606060" vectorEffect="non-scaling-stroke"></circle></svg>
-      <svg width="100%" xmlns="http://www.w3.org/2000/svg" height="17" viewBox="0 0 10 20" preserveAspectRatio="none" className="dot bottom-right"><circle r="3.75" cx="5" cy="10" fill="#606060" vectorEffect="non-scaling-stroke"></circle></svg>
-      <svg width="100%" xmlns="http://www.w3.org/2000/svg" height="17" viewBox="0 0 10 20" preserveAspectRatio="none" className="dot bottom-left"><circle r="3.75" cx="5" cy="10" fill="#606060" vectorEffect="non-scaling-stroke"></circle></svg>
-      <svg width="100%" xmlns="http://www.w3.org/2000/svg" height="17" viewBox="0 0 10 20" preserveAspectRatio="none" className="dot top-left"><circle r="3.75" cx="5" cy="10" fill="#606060" vectorEffect="non-scaling-stroke"></circle></svg>
+      <svg width="9" xmlns="http://www.w3.org/2000/svg" height="9" viewBox="0 0 10 10" preserveAspectRatio="xMidYMid meet" className="dot top-right"><circle r="3.75" cx="5" cy="5" fill="#606060" vectorEffect="non-scaling-stroke"></circle></svg>
+      <svg width="9" xmlns="http://www.w3.org/2000/svg" height="9" viewBox="0 0 10 10" preserveAspectRatio="xMidYMid meet" className="dot bottom-right"><circle r="3.75" cx="5" cy="5" fill="#606060" vectorEffect="non-scaling-stroke"></circle></svg>
+      <svg width="9" xmlns="http://www.w3.org/2000/svg" height="9" viewBox="0 0 10 10" preserveAspectRatio="xMidYMid meet" className="dot bottom-left"><circle r="3.75" cx="5" cy="5" fill="#606060" vectorEffect="non-scaling-stroke"></circle></svg>
+      <svg width="9" xmlns="http://www.w3.org/2000/svg" height="9" viewBox="0 0 10 10" preserveAspectRatio="xMidYMid meet" className="dot top-left"><circle r="3.75" cx="5" cy="5" fill="#606060" vectorEffect="non-scaling-stroke"></circle></svg>
 
       {/* dashed borders */}
       <svg width="330" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 330 20" preserveAspectRatio="none" className="dash top"><path d="M0 10 H330" fill="none" stroke="#000000" strokeWidth="0.5" vectorEffect="non-scaling-stroke" strokeDasharray="11 11"></path></svg>
@@ -32,7 +32,7 @@ const CallMasterSection = ({
         <span className="company-name">{companyName}</span>
         <span className="company-quote">"</span>
         <span>.</span>
-        <span> Наши специалисты быстро приедут к вам в желаемое вами время в любой район Одессы и выполнят качественную диагностику и ремонт.</span>
+        <span> Наш�� специалисты быстро приедут к вам в желаемое вами время в любой район Одессы и выполнят качественную диагностику и ремонт.</span>
       </p>
       <svg width="330" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 330 20" preserveAspectRatio="none" className="dash mid"><path d="M0 10 H330" fill="none" stroke="#000000" strokeWidth="0.5" vectorEffect="non-scaling-stroke" strokeDasharray="11 11"></path></svg>
       <strong className="workdays">Работаем без выходных</strong>
@@ -57,7 +57,7 @@ const CallMasterSection = ({
           display: flex;
           position: relative;
           max-width: 100%;
-          box-shadow: 0px 0px 20px 3px #d4d4d4;
+          box-shadow: 5px 5px 20px 0px #d4d4d4;
           margin-top: 50px;
           min-height: 330px;
           align-items: center;
@@ -67,14 +67,14 @@ const CallMasterSection = ({
           justify-content: center;
           background-color: #fdfdf6;
         }
-        .dot { position: absolute; width: 11px; height: auto; }
-        .top-right { top: -21px; right: -14px; }
-        .bottom-right { right: -15px; bottom: -20px; }
-        .bottom-left { left: -15px; bottom: -20px; }
-        .top-left { top: -21px; left: -14px; }
+        .dot { position: absolute; width: 9px; height: 9px; }
+        .top-right { top: -15px; right: -14px; }
+        .bottom-right { right: -15px; bottom: -14px; }
+        .bottom-left { left: -15px; bottom: -14px; }
+        .top-left { top: -15px; left: -14px; }
         .dash { position: absolute; }
-        .top { top: -12px; left: -1px; width: 100%; height: 5px; }
-        .bottom { bottom: -12px; left: -2px; width: 100%; height: 5px; }
+        .top { top: -12px; left: 6px; width: 100%; height: 5px; }
+        .bottom { bottom: -12px; left: 5px; width: 100%; height: 5px; }
         .right { top: 0; right: -12px; width: 5px; height: 100%; }
         .left { bottom: -3px; left: -12px; width: 5px; height: 100%; }
         .mid { position: static; display: block; width: 100%; height: 5px; max-width: 600px; margin: 5px 0; }

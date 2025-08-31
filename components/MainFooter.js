@@ -104,7 +104,7 @@ const MainFooter = () => {
             </div>
           </div>
           <nav className="frame1196-container238">
-            <Link href="/">
+            <Link legacyBehavior href="/">
               <span className={`frame1196-text288 ${router.pathname === '/' ? 'frame1196-nav-active' : ''}`}>
                 <span
                   dangerouslySetInnerHTML={{
@@ -113,7 +113,7 @@ const MainFooter = () => {
                 ></span>
               </span>
             </Link>
-            <Link href="/vikup">
+            <Link legacyBehavior href="/vikup">
               <span className={`frame1196-text289 ${router.pathname === '/vikup' ? 'frame1196-nav-active' : ''}`}>
                 <span
                   dangerouslySetInnerHTML={{
@@ -122,7 +122,7 @@ const MainFooter = () => {
                 ></span>
               </span>
             </Link>
-            <Link href="/articles">
+            <Link legacyBehavior href="/articles">
               <span className={`frame1196-text290 ${isArticlesPage ? 'frame1196-nav-active' : ''}`}>
                 <span
                   dangerouslySetInnerHTML={{
@@ -191,7 +191,7 @@ const MainFooter = () => {
             align-self: flex-start;
             font-style: normal;
             text-align: left;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc, 'Noto Serif SC');
             font-weight: 600;
             line-height: 1.15;
             text-transform: none;
@@ -216,13 +216,13 @@ const MainFooter = () => {
 
           .frame1196-text282 {
             font-size: 15px;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc, 'Noto Serif SC');
             margin: 0;
           }
 
           .frame1196-text283 {
             font-size: 15px;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc, 'Noto Serif SC');
             margin: 0;
           }
 
@@ -236,13 +236,13 @@ const MainFooter = () => {
 
           .frame1196-text284 {
             font-size: 15px;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc, 'Noto Serif SC');
             margin: 0;
           }
 
           .frame1196-text285 {
             font-size: 15px;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc, 'Noto Serif SC');
             margin: 0;
           }
 
@@ -250,7 +250,7 @@ const MainFooter = () => {
             font-size: 15px;
             align-self: flex-start;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc, 'Noto Serif SC');
             margin: 0;
           }
 
@@ -294,7 +294,7 @@ const MainFooter = () => {
             align-self: center;
             font-style: normal;
             text-align: center;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc, 'Noto Serif SC');
             font-weight: 600;
             line-height: 1.15;
             text-transform: none;
@@ -313,7 +313,7 @@ const MainFooter = () => {
             font-style: normal;
             max-height: 50px;
             min-height: 55px;
-            font-family: 'Spectral';
+            font-family: var(--font-spectral, 'Spectral');
             font-weight: 500;
             border-color: rgba(25, 24, 24, 0.35);
             border-radius: 8px;
@@ -350,7 +350,7 @@ const MainFooter = () => {
             color: #000000;
             font-size: 15px;
             font-style: normal;
-            font-family: 'Noto Serif SC';
+            font-family: var(--font-noto-serif-sc, 'Noto Serif SC');
             font-weight: 500;
             text-decoration: none;
             cursor: pointer;

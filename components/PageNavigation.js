@@ -6,7 +6,7 @@ const PageNavigation = ({ prevPage, nextPage }) => {
     <div className="page-navigation">
       {prevPage && (
         <div className="page-nav-container">
-          <Link href={prevPage.href}>
+          <Link legacyBehavior href={prevPage.href}>
             <a className="page-nav-link">
               <div className="page-nav-icon-container">
                 <svg
@@ -32,7 +32,7 @@ const PageNavigation = ({ prevPage, nextPage }) => {
 
       {nextPage && (
         <div className="page-nav-container">
-          <Link href={nextPage.href}>
+          <Link legacyBehavior href={nextPage.href}>
             <a className="page-nav-link">
               <div className="page-nav-icon-container">
                 <svg
