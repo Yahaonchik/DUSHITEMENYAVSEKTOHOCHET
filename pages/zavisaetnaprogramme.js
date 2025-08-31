@@ -5,10 +5,11 @@ import Header from '../components/Header'
 import MainFooter from '../components/MainFooter'
 import SEOHead from '../components/SEOHead'
 import PageNavigation from '../components/PageNavigation'
-import OrderButton from '../components/OrderButton'
 import OrderModal from '../components/OrderModal'
 import Breadcrumbs from '../components/Breadcrumbs'
 import RelatedArticles from '../components/RelatedArticles'
+import AnchorLinksSection from '../components/AnchorLinksSection'
+import CallMasterSection from '../components/CallMasterSection'
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
 
@@ -61,202 +62,17 @@ const Page = (props) => {
                 <span className="page-text13">что делать?</span>
               </h1>
             </div>
-            <section className="page-container11">
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon10"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon12"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon14"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon16"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <strong className="page-text14">
-                <span>Стиральная машина зависает на программе:</span>
-                <br></br>
-              </strong>
-              <ul className="page-ul list">
-                <li className="page-li1 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector1"
-                  />
-                  <a href="#1" className="page-link1 ge">
-                    Что делать, если стир��льная машина зависает на программе
-                  </a>
-                </li>
-                <li className="page-li2 list-item">
-                  <img alt="image" src="/vector.svg" className="page-image2" />
-                  <a href="#2" className="page-link2">
-                    Основные причины неи��правности:
-                  </a>
-                </li>
-                <li className="page-li3 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector2"
-                  />
-                  <a href="#2" className="page-link3 ge">
-                    1. Дверца не закрыта или не заблокиров��на.
-                  </a>
-                </li>
-                <li className="page-li4 list-item ge">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector3"
-                  />
-                  <a href="#3" className="page-link4">
-                    2. Проблемы с п��иводным ремнём.
-                  </a>
-                </li>
-                <li className="page-li5 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector4"
-                  />
-                  <a href="#4" className="page-link5 ge">
-                    3. Неисправнос��ь двигателя или щёток.
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#5" className="page-link6 ge">
-                    4. Сбои в электронном блоке управления
-                  </a>
-                </li>
-              </ul>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon18"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon20"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon22"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon24"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-            </section>
+            <AnchorLinksSection
+              title="Стиральная машина зависает на программе:"
+              items={[
+                { icon: '/external/vector8669-r6fr.svg', href: '#1', text: 'Что делать, если стир��льная машина зависает на программе' },
+                { icon: '/vector.svg', href: '#2', text: 'Основные причины неи��правности:' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Дверца не закрыта или не заблокиров��на.' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#3', text: '2. Проблемы с п��иводным ремнём.' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#4', text: '3. Неисправнос��ь двигателя или щёток.' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#5', text: '4. Сбои в электронном блоке управления' },
+              ]}
+            />
             <section id="1" className="page-firstproblem">
               <div className="page-container12 zagolovkiskorobkoy">
                 <h2 className="zagolovki2">
@@ -292,7 +108,7 @@ const Page = (props) => {
                   <br />
                   <strong>3. Сделайте аварийный слив вручную(при необ��одимости).</strong>
                   <br />
-                  Если вода не уходит при штатных попытках, подставьте под фильтр глубоку�� ёмкость. Открутите сливной фильтр против часовой стрелки. После откручивания вода пойдёт в ёмкость; Слейте всю жидкость и уберите ��усор из фильтра и отверстия. Такие де��ствия помогают во����становить слив во многих случаях.
+                  Если вода не уходит при штатных попытках, подставьте под фильтр глубоку�� ёмкость. Открутите сливной фильтр против часовой с��рел��и. После откручивания вода пойдёт в ёмкость; Слейте всю жидкость и уберите ��усор из фильтра и отверстия. Такие д����ствия помог��ют во����становить слив во многих случаях.
                   <br />
                   <strong>4. После ручного слива можно без��пасно открыть люк.</strong>
                   <br />
@@ -348,7 +164,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Сливной фил��тр — это сетчатый элемент на передней нижней ча��ти машины, который задерживает ворсинки, мелкий мусор и мелкие п��едметы при сливе. Если филь��р забит, вода не ��ходит из бака, бельё остается мокрым, а насос (помпа) не может откачать жидкость. Программа может «зависнуть» на этапе слива или отжима. Проверьте, не г��дит ли насос без слива или не остаётся ��и вода после цик��а — это признаки засора. Проверьте фильтр. Удалите грязь и скопившийся м��сор, промойте фильтр тёплой водой и закрутите обратно. Обыч��о э��у процедуру можно ��ыполнить самостоятельно (важно предварительно слить воду че��ез фильтр или аварийный слив). Если после очистки фильтра машин��а снова работает нормально, причина найдена. Ес��и фильтр чист и вода всё равно не уходит, проблема может быть глубже (насос, шланги и т.д.).
+                  Сливной фил��тр — это сетчатый элемент на передней нижней ча��ти машины, который задерживает ворсинки, мелкий мусор и мелкие п��едметы при сливе. Если филь��р забит, вода не ��ходит из бака, бельё остается мокрым, а насос (помпа) не может откачать жидкость. Программа может «зависнуть» на этапе слива или отжима. Проверьте, не г��дит ли насос без слива или не остаётся ��и вода после цик��а — это признаки засора. Проверьте фильтр. Удалите грязь и скопившийся м��сор, промойте фильтр тёплой водой и закр��тите обратно. Обыч��о э��у процедуру можно ��ыполнить самостоятельно (важно предварительно слить воду че��ез фильтр или аварийный слив). Если после очистки фильтра машин��а снова работает нормально, причина найдена. Ес��и фильтр чист и вода всё равно не уходит, проблема может быть глубже (насос, шланги и т.д.).
                 </p>
               </div>
             </section>
@@ -390,7 +206,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если люк стиральной машины не закрылся до ще��чка, автоматика не даст начать стирку или может прерваться в с��мом начале цикла. Проверьте, закрыта ли дверца плотно: она должна защёлкнуться с характерным звуком. Откройте и закройте люк заново, убед����вшись в «щелчке». Неплотно закрытый люк часто вызывает ошибку на панели и зависание програ��мы. Если дверца плотно закрывается, но стирка всё равно н�� за��ускается или останавливается, возможно, сломан замок (ус��ройство блокировки люка, УБЛ). Тогда люк визуально закрыт, но электроника его «не видит» — на ди��плее может поя��иться ошибка. В такой ситуации неисправный УБЛ нужно заменить (обычно это работа мастера) Не пытайтесь открыть люк силой – предварительно отключите машину от сети и спусти��е во��у через ф��льтр, чтобы безопасно добраться до замка.
+                  Если люк стиральной машины не закрылся до ще��чка, автоматика не даст начать стирку или м��жет прерваться в с��мом начале цикла. Проверьте, закрыта ли дверца плотно: она должна защёлкнуться с характерным звуком. Откройте и закройте люк заново, убед����вшись в «щелчке». Неплотно закрытый люк часто вызывает ошибку на панели и зависание програ��мы. Если дверца плотно закрывается, но стирка всё равно н�� за��ускается или останавливается, возможно, сломан замок (ус��ройство блокировки люка, УБЛ). Тогда люк визуально закрыт, но электроника его «не видит» — на ди��плее может поя��иться ошибка. В такой ситуации неисправный УБЛ нужно заменить (обычно это работа мастера) Не пытайтесь открыть люк силой – предварительно отключите машину от сети и спусти��е во��у через ф��льтр, чтобы безопасно добраться до замка.
                 </p>
               </div>
             </section>
@@ -420,7 +236,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <p className="vicetext">
                   {' '}
-                  Насос и сливной шланг отвечают за отвод во��ы из машины. Проверьте ��ливной шланг: при сильном перегибе или засоре во��а плохо уходит. О��ключите шланг от канализации (или от задней части машины) и осмотрите его – при засоре рукав может «раздутся», быть забит ��рязью или мелкими предметами. Расправьте шланг, прочистите или замените его новым при необходимости.
+                  Насос и сливной шланг отвечают за отвод во��ы из машины. Проверьте ��ливной шланг: при сильном перегибе или засоре во��а плохо уходит. О��ключите шланг от канализации (или от задней части машины) и осмотрите е��о – при засоре рукав может «раздутся», быть забит ��рязью или мелкими предметами. Расправьте шланг, прочистите или замените его новым при необходимости.
                 </p>
               </div>
             </section>
@@ -462,7 +278,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Блок управления (электронная плата) ��� «мозг» стиральной машины, который у��равляет всеми узлами. При скачке напряжения или сбоя ��лектроники п��ограмма может зависнуть или не реагиро��ать на кн��пки. Обычно это называется «р��зовы�� сбоем модуля». Перезагрузите ��а��ину: выдерните вилку из розетки н�� 10–15 минут, затем включите вновь. Если сбой был едини��ным, после паузы машина начнет работать. Если же проблема повторяется (п����ограмма регулярно зависает, гаснет подсветка, на табло появляются стр��нные символы), нужна диагно��тика платы. Повреждения в модуле управления устранить сложно — чаще всего его перепрошивают или заменяют. Без опыта ремонтов электроники не стоит разбирать плату самому.
+                  Блок управления (электронная плата) ��� «мозг» стиральной машины, который у��равляет всеми узлами. При скачке напряжения или сбоя ��лектроники п��ограмма может зависнуть или не реагиро��ать на кн��пки. Обычно это называется «р��зовы�� сбоем модуля». Перезагрузите ��а��ину: выдерните вилку из розетки н�� 10–15 минут, затем включите вновь. Если сбой был едини��ным, по��ле паузы машина начнет работать. Если же проблема повторяется (п����ограмма регулярно зависает, гаснет подсветка, на табло появляются стр��нные символы), нужна диагно��тика платы. Повреждения в модуле управления устранить сложно — чаще всего его перепрошивают или заменяют. Без опыта ремонтов электроники не стоит разбирать плату самому.
                 </p>
               </div>
             </section>
@@ -504,7 +320,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Прессостат — это датчик, который определяет, сколько воды н��брано в бак. Если он выходит из строя, блок управления «не знает», наполнен ли барабан во��ой. В результате машина может ос��ановиться сразу после начала набора ��оды или не доливать воду вовсе. Признаки: при такой неисправности машинка может резко остановиться на этапе набора, стирки, полоскания или отжима (�� зависимости о�� программы) и не продолжить цикл.
+                  Прессостат — это датчик, который определяет, сколько воды н��брано в бак. Если он выходит из строя, блок управления «не знает», наполнен ли барабан во��ой. В результате машина может ос��ановиться сразу пос��е начала набора ��оды или не доливать воду вовсе. Признаки: при такой неисправности машинка может резко остановиться на этапе набора, стирки, полоскания или отжима (�� зависимости о�� программы) и не продолжить цикл.
                 </p>
               </div>
             </section>
@@ -534,7 +350,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <figure className="page-container18">
                   <img
-                    alt="Тэн"
+                    alt="��эн"
                     src="/2/ten.webp"
                     loading="lazy"
                     className="page-image38230522"
@@ -550,201 +366,7 @@ const Page = (props) => {
                 </p>
               </div>
             </section>
-            <section className="page-better-call-master">
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon36"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon38"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon40"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon42"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon44"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon46"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon48"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon50"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <h2 className="page-text50">Когда вызывать мастера?</h2>
-              <p className="page-text51">
-                <span className="page-text52">
-                  Если вы выполн��ли все рекомендации, но проблема осталась —
-                  об��атитесь в сервис
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="page-text53">&quot;</span>
-                <span className="page-text54">РемCтирМаш</span>
-                <span className="page-text55">&quot;</span>
-                <span className="page-text56">.</span>
-                <span className="page-text57">
-                  {' '}
-                  Наши специ��листы быстро прие  ут к вам в желаемое вами время в
-                  любой район Одессы и выполнят качественную диагностику и
-                  ремонт.
-                </span>
-              </p>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon52"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <strong className="page-text58">Работаем без выходных</strong>
-              <div className="page-container28">
-                <div className="page-container29">
-                  <div className="page-container30">
-                    <img
-                      alt="image"
-                      src="/image%203823106.svg"
-                      className="page-image3"
-                    />
-                    <strong className="page-text59">+38 (048) 253-23-23</strong>
-                  </div>
-                  <div className="page-container31">
-                    <img
-                      alt="image"
-                      src="/image%203823107.svg"
-                      className="page-image4"
-                    />
-                    <strong className="page-text60">+38 (048) 123-35-21</strong>
-                  </div>
-                </div>
-                <OrderButton onClick={openModal} text="Заказать мастера" />
-              </div>
-            </section>
+            <CallMasterSection onOrderClick={openModal} />
             <PageNavigation
               prevPage={{
                 href: '/nevkluchaetsa',
@@ -779,7 +401,7 @@ const Page = (props) => {
               <span className="page-text72">Вам будет интер��сно:</span>
               <div className="page-frame12981">
                 <span className="page-text73">
-                  Ошибки, которые приводят к до��огос��оя��ему ремонту (и как их
+                  Ошибки, которые пр��водят к до��огос��оя��ему ремонту (и как их
                   избежать)
                 </span>
                 <div className="page-container45"></div>

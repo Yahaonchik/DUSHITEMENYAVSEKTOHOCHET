@@ -9,6 +9,7 @@ import OrderButton from '../components/OrderButton'
 import OrderModal from '../components/OrderModal'
 import Breadcrumbs from '../components/Breadcrumbs'
 import RelatedArticles from '../components/RelatedArticles'
+import AnchorLinksSection from '../components/AnchorLinksSection'
 import CallMasterSection from '../components/CallMasterSection'
 import { getSEOData } from '../utils/seoConfig'
 import { getArticleStructuredData } from '../utils/structuredData'
@@ -61,212 +62,18 @@ const Page = (props) => {
                 <span className="page-text13">что делать?</span>
               </h1>
             </div>
-            <section className="page-container11">
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon10"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon12"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon14"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon16"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <strong className="page-text14">
-                <span>Жирные пятна на одежде:</span>
-                <br></br>
-              </strong>
-              <ul className="page-ul list">
-                <li className="page-li2 list-item">
-                  <img alt="image" src="/vector.svg" className="page-image2" />
-                  <a href="#2" className="page-link2">
-                    Как избавиться от жирных пятен на ��дежде:
-                  </a>
-                </li>
-                <li className="page-li3 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector2"
-                  />
-                  <a href="#2" className="page-link3 ge">
-                    1. Хозя��ст��енное мыло и стиральный порошок
-                  </a>
-                </li>
-                <li className="page-li4 list-item ge">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector3"
-                  />
-                  <a href="#2-1" className="page-link4">
-                    2. Пищевая сода
-                  </a>
-                </li>
-                <li className="page-li5 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector4"
-                  />
-                  <a href="#2-2" className="page-link5 ge">
-                    3. Средство для мытья посуды
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#3" className="page-link6 ge">
-                    4. Уксус или лимон
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#4" className="page-link6 ge">
-                    5. Тальк или детская пр��сыпка
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#5" className="page-link6 ge">
-                    6. Специальные пятновыводители
-                  </a>
-                </li>
-              </ul>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon18"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon20"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon22"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon24"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-            </section>
+            <AnchorLinksSection
+              title="Жирные пятна на одежде:"
+              items={[
+                { icon: '/vector.svg', href: '#2', text: 'Как избавиться от жирных пятен на ��дежде:' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Хозя��ст��енное мыло и стиральный порошок' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2-1', text: '2. Пищевая сода' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2-2', text: '3. Средство для мытья посуды' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#3', text: '4. Уксус или лимон' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#4', text: '5. Тальк или детская пр��сыпка' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#5', text: '6. Специальные пятновыводители' },
+              ]}
+            />
             <section id="2" className="page-thirdproblem1">
               <div className="page-container16 zagolovkiskorobkoy">
                 <h3 className="zagolovki2">
@@ -305,7 +112,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Один из самых надёжных способов – использовать ��орошую основу для стирки. Сначала намочите пятно тёплой водой и тщательно намыльте его хозяйственным мылом (лучше 72% жирности). Если пятно старое и въевшееся, ��ожно присыпать намоченную ткань тёртой ст��ужкой мыла и аккуратно втереть её губкой или щёткой. Оставьте мыло впитаться: свежие пятна обычно удаляются за 20–30 минут, для застарелых понадобится от 2 часов до суток. После э��ого смойте остатки мыла влажной тряпочкой и постирайте вещь обычным способом. Такой метод хорош для любых тканей; даже хозяйственное мыло с современными добавками часто содержит усилители чистящих свойст��
+                  Один из самых надёжных способов – использовать ��орошую основу для стирки. Сначала намочите пятно тёплой водой и тщательно намыльте его хозяйственным мылом (лучше 72% жирности). Если пятно старое и въевшееся, ��ожно присыпать намоченную ткань тёртой ст��ужкой мыла и аккуратно втереть её губкой или щёткой. Оставьте мыло впитаться: свежие пятна обычно удаляются за 20–30 минут, для застарелых понадобится от 2 часов до суток. После э��ого смойте остатки мыла влажной тряпочкой и постирайте вещь обычным способом. Такой метод хорош для любых тканей; даже хозяйственное мыло с современными доб��вками часто содержит усилители чистящих свойст��
                 </p>
               </div>
             </section>
@@ -347,7 +154,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Сода (бикарбонат натрия) – универсальное средство для удаления жира. Приготовьте густую пасту, смешав пищевую соду с небольшим количеством воды. Нанесите пасту на всю поверхность загрязнения. Если ткань плотная (джинсовая или хлопковая), слегка потрите пятно старой з��бной щёткой, чтобы порошок лучше проник в волокна. Оставьте на 15–30 минут, затем ��мойте пасту тёплой водой и постирайте вещь как обычно. Сода не оставляет запаха и отлично «вытягивает» жирные разводы. Для застарелых пятен можно дополнительно смешать соду с тёртым мылом – получится ещё более агрессивная паста для стойких загрязнений.
+                  Сода (бикарбонат натрия) – универсальное средство для удаления жира. Приготовьте густую пасту, смешав пищевую соду с небольшим количеством воды. Нанесите пасту на всю поверхность загрязнения. Если ткань плотная (джинсовая или хлопковая), слегка потрите пятно старой з��бной щёткой, чтобы порошок лучше проник в волокна. Оставьте на 15–30 минут, затем ��мойте пасту тёплой водой и постирайте вещь как обычно. Сода не оставляет запаха и отлично «вытягивает» жирные разводы. Для застарелых пятен можно дополнительно смешать соду с тёртым мылом ��� получится ещё более агрессивная паста для стойких загрязнений.
                 </p>
               </div>
             </section>
@@ -558,7 +365,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12982">
                 <span className="page-text74">
-                  Как продлить жизнь машине на 3–5 лет — простые прив��чки,
+                  Как продлить жизнь машине на 3–5 лет — пр��стые прив��чки,
                   которые сэкономят деньги
                 </span>
                 <div className="page-container46"></div>

@@ -6,6 +6,7 @@ import MainFooter from '../components/MainFooter'
 import SEOHead from '../components/SEOHead'
 import PageNavigation from '../components/PageNavigation'
 import OrderButton from '../components/OrderButton'
+import AnchorLinksSection from '../components/AnchorLinksSection'
 import OrderModal from '../components/OrderModal'
 import Breadcrumbs from '../components/Breadcrumbs'
 import RelatedArticles from '../components/RelatedArticles'
@@ -60,222 +61,19 @@ const Page = (props) => {
                 <span className="page-text13">что делать?</span>
               </h1>
             </div>
-            <section className="page-container11">
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon10"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon12"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon14"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon16"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <strong className="page-text14">
-                <span>Стиральная машина не отжимает:</span>
-                <br></br>
-              </strong>
-              <ul className="page-ul list">
-                <li className="page-li1 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector1"
-                  />
-                  <a href="#1" className="page-link1 ge">
-                    Что делать, если маш��на не отжи��ает
-                  </a>
-                </li>
-                <li className="page-li2 list-item">
-                  <img alt="image" src="/vector.svg" className="page-image2" />
-                  <a href="#2" className="page-link2">
-                    Основные причины поломки:
-                  </a>
-                </li>
-                <li className="page-li3 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector2"
-                  />
-                  <a href="#2" className="page-link3 ge">
-                    1. Не��справен сливной насос (помпа)
-                  </a>
-                </li>
-                <li className="page-li4 list-item ge">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector3"
-                  />
-                  <a href="#3" className="page-link4">
-                    2. Неисправен прессостат (датчик ур��в��я воды)
-                  </a>
-                </li>
-                <li className="page-li5 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector4"
-                  />
-                  <a href="#4" className="page-link5 ge">
-                    3. Изн��шенные щетки двигателя
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#5" className="page-link6 ge">
-                    4. Растя��утый или порв��вшийся приводной ремень.
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#6" className="page-link6 ge">
-                    5. Неисправность двигателя
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#7" className="page-link6 ge">
-                    6. Поломка таходатчика (датчика оборотов)
-                  </a>
-                </li>
-              </ul>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon18"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon20"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon22"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon24"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-            </section>
+            <AnchorLinksSection
+              title="Стиральная машина не отжимает:"
+              items={[
+                { icon: '/external/vector8669-r6fr.svg', href: '#1', text: 'Что делать, если маш��на не отжи��ает' },
+                { icon: '/vector.svg', href: '#2', text: 'Основные причины поломки:' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Не��справен сливной насос (помпа)' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#3', text: '2. Неисправен прессостат (датчик ур��в��я воды)' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#4', text: '3. Изн��шенные щетки двигателя' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#5', text: '4. Растя��утый или порв��вшийся приводной ремень.' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#6', text: '5. Неисправность двигателя' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#7', text: '6. Поломка таходатчика (датчика оборотов)' },
+              ]}
+            />
             <section id="1" className="page-firstproblem">
               <div className="page-container12 zagolovkiskorobkoy">
                 <h2 className="zagolovki2">
@@ -394,7 +192,7 @@ const Page = (props) => {
             </section>
             <section id="3" className="page-thirdproblem2">
               <div className="page-container19 zagolovkiskorobkoy">
-                <h3 className="zagolovki2">2. Неисправен п��ессостат (датчик уровня воды)</h3>
+                <h3 className="zagolovki2">2. Неисправен п��ессостат (датчик ��ровня воды)</h3>
                 <svg
                   width="330"
                   xmlns="http://www.w3.org/2000/svg"
@@ -428,7 +226,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Если ��атчик неправильно определяет уровень воды, блок управлен��я не срабатывает нормально. При этом машинка может «зави��ать» перед отжимом – она не сливает воду полно��тью и аварийно останавливается. Признаки: после завершения стирки в баке ост��ётся вода, могут появляться ошибки уровня воды. Решается замена прессостата.
+                  Если ��атчик неправил��но определяет уровень воды, блок управлен��я не срабатывает нормально. При этом машинка может «зави��ать» перед отжимом – она не сливает воду полно��тью и аварийно останавливается. Признаки: после завершения стирки в баке ост��ётся вода, могут появляться ошибки уровня воды. Решается замена прессостата.
                 </p>
               </div>
             </section>
@@ -511,7 +309,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Приводной ремень пе��едаёт вращение от двигателя к барабану. При о���лаблении или разрыве ремня ��арабан не сможет достичь нужных оборотов �� бельё останется сырым. Обычно при этом двигатель пытается работать (маши���ка гудит), но барабан ост��ётся вялым или не вращается вовсе. Если ремень с��етел, его можно перекинуть на ме��то (д��я этого снимают заднюю стенку и ослабляют крепление мотора). Если же ремень изношен, потребуется его замена. Причиной разрыва мо��ет быть старен��е ремня или износ подшипнико�� (при сильных люфтах на валу ремень перекидывается и рвётся.
+                  Приводной ремень пе��едаёт вращение от двигателя к барабану. При о���лаблении или разрыве ремня ��арабан не сможет достичь нужных оборотов �� бельё останется сырым. Обычно при этом двигатель пытается работать (маши���ка гудит), но барабан ост��ётся вялым или не вращается вовсе. Если ремень с��етел, его можно перекинуть на ме��то (д��я этого снимают заднюю стенку и ослабляют крепление мотора). Если же ��емень изношен, потребуется его замена. Причиной разрыва мо��ет быть старен��е ремня или износ подшипнико�� (при сильных люфтах на валу ремень перекидывается и рвётся.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -677,7 +475,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12986">
                 <span className="page-text78">
-                  Мифы о стиралк��х: что правда, а что — вымысел?
+                  М��фы о стиралк��х: что правда, а что — вымысел?
                 </span>
                 <div className="page-container50"></div>
               </div>

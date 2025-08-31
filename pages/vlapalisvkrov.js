@@ -5,10 +5,11 @@ import Header from '../components/Header'
 import MainFooter from '../components/MainFooter'
 import SEOHead from '../components/SEOHead'
 import PageNavigation from '../components/PageNavigation'
-import OrderButton from '../components/OrderButton'
 import OrderModal from '../components/OrderModal'
 import Breadcrumbs from '../components/Breadcrumbs'
 import RelatedArticles from '../components/RelatedArticles'
+import AnchorLinksSection from '../components/AnchorLinksSection'
+import CallMasterSection from '../components/CallMasterSection'
 import { getSEOData } from '../utils/seoConfig'
 import { getArticleStructuredData } from '../utils/structuredData'
 
@@ -60,212 +61,18 @@ const Page = (props) => {
                 <span className="page-text13">что делать?</span>
               </h1>
             </div>
-            <section className="page-container11">
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon10"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon12"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon14"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon16"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <strong className="page-text14">
-                <span>Вляпались в кровь:</span>
-                <br></br>
-              </strong>
-              <ul className="page-ul list">
-                <li className="page-li2 list-item">
-                  <img alt="image" src="/vector.svg" className="page-image2" />
-                  <a href="#2" className="page-link2">
-                    Как удалить п��тна крови с одежды без следов?
-                  </a>
-                </li>
-                <li className="page-li3 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector2"
-                  />
-                  <a href="#2" className="page-link3 ge">
-                    1. Холодная вода и хозяйственное мыло
-                  </a>
-                </li>
-                <li className="page-li4 list-item ge">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector3"
-                  />
-                  <a href="#2-1" className="page-link4">
-                    2. Жидкость для мытья посуды
-                  </a>
-                </li>
-                <li className="page-li5 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector4"
-                  />
-                  <a href="#2-2" className="page-link5 ge">
-                    3. Перекись водорода (для белых тканей)
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#3" className="page-link6 ge">
-                    4. Соль и сода
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#4" className="page-link6 ge">
-                    5. Нашатырный спирт или ферментные средства
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#5" className="page-link6 ge">
-                    6. Глицерин (нетривиальный способ)
-                  </a>
-                </li>
-              </ul>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon18"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon20"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon22"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon24"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-            </section>
+            <AnchorLinksSection
+              title="Вляпались в кровь:"
+              items={[
+                { icon: '/vector.svg', href: '#2', text: 'Как удалить п��тна крови с одежды без следов?' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Холодная вода и хозяйственное мыло' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2-1', text: '2. Жидкость для мытья посуды' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2-2', text: '3. Перекись водорода (для белых тканей)' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#3', text: '4. Соль и сода' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#4', text: '5. Нашатырный спирт или ферментные средства' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#5', text: '6. Глицерин (нетривиальный способ)' },
+              ]}
+            />
             <section id="2" className="page-thirdproblem1">
               <div className="page-container16 zagolovkiskorobkoy">
                 <h3 className="zagolovki2">
@@ -292,7 +99,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <figure className="page-container18">
                   <img
-                    alt="тэн стиральной ма��ины"
+                    alt="тэ�� стиральной ма��ины"
                     src="/2/ten.webp"
                     loading="lazy"
                     className="page-image38230522"
@@ -388,7 +195,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Перекись водорода – хорошо известное и сильное средство против кровавых пятен. Оно окисляет компоненты крови, образуя пену и осветляя пятно. Аккуратно нанесите 3–6%-ю перекись на загрязнение (лучше через ватный диск или ватную пал��чку) и наблюдайте, как кровь «вспенивается». После нескольких минут, ког��а прореагировавшие остатки крови растворятся, смойте тёплой водой (остывшей, не горячей) и постирайте ткань. Ва��но помнить: перекись может осветлить или даже повредить цветную ткань, поэтому этот способ подходит только для белой или очень светлой одежды. Для деликатных тк��ней (шифон, шерсть) лучше обойтись другими методами.
+                  Перекись водорода – хорошо известное и с��льное средство против кровавых пятен. Оно окисляет компоненты крови, образуя пену и осветляя пятно. Аккуратно нанесите 3–6%-ю перекись на загрязнение (лучше через ватный диск или ватную пал��чку) и наблюдайте, как кровь «вспенивается». После нескольких минут, ког��а прореагировавшие остатки крови растворятся, смойте тёплой водой (остывшей, не горячей) и постирайте ткань. Ва��но помнить: перекись может осветлить или даже повредить цветную ткань, поэтому этот способ подходит только для белой или очень светлой одежды. Для деликатных тк��ней (шифон, шерсть) лучше обойтись другими методами.
                 </p>
               </div>
             </section>
@@ -428,14 +235,14 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Соль – доступное средство для удаления крови. Для начала можно приготовить солевой раствор (3–4 литра холодной воды и 50–60 г соли) и замочить вещь на 4–8 часов. Затем стирайте обычным способом. Также есть «сухой» вариант: обил��но посыпьте пятно поваренной солью, потрите мягкой щёткой и дайте соли впитаться 15–30 минут, затем смойте и постирайте. Такой метод подходит для б��лее крепких натуральных тканей. Аналогично работаю�� и содовые растворы: в 200 мл холодной воды растворите 10 г соды, нанесите на пятно, оставьте на 20–30 минут и сн��ва постирайте. Оба этих способа безопасны для цветных тканей и эффективны против свежих и средней давности пятен кр��ви.
+                  Соль – доступное средство для удаления крови. Для начала можно приготовить солевой ра��твор (3–4 литра холодной воды и 50–60 г соли) и замочить вещь на 4–8 часов. Затем стирайте обычным способом. Также есть «сухой» вариант: обил��но посыпьте пятно поваренной солью, потрите мягкой щёткой и дайте соли впитаться 15–30 минут, затем смойте и постирайте. Такой метод подходит для б��лее крепких натуральных тканей. Аналогично работаю�� и содовые растворы: в 200 мл холодной воды растворите 10 г соды, нанесите на пятно, оставьте на 20–30 минут и сн��ва постирайте. Оба этих способа безопасны для цветных тканей и эффективны против свежих и средней давности пятен кр��ви.
                 </p>
               </div>
             </section>
             <section id="4" className="page-fiveproblem1">
               <div className="page-container22 zagolovkiskorobkoy">
                 <h3 className="zagolovki2">
-                  5. Нашатырный спирт или ферментные средства
+                  5. Нашатырный ��пирт или ферментные средства
                 </h3>
                 <svg
                   width="330"
@@ -464,7 +271,7 @@ const Page = (props) => {
                     className="page-image38230522"
                   />
                   <span className="page-text19">
-                    <span>Модуль управления</span>
+                    <span>М��дуль управления</span>
                     <br></br>
                   </span>
                 </figure>
@@ -505,7 +312,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <p className="page-text49 vicetext">
                   {' '}
-                  Один из малоизвестных, но действенных методов – ис��ользование подогретого глицерина. Глицерин немного подогревают, пропитывают им ватный диск и растирают пятно с обеих сторон. Такой приём позволяет «распустить» застаревшие пятна крови. После обработки глицериновые остатки нужно тщательно смыть и постирать вещь. Хотя это немного парадоксальный метод (тепло обычно противопоказа��о!), глицерин действительно помогает вывести пятно без высоких температур.
+                  Один из малоизвестных, но действенных методов – ис��ользование подогретого глицерина. Глицерин немного подогревают, пропитывают им ватный диск и растирают пятно с обеих сторон. Такой приём ��озволяет «расп��стить» застаревшие пятна крови. После обработки глицериновые остатки нужно тщательно смыть и постирать вещь. Хотя это немного парадоксальный метод (тепло обычно противопоказа��о!), глицерин действительно помогает вывести пятно без высоких температур.
                   После любой обработки кровь лучше сразу постирать в холодной воде ��� так вы наверняка смоете все остатки. Если ткань очень деликатная или пятно очень старое, разумнее доверить вещь профессиональной химчистке: кровяные пятна считаются одними из самых сложных. Но обычно упомянутые домашние средства возвращают вещам чистоту без следов.
                   <span
                     dangerouslySetInnerHTML={{
@@ -515,201 +322,7 @@ const Page = (props) => {
                 </p>
               </div>
             </section>
-            <section className="page-better-call-master">
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon36"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon38"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon40"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon42"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon44"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon46"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon48"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon50"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <h2 className="page-text50">Когда вызывать мастера?</h2>
-              <p className="page-text51">
-                <span className="page-text52">
-                  Если вы выполнили все рекомендации, но проблема осталась —
-                  обратитесь в сервис
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="page-text53">&quot;</span>
-                <span className="page-text54">РемCтирМаш</span>
-                <span className="page-text55">&quot;</span>
-                <span className="page-text56">.</span>
-                <span className="page-text57">
-                  {' '}
-                  Наши специалисты быстро прие��ут к ва�� в желаемое вами время в
-                  любой район Одессы и выполнят качественную диагностику и
-                  ремонт.
-                </span>
-              </p>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon52"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <strong className="page-text58">Работаем без выходных</strong>
-              <div className="page-container28">
-                <div className="page-container29">
-                  <div className="page-container30">
-                    <img
-                      alt="image"
-                      src="/image%203823106.svg"
-                      className="page-image3"
-                    />
-                    <strong className="page-text59">+38 (048) 253-23-23</strong>
-                  </div>
-                  <div className="page-container31">
-                    <img
-                      alt="image"
-                      src="/image%203823107.svg"
-                      className="page-image4"
-                    />
-                    <strong className="page-text60">+38 (048) 123-35-21</strong>
-                  </div>
-                </div>
-                <OrderButton onClick={openModal} text="Заказать мастера" />
-              </div>
-            </section>
+            <CallMasterSection onOrderClick={openModal} />
             <PageNavigation
               prevPage={{
                 href: '/neslivaetvodu',
@@ -766,7 +379,7 @@ const Page = (props) => {
               <div className="page-frame12984">
                 <span className="page-text76">
                   Как ��экономить электричество и воду ��� реальные настройки и
-                  лайфхаки
+                  ла��фхаки
                 </span>
                 <div className="page-container48"></div>
               </div>

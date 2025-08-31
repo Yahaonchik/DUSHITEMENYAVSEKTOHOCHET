@@ -9,6 +9,7 @@ import OrderButton from '../components/OrderButton'
 import OrderModal from '../components/OrderModal'
 import Breadcrumbs from '../components/Breadcrumbs'
 import RelatedArticles from '../components/RelatedArticles'
+import AnchorLinksSection from '../components/AnchorLinksSection'
 import CallMasterSection from '../components/CallMasterSection'
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
@@ -60,212 +61,18 @@ const Page = (props) => {
                 <span className="page-text13">что делать?</span>
               </h1>
             </div>
-            <section className="page-container11">
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon10"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon12"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon14"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon16"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <strong className="page-text14">
-                <span>Стиральная машина не греет воду:</span>
-                <br></br>
-              </strong>
-              <ul className="page-ul list">
-                <li className="page-li2 list-item">
-                  <img alt="image" src="/vector.svg" className="page-image2" />
-                  <a href="#2" className="page-link2">
-                    Ос��овные причины поломки:
-                  </a>
-                </li>
-                <li className="page-li3 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector2"
-                  />
-                  <a href="#2" className="page-link3 ge">
-                    1. Поломка ТЭНА.
-                  </a>
-                </li>
-                <li className="page-li4 list-item ge">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector3"
-                  />
-                  <a href="#2-1" className="page-link4">
-                    2. Сломан датчик температу��ы (термостат)
-                  </a>
-                </li>
-                <li className="page-li5 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector4"
-                  />
-                  <a href="#2-2" className="page-link5 ge">
-                    3. Неисп��авен датчик уровня воды (��рессостат)
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#3" className="page-link6 ge">
-                    4. Повреждена электропроводка
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#4" className="page-link6 ge">
-                    5. Сбой ��ли поломка м��дуля управления
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#5" className="page-link6 ge">
-                    6. Невер��о выбран режим стирки
-                  </a>
-                </li>
-              </ul>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon18"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon20"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon22"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon24"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-            </section>
+            <AnchorLinksSection
+              title="Стиральная машина не греет воду:"
+              items={[
+                { icon: '/vector.svg', href: '#2', text: 'Ос��овные причины поломки:' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Поломка ТЭНА.' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2-1', text: '2. Сломан датчик температу��ы (термостат)' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2-2', text: '3. Неисп��авен датчик уровня воды (��рессостат)' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#3', text: '4. Повреждена электропроводка' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#4', text: '5. Сбой ��ли поломка м��дуля управления' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#5', text: '6. Невер��о выбран режим стирки' },
+              ]}
+            />
             <div className="page-container15">
               <h2 className="page-text34">
                 <span>Основные пр��чины поломки:</span>
@@ -310,7 +117,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Чащ�� всего причина кроется в самом нагревательном элем����нте (ТЭНе). Накипь или остатки моющего средства, оседа��щие на ТЭНе, уме��ьшают ег���� теплоотдачу и со временем приводят к перегоранию. Чтобы проверить ТЭН, испо��ьзуют мультиметр: у исправного сопротивление между выводами составляет около 20–40 ОМ. Если измерение показывает обрыв и��и короткое замы��ание, ТЭН однозначно нужно менять. Если же просто накопилась накипь, элемент вынимаю�� и очищают меха��ически (щёткой и��и абразивом) и раствором лимонной кислоты. После чистки проверяют нагрев повт��рно. Иными словам��, при выявлении дефектов ��ЭН заменяют новым. а при лёгких отложениях – очищают от налёта.
+                  Чащ�� всего причина кроется в самом нагревательном элем����нте (ТЭНе). Накипь или остатки моющего средства, оседа��щие на ТЭНе, уме��ьшают ег���� теплоотдачу и со временем приводят к перегоранию. Чтобы проверить ТЭН, испо��ьзуют мультиметр: у исправного сопротивление между выводами составляет около 20–40 ОМ. Если измерение показывает обрыв и��и короткое за��ы��ание, ТЭН однозначно нужно менять. Если же просто накопилась накипь, элемент вынимаю�� и очищают меха��ически (щёткой и��и абразивом) и раствором лимонной кислоты. После чистки проверяют нагрев повт��рно. Иными словам��, при выявлении дефектов ��ЭН заменяют новым. а при лёгких отложениях – очищают от налёта.
                 </p>
               </div>
             </section>
@@ -394,7 +201,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Прессостат (датчик уровн�� воды) сообщает моду���� управления о наполнении бака, и по сиг��алам датчика регулируется п��дача воды. Если прессостат забит или сломан, ��ашина может не начать нагревать воду – она не «увидит» необходимый уровень, чтобы включить ТЭН. Для прове��ки открывают переднюю панель и визуально осматривают трубку к прессоста��у (обычно видно под п��нелью или около насоса) на засор��� и перетяжки. Кроме того, прозванивают контакты датчика тестером. В большинстве случаев чистят внутреннюю трубку ��т гр��зи и мелкого мусора (н��пример, нитей или монет). Если же да��чик повреждён (нет реакци�� или неправильные показания), его заменяют новым
+                  Прессостат (датчик у��овн�� воды) сообщает моду���� управления о наполнении бака, и по сиг��алам датчика регулируется п��дача воды. Если прессостат забит или сломан, ��ашина может не начать нагревать воду – она не «увидит» необходимый уровень, чтобы включить ТЭН. Для прове��ки открывают переднюю панель и визуально осматривают трубку к прессоста��у (обычно видно под п��нелью или около насоса) на засор��� и перетяжки. Кроме того, прозванивают контакты датчика тестером. В большинстве случаев чистят внутреннюю трубку ��т гр��зи и мелкого мусора (н��пример, нитей или монет). Если же да��чик повреждён (нет реакци�� или неправильные показания), его заменяют новым
                 </p>
               </div>
             </section>
@@ -428,13 +235,13 @@ const Page = (props) => {
                     className="page-image38230522"
                   />
                   <span className="page-text19">
-                    <span>Поврежденная проводка</span>
+                    <span>Поврежденная проводк��</span>
                     <br></br>
                   </span>
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Часто бывает, чт�� клеммы или провода, идущие к ТЭНу и датчикам, ослабе��ают или окисляются. Например, плохой контакт на клеммах ТЭНа приводит к т��му, что элемент вообще не вклю��ается (или греется местно – проверяйте по почерневшей изоляции и оплавленным клеммам). Для диагнос����ики отключают машину от сети и мультиметром прозва��ивают всю ��епь питания ТЭНа и датчиков (исправный сигнал «должен быть», обрыв или короткое явно ук��жут на проблему). Визуально проверяют целостность проводов и коннекто��ов. При обнаружении плохого контакта или обрыв�� пров��дов провода меняют, а клеммы зачищают и плотно затягивают. После этого вновь ��роверяют нагрев – если проводка и вилка исправны, Т��Н ��нова н��чнёт греться.
+                  Часто бывает, чт�� клеммы или провода, идущие к ТЭНу и датчикам, ослабе��ают или окисляются. Например, плохой контакт на клеммах ТЭНа приводит к т��му, что элемент вообще не вклю��ается (или греется местно – проверяйте по почерневшей изоляции и оплавленным клеммам). Для диагнос����ики отключают машину от сети и мультиметром прозва��ивают всю ��епь питания ТЭНа и датчиков (исправный сигнал «должен быть», обрыв или короткое явно ук��жут на проблему). Визуально проверяют целостность проводов и коннекто��ов. При обнаружении плохого контакта или обрыв�� пров��дов провода меняют, а клеммы зачищают и плотно затягивают. ��осле этого вновь ��роверяют нагрев – если проводка и вилка исправны, Т��Н ��нова н��чнёт греться.
                 </p>
               </div>
             </section>
@@ -511,7 +318,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <p className="page-text49 vicetext">
                   {' '}
-                  Иногда причиной «холодн��й» стирки оказывается банальная оши��ка в настройках. Если выставлен режим быстрой или энергосберегающей стирки без подогрева (или выбран ми��имальный температурный режим), машина просто не включит ТЭН. Например, регулятор температуры на панели должен соответствовать выбранной программ��. Чтобы проверить, достаточно заново уста��овить режим с высоким подогревом (40–60 °C). После корректировки настроек проблема исчезнет – функция нагрева будет работать как положено. Такой простой совет иногда спасает до обращ��ния в сервис.
+                  Иногда причиной «холодн��й» стирки оказывается банальная оши��ка в настройках. Если выставлен режим быстрой или энергосберегающей стирки без подогрева (или выбран ми��имальный температурный режим), машина просто не включит ТЭН. Например, регулятор температуры на панели должен соответствовать выбранной программ��. Чтобы проверить, достаточно заново уста��овить режим с высоким подогревом (40–60 °C). После корректировки настроек проблема исчезнет – функция нагрева будет работать ка�� положено. Такой простой совет иногда спасает до обращ��ния в сервис.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -576,7 +383,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12984">
                 <span className="page-text76">
-                  Как ��экономить электричество и воду — реальные настройки и
+                  Как ��экономить электричество и воду — ��еальные настройки и
                   лайфхаки
                 </span>
                 <div className="page-container48"></div>

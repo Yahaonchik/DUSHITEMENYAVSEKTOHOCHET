@@ -5,10 +5,11 @@ import Header from '../components/Header'
 import MainFooter from '../components/MainFooter'
 import SEOHead from '../components/SEOHead'
 import PageNavigation from '../components/PageNavigation'
-import OrderButton from '../components/OrderButton'
 import OrderModal from '../components/OrderModal'
 import Breadcrumbs from '../components/Breadcrumbs'
 import RelatedArticles from '../components/RelatedArticles'
+import CallMasterSection from '../components/CallMasterSection'
+import AnchorLinksSection from '../components/AnchorLinksSection'
 import { getSEOData } from '../utils/seoConfig'
 import { getArticleStructuredData } from '../utils/structuredData'
 
@@ -54,212 +55,18 @@ const Page = (props) => {
                 </span>
               </h1>
             </div>
-            <section className="page-container11">
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon10"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon12"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon14"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon16"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <strong className="page-text14">
-                <span>Как правильно стирать ��уховик в автоматической стиральной машине?:</span>
-                <br></br>
-              </strong>
-              <ul className="page-ul list">
-                <li className="page-li2 list-item">
-                  <img alt="image" src="/vector.svg" className="page-image2" />
-                  <a href="#2" className="page-link2">
-                    Основные этапы:
-                  </a>
-                </li>
-                <li className="page-li3 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector2"
-                  />
-                  <a href="#2" className="page-link3 ge">
-                    1. Подготовка к стирке
-                  </a>
-                </li>
-                <li className="page-li4 list-item ge">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector3"
-                  />
-                  <a href="#2-1" className="page-link4">
-                    2. Выбор моющего средства
-                  </a>
-                </li>
-                <li className="page-li5 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector4"
-                  />
-                  <a href="#2-2" className="page-link5 ge">
-                    3. Режим стирки
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#3" className="page-link6 ge">
-                    4. Сушка пуховика
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#4" className="page-link6 ge">
-                    5. Сбой или поломка модуля управления
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#5" className="page-link6 ge">
-                    6. Невер��о выбран режим стирки
-                  </a>
-                </li>
-              </ul>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon18"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon20"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon22"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon24"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-            </section>
+            <AnchorLinksSection
+              title="Как правильно стирать пуховик в автоматической стиральной машине?:"
+              items={[
+                { icon: '/vector.svg', href: '#2', text: 'Основные этапы:' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Подготовка к стирке' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2-1', text: '2. Выбор моющего средства' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2-2', text: '3. Режим стирки' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#3', text: '4. Сушка пуховика' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#4', text: '5. Сбой или поломка модуля управления' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#5', text: '6. Неверно выбран режим стирки' },
+              ]}
+            />
             <section id="2" className="page-thirdproblem1">
               <div className="page-container16 zagolovkiskorobkoy">
                 <h3 className="zagolovki2">
@@ -340,7 +147,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Д��я пуховых изделий не ��одходят ��бычные агрессивные порошки – они плохо выполаскиваются и могут оставлять разводы. Лучше взять специальный гель ��ли жидкость для стирки пуховиков и деликатных тканей. Многие производители выпускают средства, предназначенные для пуховых курток. Если их нет, используйте гель для деликатной стирки или капсулы с жидким составом. От обычног�� порошка лучше отказаться – он может скапливаться внутри пухового наполнителя и собираться комками. Не добавляй��е кондиционер и отбеливатель при основной стирке, чтобы не нарушить структуру пуха.
+                  Д��я пуховых изделий не ��одходят ��бычные агрессивные порошки – они плохо выполаскиваются и могут оставлять разводы. Лучше взять специальный гель ��ли жидкость для стирки пуховиков и деликатных тканей. Многие производители выпускают средства, предназначенные для пуховых курток. Если их нет, используйте гель для деликатной стирки или капсулы с жидким составом. От обычног�� порошка лучше отказаться – он может скапливаться вн��три пухового наполнителя и собираться комками. Не добавляй��е кондиционер и отбеливатель при основной стирке, чтобы не нарушить структуру пуха.
                 </p>
               </div>
             </section>
@@ -382,7 +189,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Установите самую щадящую программу ��� «деликатная стирка», «шёлк», «шерсть» или «ручная». Вода должна быть холодной или тёплой (не выше 30–40 °C). Отжим либо отключите совсем, либо задайте очень низкие обороты (400–600 об/мин) – сильное отжимание может скатать пух в комки. Перед запуском положите в барабан 2–4 чистых теннисных мячика или специальные мячики для стирки пуховых вещей. Они помогут «переворачивать» и распушивать наполнитель во ��ремя стирки и отжима, не давая ему сбиться и скомкаться. Т��кже можно включить функцию двойного полоскания, чтобы полностью удалить моющие средства из структуры куртки. Жидкость с пухом сильно набухает, увеличивая свой объём и вес, поэтому стирайте пуховик по одному – загрузка двумя изделиями может нарушить работу машины и стирк��.
+                  Установите самую щадящую программу ��� «деликатная стирка», «шёлк», «шерсть» или «ручная». Вода должна быть холодной или тёплой (не выше 30–40 °C). Отжим либо отключите совсем, либо задайте очень низкие обороты (400–600 об/мин) – сильное отжимание может скатать пух в комки. Перед запуском положите в барабан 2–4 чистых теннисных мячик�� или специальные мячики для стирки пуховых вещей. Они помогут «переворачивать» и распушивать наполн��тель во ��ремя стирки и отжима, не давая ему сбиться и скомкаться. Т��кже можно включить функцию двойного полоскания, чтобы полностью удалить моющие средства из структуры куртки. Жидкость с пухом сильно набухает, увеличивая свой объём и вес, поэтому стирайте пуховик по одному – загрузка двумя изделиями может нарушить работу машины и стирк��.
                 </p>
               </div>
             </section>
@@ -422,7 +229,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  После стирк�� аккуратно достаньте пуховик из барабана. Если в вашей машине есть режим лёгкой сушки для деликатных вещей, и��пользуйте его с большим количеством тех же теннисных мячиков – это позволит частично высушить пух и уменьшить его слёживание. В домашних условиях сушить пуховик лучше горизонтально, на ровной поверхности. Разложите изделие на чистом полотенце или на вешалке, периодически встряхивая и переворачивая его, чтобы пух высыхал равномерно. Не сушите пухов��к на солнце и не ставьте на батарею – это может испортить и ткань, и наполнитель. Если пух сбился в комки п��сле стирки, акк��ратно разомните его руками по изнаночной стороне изделия: так наполнитель распустится и равномерно р��спределится по всему объёму. В крайнем с��учае можно воспользоваться низкопотенциальным пылесосом или мягкой щёткой, чтобы «расчистить» пух после полного высыхания.
+                  После стирк�� аккуратно достаньте пуховик из барабана. Если в вашей машине есть режим лёгкой сушки для деликатных вещей, и��польз��йте его с большим количеством тех же теннисных мячиков – это позволит частично высушить пух и уменьшить его слёживание. В домашних условиях сушить пуховик лучше горизонтально, на ровной поверхности. Разложите изделие на чистом полотенце или на вешалке, периодически встряхивая и переворачивая его, чтобы пух высыхал равномерно. Не сушите пухов��к на солнце и не ставьте на батарею – это может испортить и ткань, и наполнитель. Если пух сбился в комки п��сле стирки, акк��ратно разомните его руками по изнаночной стороне изделия: так наполнитель распустится и равномерно р��спределится по всему объёму. В крайнем с��учае можно воспользоваться низкопотенциальным пылесосом или мягкой щёткой, чтобы «расчистить» пух после полн��го высыхания.
                   После полного высыхания пуховик снова станет пышным и тёплым. Соблюдая эти простые правила – тщательную подготовку, щадящий режим и бережную сушку – вы продлите жизнь своей верхней одежде. Пуховик будет радовать своим видом не один сезон, а вы сэкономите время и деньги на химчистках.
                 </p>
               </div>
@@ -453,7 +260,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <figure className="page-container18">
                   <img
-                    alt="модуль управления"
+                    alt="мод��ль управления"
                     src="/1/plata.webp"
                     loading="lazy"
                     className="page-image38230522"
@@ -465,7 +272,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text46 vicetext">
                   {' '}
-                  Электронный блок управления (ЭБУ) — это «мо��г» машины. Если в нём выходят из строя силовы�� реле, повреждается плата или программируется ошибка, то команда на нагрев мож��т просто не подаваться. Распознать такую неисправность самостоятельно сложно: чаще всего на дисплее п��является соответствующий код, либо машина не реагирует на любые настройки. ��роверку и ремонт модуля обычно доверяют специалисту, однако ясно одно: п��и любой проблеме с платой подачу напряжения на ТЭН прекращают, и новая плата или ремонт старой полностью ре��ают проблему. Самостоятельно можно только убедиться, что напряжение в розетке подаётся и модули питания целы; для сложного ремонта платы лучше пригласить мастера.
+                  Электронный блок управления (ЭБУ) — это «мо��г» машины. Если в нём выходят из строя силовы�� реле, повреждается плата или программируется ошибка, то команда на нагрев мож��т просто не подаваться. Распознать такую неисправность самостоятельно сложно: чаще всего на дисплее п��является соответствующий код, либо машина не реагирует ��а любые настройки. ��роверку и ремонт модуля обычно доверяют специалисту, однако ясно одно: п��и любой проблеме с платой подачу напряжения на ТЭН прекращают, и новая плата или ремонт старой полностью ре��ают проблему. Самостоятельно можно только убедиться, что напряжение в розетке подаётся и модули питания целы; для сложного ремонта платы лучше пригласить мастера.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -500,7 +307,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <p className="page-text49 vicetext">
                   {' '}
-                  Иногда при��иной ��холодной» стирки оказывается банальная оши��ка в настройках. Если выставлен режи�� быстрой или энергосберегающей стирки без подогрева (или выбран ми��имал��ный температурный режим), машина просто не включит ТЭН. Например, регулятор температуры на панели ��олжен соответствовать выбранной программе. Чтобы проверить, достаточно заново установить режим с высоким подогревом (40–60 °C). После корректир��вки настроек проблема исчезнет – функция нагрева будет р��ботать как положено. Такой простой совет иногда спасает до обращ��ния в сервис.
+                  Иногда при��иной ��холодной» стирки оказывается банальная оши��ка в настройках. Если выставлен режи�� быстрой или энергосберегающей стирки без подогрева (или выбран ми��имал��ный температурный режим), машина просто не включит ТЭН. Например, регулятор температуры на панели ��олжен соответствовать выбранной программе. Чтобы проверить, достаточно заново установить режим с высоким подогревом (40–60 °C). После корректир��вки настроек проблема исчезнет – функция нагрева будет р��ботать как поло��ено. Такой простой совет иногда спасает до обращ��ния в сервис.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -509,201 +316,7 @@ const Page = (props) => {
                 </p>
               </div>
             </section>
-            <section className="page-better-call-master">
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon36"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon38"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon40"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon42"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon44"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon46"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon48"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon50"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <h2 className="page-text50">Когда вызывать мастер��?</h2>
-              <p className="page-text51">
-                <span className="page-text52">
-                  Если вы выполнили все реко��ендации, но проблема осталась —
-                  обратит��сь в сервис
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="page-text53">&quot;</span>
-                <span className="page-text54">РемCтирМаш</span>
-                <span className="page-text55">&quot;</span>
-                <span className="page-text56">.</span>
-                <span className="page-text57">
-                  {' '}
-                  Наши специалисты быстро прие��ут к ва�� в желаемое вами время в
-                  любой район Одессы и выполнят качественную диаг��остику и
-                  ремонт.
-                </span>
-              </p>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon52"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <strong className="page-text58">Работаем без выходных</strong>
-              <div className="page-container28">
-                <div className="page-container29">
-                  <div className="page-container30">
-                    <img
-                      alt="image"
-                      src="/image%203823106.svg"
-                      className="page-image3"
-                    />
-                    <strong className="page-text59">+38 (048) 253-23-23</strong>
-                  </div>
-                  <div className="page-container31">
-                    <img
-                      alt="image"
-                      src="/image%203823107.svg"
-                      className="page-image4"
-                    />
-                    <strong className="page-text60">+38 (048) 123-35-21</strong>
-                  </div>
-                </div>
-                <OrderButton onClick={openModal} text="Заказать мастера" />
-              </div>
-            </section>
+            <CallMasterSection onOrderClick={openModal} />
             <PageNavigation
               prevPage={{
                 href: '/neslivaetvodu',

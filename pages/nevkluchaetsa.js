@@ -9,6 +9,7 @@ import OrderButton from '../components/OrderButton'
 import OrderModal from '../components/OrderModal'
 import Breadcrumbs from '../components/Breadcrumbs'
 import RelatedArticles from '../components/RelatedArticles'
+import AnchorLinksSection from '../components/AnchorLinksSection'
 import CallMasterSection from '../components/CallMasterSection'
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
@@ -27,7 +28,7 @@ const Page = (props) => {
   const baseUrl = 'https://remstirmash.od.ua'
   const structuredData = getProblemPageStructuredData(
     'Ремонт стиральной машины которая не включается',
-    'Профессиональный ремонт с��иральных машин которые не включаются в Одессе. Диагностика блока питания, ремонт управления.',
+    'Профессиональный ремонт с��иральных маш��н которые не включаются в Одессе. Диагностика блока питания, ремонт управления.',
     `${baseUrl}/nevkluchaetsa`
   )
 
@@ -62,222 +63,19 @@ const Page = (props) => {
                 <span className="page-text13">что делать?</span>
               </h1>
             </div>
-            <section className="page-container11">
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon10"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon12"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon14"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <svg
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                height="17"
-                viewBox="0 0 10 20"
-                preserveAspectRatio="none"
-                className="page-icon16"
-              >
-                <circle
-                  r="3.75"
-                  cx="5"
-                  cy="10"
-                  fill="#606060"
-                  vectorEffect="non-scaling-stroke"
-                ></circle>
-              </svg>
-              <strong className="page-text14">
-                <span>Стиральная машина н�� включается:</span>
-                <br></br>
-              </strong>
-              <ul className="page-ul list">
-                <li className="page-li1 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector1"
-                  />
-                  <a href="#1" className="page-link1 ge">
-                    1. Что делать, если машина не включается?
-                  </a>
-                </li>
-                <li className="page-li2 list-item">
-                  <img alt="image" src="/vector.svg" className="page-image2" />
-                  <a href="#2" className="page-link2">
-                    Основные ��ричины поломки:
-                  </a>
-                </li>
-                <li className="page-li3 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector2"
-                  />
-                  <a href="#2" className="page-link3 ge">
-                    1. Нет питания
-                  </a>
-                </li>
-                <li className="page-li4 list-item ge">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector3"
-                  />
-                  <a href="#3" className="page-link4">
-                    2. Перегорел сетевой фильтр
-                  </a>
-                </li>
-                <li className="page-li5 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector4"
-                  />
-                  <a href="#4" className="page-link5 ge">
-                    3. Вы��ел из строя центральный модуль управления
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#5" className="page-link6 ge">
-                    4. ��зносились щётки ��вигателя
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#5-1" className="page-link6 ge">
-                    5. Неисправность замка люка (УБЛ)
-                  </a>
-                </li>
-                <li className="page-li6 list-item">
-                  <img
-                    alt="Vector8669"
-                    src="/external/vector8669-r6fr.svg"
-                    className="page-vector5"
-                  />
-                  <a href="#5-2" className="page-link6 ge">
-                    6. Неисправен впускной клапан или нет подачи воды
-                  </a>
-                </li>
-              </ul>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon18"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="330"
-                xmlns="http://www.w3.org/2000/svg"
-                height="20"
-                viewBox="0 0 330 20"
-                preserveAspectRatio="none"
-                className="page-icon20"
-              >
-                <path
-                  d="M0 10 H330"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon22"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-              <svg
-                width="20"
-                xmlns="http://www.w3.org/2000/svg"
-                height="110"
-                viewBox="0 0 20 110"
-                preserveAspectRatio="none"
-                className="page-icon24"
-              >
-                <path
-                  d="M10 0 V110"
-                  fill="none"
-                  stroke="#000000"
-                  strokeWidth="0.5"
-                  vectorEffect="non-scaling-stroke"
-                  strokeDasharray="11 11"
-                ></path>
-              </svg>
-            </section>
+            <AnchorLinksSection
+              title="Стиральная машина н�� включается:"
+              items={[
+                { icon: '/external/vector8669-r6fr.svg', href: '#1', text: '1. Что делать, если машина не включается?' },
+                { icon: '/vector.svg', href: '#2', text: 'Основные ��ричины поломки:' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#2', text: '1. Нет питания' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#3', text: '2. Перегорел сетевой фильтр' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#4', text: '3. Вы��ел из строя центральный модуль управления' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#5', text: '4. ��зносились щётки ��вигателя' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#5-1', text: '5. Неисправность замка люка (УБЛ)' },
+                { icon: '/external/vector8669-r6fr.svg', href: '#5-2', text: '6. Неисправен впускной клапан или нет подачи воды' },
+              ]}
+            />
             <section id="1" className="page-firstproblem">
               <div className="page-container12 zagolovkiskorobkoy">
                 <h2 className="zagolovki2">
@@ -327,7 +125,7 @@ const Page = (props) => {
 
                   <p>
                     <strong>3. Осмотрите дверцу.</strong><br />
-                    Откройте люк и закройте его заново до характерного щелчка. Иногда про��тое неп��отное закрытие блокирует пуск. Проверьте, не мешают ли защёлке посторонние предметы или грязь.
+                    Откройте люк и закройте его зано��о до характерного щелчка. Иногда про��тое неп��отное закрытие блокирует пуск. Проверьте, не мешают ли защёлке посторонние предметы или грязь.
                   </p>
 
                   <p>
@@ -558,7 +356,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Практически все стиралки блокируют дверцу перед стартом (из с��ображений безопасности). Если замок (Устройс��во Блокировки Люка, УБЛ) сломан или п����сто ��е фиксирует дверцу, машина не даст себя включить. Проявляется это тем, что при попытке старта ничего не происходит — машинка не отвечает на нажатия. На некоторых моделях на экране появляется код ошибки, с��язанный с дверцей: на��ример, LG выд��ёт «dE», Samsung — «DC». Часто бывает и просто «виснет»: люк не захлопну�� до конца. Попробуйте отк��ыть и затем сильно закрыть дверцу до ще��чка – иногда достаточно убедиться, что она плотно заперта. Если же замок д��йствительно сломан, ��го придётся заменить. Устройство состоит из микровыключателя и заслонки — ремонт нецелесообразен, заменять нужно весь узел. До замены машина работать н�� будет (ее «кидает»: ни вода не набирается, ни барабан ��е крутится).
+                  Практически все стиралки блокируют дверцу перед стартом (из с��ображений безопасности). Если замок (Устройс��во Блокировки Люка, УБЛ) сломан или п����сто ��е фиксирует д��ерцу, машина не даст себя включить. Проявляется это тем, что при попытке старта ничего не происходит — машинка не отвечает на нажатия. На некоторых моделях на экране появляется код ошибки, с��язанный с дверцей: на��ример, LG выд��ёт «dE», Samsung — «DC». Часто бывает и просто «виснет»: люк не захлопну�� до конца. Попробуйте отк��ыть и затем сильно закрыть дверцу до ще��чка – иногда достаточно убедиться, что она плотно заперта. Если же замок д��йствительно сломан, ��го придётся заменить. Устройство состоит из микровыключателя и заслонки — ремонт нецелесообразен, заменять нужно весь узел. До замены машина работать н�� будет (ее «кидает»: ни вода не набирается, ни барабан ��е крутится).
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -570,7 +368,7 @@ const Page = (props) => {
             <section id="5-2" className="page-fiveproblem2">
               <div className="page-container25 zagolovkiskorobkoy">
                 <h3 className="zagolovki2">
-                  6. Не��справен впускной клапан или не�� подачи воды
+                  6. Не��справен впускной клап��н или не�� подачи воды
                 </h3>
                 <svg
                   width="330"
@@ -602,7 +400,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Если индикаторы на панели загораются, но после включения программа не стартует, обр��тите внимание на подачу воды. Во время цикла маши��ка должна заблокировать люк и тут же начать залив воды. Если воды нет (или не подаётся), стирка ��е начнётся. Сначала проверьте, отк��ыт ли кран водо��набжения для машины и не пережат ли заливной шланг. Без наличия воды стиралка просто не запустится. Если с подачей воды вс�� в по��ядке, возможен отказ впускного (заливного) клапана. Это электромагнит, открывающий подачу воды при команде блока управлен��я. Признаки: ��ашинка ��локирует л����, пытается набрать воду (можно услышать гудение), но бак ��стаётся пустым. На дисплее может мигать ошибка «нет воды» (например, код H2O у Indesit или F02 у Bosch). Иногда заливается вода только на некоторые программы (например, полоскание) — это из-за того, что современные стиралки используют д����ойной клапан и может выходить из строя только один из его патрубков. Что делать: убедит��сь, что кран открыт и шланг не изогнут. Если вода есть, но машинка всё равно не набирает, скорее всего, впускной клапан неисправен или забит мусором. Нередко в корпусе клапана устанавливается мелкая сеточка-фильтр — её можно очистить. Если проверка не помогла, потребуется заменить клапан на новый. Это уже задача мастера: самост��ятельно без оп��т�� лучше не рисковать.
+                  Если индикаторы на панели загор��ются, но после включения программа не стартует, обр��тите внимание на подачу воды. Во время цикла маши��ка должна заблокировать люк и тут же начать залив воды. Если воды нет (или не подаётся), стирка ��е начнётся. Сначала проверьте, отк��ыт ли кран водо��набжения для машины и не пережат ли заливной шланг. Без наличия воды стиралка просто не запустится. Если с подачей воды вс�� в по��ядке, возможен отказ впускного (заливного) клапана. Это электромагнит, открывающий подачу воды при команде блока управлен��я. Признаки: ��ашинка ��локирует л����, пытается набрать воду (можно услышать гудение), но бак ��стаётся пустым. На дисплее может мигать ошибка «нет воды» (например, код H2O у Indesit или F02 у Bosch). Иногда заливается вода то��ько на некоторые программы (например, полоскание) — это из-за того, что современные стиралки используют д����ойной клапан и может выходить из строя только один из его патрубков. Что делать: убедит��сь, что кран открыт и шланг не изогнут. Если вода есть, но машинка всё равно не набирает, скорее всего, впускной клапан неисправен или забит мусором. Нередко в корпусе клапана устанавливается мелкая сеточка-фильтр — её можно очистить. Если проверка не помогла, потребуется заменить клапан на новый. Это уже задача мастера: самост��ятельно без оп��т�� лучше не рисковать.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -646,7 +444,7 @@ const Page = (props) => {
               <span className="page-text72">Вам будет интересно:</span>
               <div className="page-frame12981">
                 <span className="page-text73">
-                  Ошибки, которые приводят к до��огостоящему ремонту (и как их
+                  Ошибки, ко��орые приводят к до��огостоящему ремонту (и как их
                   избежать)
                 </span>
                 <div className="page-container45"></div>

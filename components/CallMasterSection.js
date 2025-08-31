@@ -4,7 +4,7 @@ import OrderButton from './OrderButton'
 const CallMasterSection = ({
   onOrderClick,
   title = 'Когда вызывать мастера?',
-  companyName = 'РемCтирМаш',
+  companyName = 'Ваше название',
   phones = [
     { icon: '/image%203823106.svg', number: '+38 (048) 253-23-23' },
     { icon: '/image%203823107.svg', number: '+38 (048) 123-35-21' },
@@ -58,14 +58,14 @@ const CallMasterSection = ({
           position: relative;
           max-width: 100%;
           box-shadow: 0px 0px 20px 3px #d4d4d4;
-          margin-top: var(--dl-layout-space-oneandhalfunits);
+          margin-top: 50px;
           min-height: 330px;
           align-items: center;
           padding: var(--dl-layout-space-twounits);
           border-radius: var(--dl-layout-radius-imageradius);
           flex-direction: column;
           justify-content: center;
-          background-color: #fdfdf0;
+          background-color: #fdfdf6;
         }
         .dot { position: absolute; width: 11px; height: auto; }
         .top-right { top: -21px; right: -14px; }
@@ -89,8 +89,9 @@ const CallMasterSection = ({
         .callout-text {
           color: rgba(39, 38, 38, 0.99);
           width: 100%;
-          max-width: 700px;
-          font-size: 15px;
+          max-width: 100%;
+          height: auto;
+          font-size: 16px;
           text-align: left;
           font-family: 'Nunito';
           font-weight: 400;
@@ -148,7 +149,7 @@ const CallMasterSection = ({
         @media (max-width: 479px) {
           .callout-container { max-width: 290px; padding-left: 15px; padding-right: 15px; }
           .callout-title { color: rgb(49, 49, 49); font-size: 18px; font-family: Roboto Serif; font-weight: 500; }
-          .callout-text { font-size: 14px; font-family: Noto Serif SC; }
+          .callout-text { font-size: 15px; font-family: 'Nunito'; }
         }
       `}</style>
     </section>
