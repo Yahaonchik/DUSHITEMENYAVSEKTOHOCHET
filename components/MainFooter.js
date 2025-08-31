@@ -41,7 +41,7 @@ const MainFooter = () => {
             <strong className="frame1196-text281">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: 'Наши контакты',
+                  __html: 'На��и контакты',
                 }}
               ></span>
             </strong>
@@ -562,7 +562,7 @@ const MainFooter = () => {
             }
 
             .frame1196-text288 {
-              color: #87ceeb;
+              color: #000000;
             }
 
           }

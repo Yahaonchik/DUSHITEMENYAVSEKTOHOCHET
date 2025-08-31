@@ -27,23 +27,24 @@ const AnchorLinksSection = ({
       <svg width="20" xmlns="http://www.w3.org/2000/svg" height="110" viewBox="0 0 20 110" preserveAspectRatio="none" className="dash left"><path d="M10 0 V110" fill="none" stroke="#000000" strokeWidth="0.5" vectorEffect="non-scaling-stroke" strokeDasharray="11 11"></path></svg>
 
       <style jsx>{`
-        .toc-container { position: relative; display: block; padding: var(--dl-layout-space-unit); background-color: #ffffff; border-radius: var(--dl-layout-radius-imageradius); box-shadow: 0 0 14px 2px #e7e7e7; margin: var(--dl-layout-space-unit) 0; }
+        .toc-container { position: relative; display: block; padding: var(--dl-layout-space-unit); background-color: #ffffff; border-radius: var(--dl-layout-radius-imageradius); box-shadow: 0 0 14px 2px #e7e7e7; margin: 0 0 var(--dl-layout-space-unit) 0; }
         .dot { position: absolute; width: 11px; height: auto; }
-        .tr { top: -12px; right: -10px; }
-        .br { right: -10px; bottom: -12px; }
-        .bl { left: -10px; bottom: -12px; }
-        .tl { top: -12px; left: -10px; }
+        .tr { top: -21px; right: -14px; }
+        .br { right: -15px; bottom: -20px; }
+        .bl { left: -15px; bottom: -20px; }
+        .tl { top: -21px; left: -14px; }
         .dash { position: absolute; }
-        .top { top: -10px; left: 0; width: 100%; height: 5px; }
-        .bottom { bottom: -10px; left: 0; width: 100%; height: 5px; }
-        .right { top: 0; right: -10px; width: 5px; height: 100%; }
-        .left { top: 0; left: -10px; width: 5px; height: 100%; }
+        .top { top: -12px; left: -1px; width: 100%; height: 5px; }
+        .bottom { bottom: -12px; left: -2px; width: 100%; height: 5px; }
+        .right { top: 0; right: -12px; width: 5px; height: 100%; }
+        .left { bottom: -3px; left: -12px; width: 5px; height: 100%; }
         .toc-title { color: var(--dl-color-theme-neutral-dark); font-size: 16px; font-family: 'Noto Serif SC'; font-weight: 400; display: inline-block; }
         .toc-list { list-style: none; padding: 0; margin: var(--dl-layout-space-halfunit) 0 0; display: grid; grid-template-columns: 1fr; gap: 6px; }
         .toc-item { display: flex; align-items: center; gap: 8px; }
-        .toc-icon { width: 16px; height: 16px; object-fit: contain; }
+        .toc-icon { width: 16px; height: 16px; object-fit: contain; transition: filter .2s ease; }
         .toc-link { color: #000; text-decoration: none; font-family: 'Nunito'; font-size: 15px; }
         .toc-link:hover { text-decoration: underline; }
+        .toc-item:hover .toc-icon { filter: invert(64%) sepia(66%) saturate(604%) hue-rotate(162deg) brightness(103%) contrast(101%); }
         @media (max-width: 479px) { .toc-title { font-size: 15px; } .toc-link { font-size: 14px; } }
       `}</style>
     </section>
