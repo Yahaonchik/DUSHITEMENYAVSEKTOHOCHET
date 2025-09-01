@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import WashingMachineAnimation from './WashingMachineAnimation'
 import { PHONE_TEL, PHONE_DISPLAY } from '../utils/contacts'
-import { useState, useEffect } from 'react'
 import dynamic from 'next/dynamic'
 const PhoneModal = dynamic(() => import('./PhoneModal'), { ssr: false })
 
@@ -270,7 +269,7 @@ const Header = () => {
               </div>
               <div className="frame1196-sidebar-address">
                 <span className="frame1196-sidebar-address-text">
-                  <span className="frame1196-sidebar-address-bold">Адрес:</span>
+                  <span className="frame1196-sidebar-address-bold">��дрес:</span>
                   <span className="frame1196-sidebar-address-normal"> пл. Независимости, 1, Одесса, Одесская область, 65000</span>
                 </span>
                 <span className="frame1196-sidebar-schedule">

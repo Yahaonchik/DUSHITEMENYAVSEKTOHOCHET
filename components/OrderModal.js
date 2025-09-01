@@ -191,12 +191,12 @@ const OrderModal = ({ isOpen, onClose, successVariant = 'screenAuto' }) => {
         .modal-description { font-size: 16px; line-height: 1.6; color: #666; margin-bottom: 40px; font-family: 'Nunito', sans-serif; }
         .order-form { display: flex; flex-direction: column; gap: 25px; flex: 1; }
         .form-group { display: flex; flex-direction: column; }
-        .form-input { padding: 20px; font-size: 18px; border: 2px solid #ddd; border-radius: 8px; background-color: #f9f9f9; transition: all 0.3s ease; outline: none; font-family: 'Nunito', sans-serif; }
+        .form-input { padding: 20px; font-size: 18px; border: 2px solid #ddd; border-radius: 8px; background-color: #f9f9f9; transition: background-color 0.2s ease, border-color 0.2s ease; outline: none; font-family: 'Nunito', sans-serif; }
         .phone-input-group { position: relative; }
         .phone-input-group .form-input { padding-left: 74px; }
         .phone-prefix { position: absolute; top: 50%; left: 18px; transform: translateY(-50%); color: #999; font-size: 18px; font-family: 'Nunito', sans-serif; pointer-events: none; }
         .phone-input-group:focus-within .phone-prefix { color: #000; }
-        .form-input:focus { border-color: #4EC8ED; background-color: white; box-shadow: 0 0 0 3px rgba(78, 200, 237, 0.1); }
+        .form-input:focus { background-color: #E8F0FE; border-color: #ddd; border-width: 1px; box-shadow: none; }
         .form-input::placeholder { color: #999; font-size: 16px; font-family: 'Nunito', sans-serif; }
         .submit-wrapper { margin-top: 20px; display: flex; justify-content: center; }
         .honeypot-input { display: none; }
