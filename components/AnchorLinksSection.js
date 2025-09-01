@@ -38,7 +38,7 @@ const AnchorLinksSection = ({
         .bottom { bottom: -12px; left: -2px; width: 100%; height: 5px; }
         .right { top: 0; right: -12px; width: 5px; height: 100%; }
         .left { bottom: -3px; left: -12px; width: 5px; height: 100%; }
-        .toc-title { color: var(--dl-color-theme-neutral-dark); font-size: 16px; font-family: 'Noto Serif SC'; font-weight: 400; display: inline-block; }
+        .toc-title { color: var(--dl-color-theme-neutral-dark); font-size: 15px; font-family: 'Noto Serif SC'; font-weight: 400; display: inline-block; }
         .toc-list { list-style: none; padding: 0; margin: calc(var(--dl-layout-space-halfunit) * 2) 0 0; display: grid; grid-template-columns: 1fr; gap: 6px; }
         .toc-item { display: flex; align-items: center; gap: 8px; }
         .toc-icon { width: 16px; height: 16px; object-fit: contain; transition: filter .2s ease; }
@@ -46,7 +46,7 @@ const AnchorLinksSection = ({
         .toc-link:hover { text-decoration: underline; }
         .toc-item:hover .toc-icon { filter: invert(64%) sepia(66%) saturate(604%) hue-rotate(162deg) brightness(103%) contrast(101%); }
         @media (max-width: 767px) { .toc-container { max-width: 400px; } }
-        @media (max-width: 479px) { .toc-container { max-width: 290px; padding-left: 15px; padding-right: 15px; } .toc-title { font-size: 18px; } .toc-link { font-size: 14px; } }
+        @media (max-width: 479px) { .toc-container { max-width: 290px; padding-left: 15px; padding-right: 15px; } .toc-title { font-size: 17px; } .toc-link { font-size: 14px; } }
       `}</style>
     </section>
   )

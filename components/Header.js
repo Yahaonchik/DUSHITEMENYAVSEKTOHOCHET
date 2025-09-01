@@ -130,8 +130,8 @@ const Header = () => {
                   />
                 </button>
                 <div className="frame1196-container109">
-                  <button type="button" className="frame1196-text104 phone-number" onClick={() => setPhoneOpen(true)}>{PHONE_DISPLAY}</button>
-                  <button type="button" className="frame1196-text105 phone-number" onClick={() => setPhoneOpen(true)}>{PHONE_DISPLAY}</button>
+                  <a href={`tel:${PHONE_TEL}`} className="frame1196-text104 phone-number">{PHONE_DISPLAY}</a>
+                  <a href={`tel:${PHONE_TEL}`} className="frame1196-text105 phone-number">{PHONE_DISPLAY}</a>
                 </div>
               </div>
               <div className="frame1196-container110">
@@ -263,8 +263,8 @@ const Header = () => {
                   />
                 </button>
                 <div className="frame1196-sidebar-phone-numbers">
-                  <button type="button" className="frame1196-sidebar-phone" onClick={() => setPhoneOpen(true)}>{PHONE_DISPLAY}</button>
-                  <button type="button" className="frame1196-sidebar-phone" onClick={() => setPhoneOpen(true)}>{PHONE_DISPLAY}</button>
+                  <a href={`tel:${PHONE_TEL}`} className="frame1196-sidebar-phone">{PHONE_DISPLAY}</a>
+                  <a href={`tel:${PHONE_TEL}`} className="frame1196-sidebar-phone">{PHONE_DISPLAY}</a>
                 </div>
               </div>
               <div className="frame1196-sidebar-address">
@@ -307,11 +307,11 @@ const Header = () => {
             .page-headertextwashermachine { margin-top: 66px !important; }
           }
 
-          /* Большие экраны: нижний отступ заголовочного блока 54px (было 60) */
+          /* Большие экраны: нижний отступ заголовочного блока 54px (��ыло 60) */
           @media (min-width: 992px) {
             .page-headertextwashermachine { margin-bottom: 54px !important; }
           }
-          /* Доп. диапазон для средних (768–1150): тот же отступ что у "Полезные статьи" */
+          /* Доп. диапазон для ��редни�� (768–1150): тот же отступ что у "Полезные статьи" */
           @media (min-width: 768px) and (max-width: 1150px) {
             .page-headertextwashermachine { margin-top: 24px !important; }
             .page-text10 { margin-top: 0 !important; }
@@ -547,7 +547,7 @@ const Header = () => {
             animation: phoneAnimation 5s infinite;
           }
           .phone-link { display: inline-flex; align-items: center; background: transparent; border: 0; padding: 0; cursor: pointer; }
-          .phone-number { background: transparent; border: 0; padding: 0; text-decoration: none; color: inherit; cursor: pointer; }
+          .phone-number { background: transparent; border: 0; padding: 0; text-decoration: none; color: inherit; cursor: pointer; user-select: text; -webkit-user-select: text; }
           .phone-number:hover { opacity: 0.9; }
           .frame1196-obshiy {
             gap: var(--dl-layout-space-threeunits);
@@ -941,6 +941,10 @@ const Header = () => {
             font-family: 'Roboto';
             font-weight: 400;
             letter-spacing: 1px;
+            text-decoration: none;
+            user-select: text;
+            -webkit-user-select: text;
+            cursor: text;
           }
 
           .frame1196-sidebar-address {
