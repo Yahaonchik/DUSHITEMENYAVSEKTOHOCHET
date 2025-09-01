@@ -46,7 +46,7 @@ const Header = () => {
 
   return (
     <>
-      {/* Изолированны�� контейн��р для хедера */}
+      {/* Изолированный контейнер для хедера */}
       <div className="header-component">
         <header className="frame1196-container101">
           <div className="frame1196-container102">
@@ -60,7 +60,7 @@ const Header = () => {
                 <span className="frame1196-text100 clickable-title">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Ваше назва��ие',
+                      __html: 'Ваше название',
                     }}
                   ></span>
                 </span>
@@ -102,7 +102,7 @@ const Header = () => {
                   <span className="frame1196-text102">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Выкуп б/у машин',
+                        __html: 'Выкуп б/у ма��ин',
                       }}
                     ></span>
                   </span>
@@ -113,7 +113,7 @@ const Header = () => {
                   <span className="frame1196-text103">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Ст��тьи',
+                        __html: 'Статьи',
                       }}
                     ></span>
                   </span>
@@ -269,7 +269,7 @@ const Header = () => {
               </div>
               <div className="frame1196-sidebar-address">
                 <span className="frame1196-sidebar-address-text">
-                  <span className="frame1196-sidebar-address-bold">��дрес:</span>
+                  <span className="frame1196-sidebar-address-bold">Адрес:</span>
                   <span className="frame1196-sidebar-address-normal"> пл. Независимости, 1, Одесса, Одесская область, 65000</span>
                 </span>
                 <span className="frame1196-sidebar-schedule">
@@ -284,7 +284,7 @@ const Header = () => {
 
       <style jsx global>
         {`
-          /* Глобальные стили для принужде���ия цвета в sidebar */
+          /* Глобальные стили для принуждения цвета в sidebar */
           .frame1196-sidebar-nav a {
             color: white !important;
             font-family: 'Roboto', sans-serif !important;
@@ -307,11 +307,11 @@ const Header = () => {
             .page-headertextwashermachine { margin-top: 66px !important; }
           }
 
-          /* Большие экраны: нижний отступ заголовочного блока 54px (��ыло 60) */
+          /* Большие экраны: нижний отступ заголовочного блока 54px (было 60) */
           @media (min-width: 992px) {
             .page-headertextwashermachine { margin-bottom: 54px !important; }
           }
-          /* Доп. диапазон для ��редни�� (768–1150): тот же отступ что у "Полезные статьи" */
+          /* Доп. диапазон для средних (768–1150): тот же отступ что у "Полезные статьи" */
           @media (min-width: 768px) and (max-width: 1150px) {
             .page-headertextwashermachine { margin-top: 24px !important; }
             .page-text10 { margin-top: 0 !important; }
@@ -374,7 +374,7 @@ const Header = () => {
             }
           }
 
-          /* Глобальные стили для сти��альной машины на мобильных */
+          /* Глобальные стили для стиральной машины на мобильных */
           @media (max-width: 479px) {
             .frame1196-image10.washing-machine-wrapper {
               position: absolute !important;
@@ -462,7 +462,7 @@ const Header = () => {
             width: 100%;
           }
 
-          /* Стили для ссылок */
+          /* Стили для ссыл��к */
           .frame1196-container105,
           .frame1196-container106,
           .frame1196-container107 {
@@ -476,7 +476,7 @@ const Header = () => {
             background-color: #87ceeb;
           }
 
-          /* Основные стили хе��ера */
+          /* Основные стили хедера */
           .frame1196-container101 {
             width: 100%;
             height: auto;
@@ -745,7 +745,7 @@ const Header = () => {
             position: absolute;
           }
 
-          /* С��или для бургер-меню */
+          /* Стили для бургер-меню */
           .frame1196-burger-menu {
             width: 35px;
             height: 35px;
@@ -783,7 +783,7 @@ const Header = () => {
             transform: rotate(-45deg) translate(6px, -6px);
           }
 
-          /* Сти��и для боковой панели */
+          /* Стили для боковой панели */
           .frame1196-sidebar {
             position: fixed;
             top: 0;
@@ -902,7 +902,7 @@ const Header = () => {
             color: #87ceeb !important;
           }
 
-          /* Стили ��ля контактной информации в sidebar */
+          /* Стили для контактной информации в sidebar */
           .frame1196-sidebar-contact {
             padding: 0 20px 20px 20px;
             margin-top: 30px;

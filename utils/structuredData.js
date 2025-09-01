@@ -173,7 +173,7 @@ export const getFAQData = (faqItems) => {
   }
 }
 
-// Организаци�� данные
+// Организационные данные
 export const getOrganizationData = () => {
   return {
     "@context": "https://schema.org",

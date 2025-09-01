@@ -42,7 +42,7 @@ const MainFooter = () => {
             <strong className="frame1196-text281">
               <span
                 dangerouslySetInnerHTML={{
-                  __html: 'На��и контакты',
+                  __html: 'Наши контакты',
                 }}
               ></span>
             </strong>
@@ -90,7 +90,7 @@ const MainFooter = () => {
               <strong className="frame1196-text287">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Оставьте заявку на бесплатный ��ыезд мастера',
+                    __html: 'Оставьте заявку на бесплатный выезд мастера',
                   }}
                 ></span>
               </strong>
@@ -127,7 +127,7 @@ const MainFooter = () => {
               <span className={`frame1196-text290 ${isArticlesPage ? 'frame1196-nav-active' : ''}`}>
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Статьи',
+                    __html: 'Стат��и',
                   }}
                 ></span>
               </span>
