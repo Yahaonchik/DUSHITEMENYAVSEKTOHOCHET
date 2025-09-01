@@ -159,7 +159,7 @@ const MainFooter = () => {
             padding-left: var(--dl-layout-space-threeunits);
             padding-right: var(--dl-layout-space-threeunits);
             flex-direction: column;
-            padding-bottom: var(--dl-layout-space-threeunits);
+            padding-bottom: calc(var(--dl-layout-space-threeunits) + env(safe-area-inset-bottom, 0px));
             justify-content: center;
             background-color: #faf8f6;
           }
@@ -452,7 +452,7 @@ const MainFooter = () => {
               height: 100%;
               min-height: auto;
               flex-direction: column;
-              padding-bottom: var(--dl-layout-space-threeunits);
+              padding-bottom: calc(var(--dl-layout-space-threeunits) + env(safe-area-inset-bottom, 0px));
             }
 
             .frame1196-container236 {
@@ -467,7 +467,7 @@ const MainFooter = () => {
             .frame1196-container229 {
               flex-wrap: wrap;
               padding-top: var(--dl-layout-space-oneandhalfunits);
-              padding-bottom: var(--dl-layout-space-oneandhalfunits);
+              padding-bottom: calc(var(--dl-layout-space-oneandhalfunits) + env(safe-area-inset-bottom, 0px));
             }
 
             .frame1196-container230 {

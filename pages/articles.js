@@ -129,6 +129,7 @@ const Articles = (props) => {
           .articles-container {
             width: 100%;
             min-height: 100vh;
+            min-height: 100dvh;
             background-color: #f8f9fa;
             font-family: 'Noto Serif SC', serif;
           }

@@ -306,7 +306,7 @@ const Page = (props) => {
             <section id="5-2" className="page-fiveproblem2-duplicate2">
               <div className="page-container25 zagolovkiskorobkoy">
                 <h3 className="zagolovki2">
-                  4. По����шипник�� и сальник
+                  4. По������шипник�� и сальник
                 </h3>
                 <svg
                   width="330"
@@ -432,6 +432,7 @@ const Page = (props) => {
             width: 100%;
             display: flex;
             min-height: 100vh;
+            min-height: 100dvh;
             align-items: center;
             flex-direction: column;
             background-color: #ffffff;

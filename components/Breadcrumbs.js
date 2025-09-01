@@ -29,7 +29,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
     const problemPages = {
       '/neslivaetvodu': 'Стиральная машина не сливает воду',
       '/negreetvodu': 'Стир��льная м��шина не греет воду',
-      '/protekaet': 'Стиральная машина пр��текает',
+      '/protekaet': 'Стирал��ная машина пр��текает',
       '/silnoshumit': 'С��иральная машина шумит при отжиме',
       '/nevkluchaetsa': 'Стиральн��я машина не включается',
       '/zavisaetnaprogramme': 'Стиральная машина зависает на программе',
@@ -62,12 +62,12 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
 
   const breadcrumbs = getBreadcrumbs()
 
-  const origin = typeof window !== 'undefined' ? window.location.origin : ''
+  const baseUrl = 'https://remstirmash.od.ua'
   const itemListElement = breadcrumbs.map((item, index) => ({
     '@type': 'ListItem',
     position: index + 1,
     name: item.name,
-    item: `${origin}${item.href}`
+    item: `${baseUrl}${item.href}`
   }))
   const jsonLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement }
 

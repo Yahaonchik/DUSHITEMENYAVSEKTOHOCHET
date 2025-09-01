@@ -124,9 +124,9 @@ const Frame1196 = (props) => {
           <article className="frame1196-cards">
             <Link href="/neslivaetvodu">
               <a className="frame1196-container113">
-                <h3 className="frame1196-text112">
+                <p className="frame1196-text112">
                   Ст��ральная машин�� не сливает воду
-                </h3>
+                </p>
                 <div className="frame1196-arrow10">
                   <svg
                     width="32"
@@ -145,9 +145,9 @@ const Frame1196 = (props) => {
             </Link>
             <Link href="/negreetvodu">
               <a className="frame1196-container114">
-                <h3 className="frame1196-text113">
+                <p className="frame1196-text113">
                   Стирал��ная машина не греет воду
-                </h3>
+                </p>
                 <div className="frame1196-arrow11">
                   <svg
                     width="32"
@@ -166,7 +166,7 @@ const Frame1196 = (props) => {
             </Link>
             <Link href="/protekaet">
               <a className="frame1196-container115">
-                <h3 className="frame1196-text114">С��ир��льная машина протекает</h3>
+                <p className="frame1196-text114">С��ир��льная машина протекает</p>
                 <div className="frame1196-arrow12">
                   <svg
                     width="32"
@@ -180,14 +180,14 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная ��ашина протекает" src="/problems 2/31-300h.webp" layout="fill" objectFit="cover" className="frame1196-image17" priority />
+                <Image alt="Стиральная ���ашина протекает" src="/problems 2/31-300h.webp" layout="fill" objectFit="cover" className="frame1196-image17" priority />
               </a>
             </Link>
             <Link href="/silnoshumit">
               <a className="frame1196-container116">
-                <h3 className="frame1196-text115">
+                <p className="frame1196-text115">
                   Стир��льная машина шумит при отжиме
-                </h3>
+                </p>
                 <div className="frame1196-arrow13">
                   <svg
                     width="32"
@@ -201,14 +201,14 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стиральная машина шумит при ��тжиме" src="/problems/4-300h.webp" layout="fill" objectFit="cover" className="frame1196-image18" priority />
+                <Image alt="Ст��ральная машина шумит при ��тжиме" src="/problems/4-300h.webp" layout="fill" objectFit="cover" className="frame1196-image18" priority />
               </a>
             </Link>
             <Link href="/nevkluchaetsa">
               <a className="frame1196-container117">
-                <h3 className="frame1196-text116">
+                <p className="frame1196-text116">
                   Стиральная машина не включает��я
-                </h3>
+                </p>
                 <div className="frame1196-arrow14">
                   <svg
                     width="32"
@@ -227,9 +227,9 @@ const Frame1196 = (props) => {
             </Link>
             <Link href="/zavisaetnaprogramme">
               <a className="frame1196-container118">
-                <h3 className="frame1196-text117">
+                <p className="frame1196-text117">
                   Стиральная машина зав��сает на прог����амме
-                </h3>
+                </p>
                 <div className="frame1196-arrow15">
                   <svg
                     width="32"
@@ -248,9 +248,9 @@ const Frame1196 = (props) => {
             </Link>
             <Link href="/neotjimaet">
               <a className="frame1196-container119">
-                <h3 className="frame1196-text118">
+                <p className="frame1196-text118">
                   Ст��ральна�� машина не отжимает
-                </h3>
+                </p>
                 <div className="frame1196-arrow16">
                   <svg
                     width="32"
@@ -269,9 +269,9 @@ const Frame1196 = (props) => {
             </Link>
             <Link href="/nenabiraetvodu">
               <a className="frame1196-container120">
-                <h3 className="frame1196-text119">
+                <p className="frame1196-text119">
                   Стиральная ма��ина не набирает воду
-                </h3>
+                </p>
                 <div className="frame1196-arrow17">
                   <svg
                     width="32"
@@ -290,9 +290,9 @@ const Frame1196 = (props) => {
             </Link>
             <Link href="/neotkrivaetsadverca">
               <a className="frame1196-container121">
-                <h3 className="frame1196-text120">
-                  У стиральной машин�� не открывается д���ерца
-                </h3>
+                <p className="frame1196-text120">
+                  У стиральной машин�� не открывается д����ерца
+                </p>
                 <div className="frame1196-arrow18">
                   <svg
                     width="32"
@@ -310,9 +310,9 @@ const Frame1196 = (props) => {
               </a>
             </Link>
             <a href="/nekrutitbaraban" className="frame1196-container122">
-              <h3 className="frame1196-text121">
+              <p className="frame1196-text121">
                 С��иральная машина не крутит бараб��н
-              </h3>
+              </p>
               <div className="frame1196-arrow19">
                 <svg
                   width="32"
@@ -333,7 +333,7 @@ const Frame1196 = (props) => {
         <section className="frame1196-container123">
           <p className="frame1196-text122">
             <span className="frame1196-text123">В </span>
-            <span className="frame1196-text124">Ваше название </span>
+            <span className="frame1196-text124">Ваше наз��ание </span>
             <span className="frame1196-text125"></span>
             <span className="frame1196-text126">
                мы заботимся о надёжной работе ваше��� т��хники во всех уголках
@@ -342,7 +342,7 @@ const Frame1196 = (props) => {
             <br className="frame1196-text127" />
             <span className="frame1196-text128">
               Профе��сио��ал���но устраняем любые неисправности стиральных машин —
-              от с��мых простых д�� самых сложных.
+              от с��мых просты�� д�� самых сложных.
             </span>
             <br className="frame1196-text129" />
             <span className="frame1196-text130">Просто ��озвоните или </span>
@@ -464,7 +464,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text134">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Бесплатный выезд специалиста в любой район города',
+                      __html: 'Бесплатный выезд специалиста в любой район горо��а',
                     }}
                   ></span>
                 </p>
@@ -570,7 +570,7 @@ const Frame1196 = (props) => {
                 <p className="frame1196-text138">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Не нужно ждать несколько дней - ваша техника заработает уже сегодня.',
+                      __html: 'Не нужно ждать несколько дней - ваша техника заработае�� уже сегодня.',
                     }}
                   ></span>
                 </p>
@@ -719,11 +719,11 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text147">2</span>
                 </div>
                 <span className="frame1196-text148">
-                  Д���агностика �������борудования (при ремонте)
+                  Д���агн��стика �������борудования (при ремонте)
                 </span>
               </div>
               <div className="frame1196-container139">
-                <span className="frame1196-text149">Бесплатно</span>
+                <span className="frame1196-text149">Бесп��атно</span>
                 <svg
                   width="100%"
                   xmlns="http://www.w3.org/2000/svg"
@@ -1064,7 +1064,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text175">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Устранение по��тороннего предмета из барабан��, филь��р�� и��и насоса',
+                        __html: 'Устранение по��тороннего предмета из барабан��, филь��р���� и��и насоса',
                       }}
                     ></span>
                   </span>
@@ -1209,7 +1209,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text187">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Замена ����нже���ы люка',
+                        __html: 'Замена ������нже���ы люка',
                       }}
                     ></span>
                   </span>
@@ -1496,7 +1496,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text211">18</span>
                 </div>
                 <span className="frame1196-text212">
-                  Замена подшипников( с учетом ст��имости по��шипников)
+                  Замена подшипн��ков( с учетом ст��имости по��шипников)
                 </span>
               </div>
               <div className="frame1196-container147">
@@ -1744,7 +1744,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="��емонт стиральны�� машин Candy в Одессе - профе��сиональный се��вис"
+                  alt="��емонт стиральны�� машин Candy в Одессе - профе��сиона��ьный се��вис"
                   src="/brands/candy-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image35"
@@ -1760,7 +1760,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт ��тира��ьных м��шин Gorenje в Одессе - п����фессиональн��й ��ервис"
+                  alt="Ремонт ��тира��ь��ых м��шин Gorenje в Одессе - п����фессиональн��й ��ервис"
                   src="/brands/gorenje-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image37"
@@ -1768,7 +1768,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Р��монт стира��ьных машин Ardo в О��ессе - проф��ссион����л��н����й се��вис"
+                  alt="Р����монт стира��ьных машин Ardo в О��ессе - проф��ссион����л��н����й се��вис"
                   src="/brands/image%203823123-200h.webp"
                   loading="eager"
                   className="frame1196-image38"
@@ -1784,7 +1784,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Р��м��нт стиральных м���шин Atlant в Одессе - профессиональ����ый сервис"
+                  alt="Р��м��нт стиральных м���шин Atlant в Одессе - пр��фессиональ����ый сервис"
                   src="/brands/image%203823126-200h.webp"
                   loading="eager"
                   className="frame1196-image40"
@@ -1792,7 +1792,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="����емонт стиральных машин Beko в Од��сс���� - пр������фессиональ����й ��ерви��"
+                  alt="����емонт стиральных машин Beko в Од����сс���� - пр������фессиональ����й ��ерви��"
                   src="/brands/image%203823127-200h.webp"
                   loading="eager"
                   className="frame1196-image41"
@@ -1808,7 +1808,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Miele в Од��ссе - пр��фессион���льный ��ер��ис"
+                  alt="Ремонт стиральных машин Miele в Од��ссе - пр��фессион���льный ����р��ис"
                   src="/brands/image%203823129-200h.webp"
                   loading="eager"
                   className="frame1196-image43"
@@ -1816,7 +1816,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стир���льных машин Indesit в ��дессе - профе����ион����льный серв���с"
+                  alt="Ремонт стир���льных ��ашин Indesit в ��дессе - профе����и��н����льный серв���с"
                   src="/brands/image%203823130-200h.webp"
                   loading="eager"
                   className="frame1196-image44"
@@ -1907,7 +1907,7 @@ to {transform: translateX(-2620px);}}
                 <h3 className="frame1196-text216">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Т��перь продать сти��аль��ую машину в Одессе - <span style="color: #FFD84D; font-weight: 700;">это не сло���но</span><span style="color: #FFD84D;">!</span>',
+                      __html: 'Т��перь продать сти��аль���ую машину в Одессе - <span style="color: #FFD84D; font-weight: 700;">это не сло���но</span><span style="color: #FFD84D;">!</span>',
                     }}
                   ></span>
                 </h3>
@@ -2014,7 +2014,7 @@ to {transform: translateX(-2620px);}}
                     <h3 className="frame1196-text218">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: 'Со����р��менное оборуд��ван��е по диагностике',
+                          __html: 'Со����р��менное оборуд��ван��е по д��агностике',
                         }}
                       ></span>
                     </h3>
@@ -2255,7 +2255,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text221">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Получаем нужные з��пчасти быстро, по выгодным ценам �� без ��ереплат.',
+                      __html: 'Получаем нужные з��пчасти быстро, по выгодным ценам �� без ��ерепл��т.',
                     }}
                   ></span>
                 </p>
@@ -2846,7 +2846,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text227">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'По��твержда��м надёжность ремонта длительным сроком гарантии.',
+                      __html: 'По��твержда���� надёжность ремонта длительным сроком гарантии.',
                     }}
                   ></span>
                 </p>
@@ -3068,7 +3068,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container185">
               <div className="frame1196-container186">
                 <figcaption className="frame1196-text229">
-                  Установка нового у�������лот����ителя две������ы стиралки Zanussi
+                  Установка нового у��������лот����ителя две������ы стиралки Zanussi
                 </figcaption>
               </div>
             </div>
@@ -3089,7 +3089,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container191">
               <div className="frame1196-container192">
                 <figcaption className="frame1196-text232">
-                  Устано���ка новой ��тулки уплотнит��ля
+                  Устано���ка новой ����улки уплотнит��ля
                 </figcaption>
               </div>
             </div>
@@ -3117,7 +3117,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container199">
               <div className="frame1196-container200">
                 <figcaption className="frame1196-text236">
-                  В���сстановление ����прав��яющей п��аты на Siemens
+                  В���сс��ановление ����прав��яющей п��аты на Siemens
                 </figcaption>
               </div>
             </div>
@@ -3324,7 +3324,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text242">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Н�� в��е виды работ даем га��антию 6 месяцев, на ����ам��н�����ные ��а���част�� - 1 год. ���ара��т��йный та��он выдается сразу после за��ершения ремонта',
+                      __html: 'Н�� в��е виды работ даем га��антию 6 месяцев, на ����ам��н�����ные ��а���част�� - 1 год. ���ара��т��йный та����он выдается сразу после за��ершения ремонта',
                     }}
                   ></span>
                 </p>
@@ -3477,7 +3477,7 @@ to {transform: translateX(-2620px);}}
               >
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Де��евле отремонтироват�� ��ли заменить?',
+                    __html: 'Де��евле отремонтироват�� ����и заменить?',
                   }}
                 ></span>
               </h3>
@@ -3486,7 +3486,7 @@ to {transform: translateX(-2620px);}}
                 <p className="frame1196-text248">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: 'Если стоимость р��мо���та превышает 60% ��т цены новой ����шины - ��учше заменить. Мы всегда честно консультиру��м ����� целесообразно���ти ��ем��нт���.',
+                      __html: 'Если стоимость р��мо���та п��евышает 60% ��т цены новой ����шины - ��учше заменить. Мы всегда честно консультиру��м ������ целесообразно���ти ��ем��нт���.',
                     }}
                   ></span>
                 </p>
@@ -3589,14 +3589,14 @@ to {transform: translateX(-2620px);}}
           <p className="frame1196-text251 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Ст��ральная машина — это те��ника, ко��орая должна работать исправно: отжима��ь, стирать и радовать стабильнос��ью. Н�� на практике даже самая над��жная техника со времен��м требует внимания. Механическ��е детали изнаш��ваются, электрони��а даёт с��ои, а ��ыто��ая нагрузка делает своё дело. Вот почему ремонт стиральных машин в Одессе — э��о не просто разовая ус��уга, а реальна���� необходимость для большинства владельцев. Важно доверить ремонт проверенным специалистам, а не случайному маст��ру.',
+                __html: 'Ст��ральная машина — это те��ника, ко��орая должна работать исправн��: отжима��ь, стирать и радовать стабильнос���ью. Н�� на практике даже самая над��жная техника со времен��м требует внимания. Механическ��е детали ��знаш��ваются, электрони��а даёт с��ои, а ��ыто��ая нагрузка делает своё дело. Вот почему ремонт стиральных ��ашин в Одессе — э��о не просто разовая ус��уга, а реальна���� необходимость для большинства владельцев. Важно доверить ремонт проверенным специалистам, а не случайному маст��ру.',
               }}
             ></span>
           </p>
           <p className="frame1196-text252 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Под брендом "Ваше Название"&nbsp;работа��т команда масте��ов, каждый из которых занимается ремонтом сти��альных машин боле�� семи лет. Мы обучались у лучших, прошли серт��фикацию, п��сещали техкурсы и накопили опыт работы с ��ехни����й лю��ых поколений. Сегодн�� мы предлагаем ремонт стирал��ных машин в Одессе с га��антией, использованием оригинальных з��пчасте�� и вниманием к каждой д��тали. В нашем распо��яжен��и — профессионально оснащённая мастерская, скл��д комплектующих и выездной сервис. М�� нахо��им даже редкие детали и точно знаем, как продлить жи��нь вашей технике.',
+                __html: 'Под брендом "Ваше Название"&nbsp;работа��т команда масте��ов, каждый из которых занимается ремонтом сти��альных машин боле�� семи лет. Мы обучались у лучших, прошли серт��фикацию, п��сещали техкурсы и нако��или опыт работы с ��ехни����й лю��ых поколений. Сегодн�� мы предлагаем ремонт стирал��ных машин в Одессе с га��антией, использованием оригинальных з��пчасте�� и вниманием к каждой д��тали. В нашем распо��яжен����и — профессионально оснащённая мастерская, скл��д комплектующих и выездной сервис. М�� нахо��им даже редкие детали и точно знаем, как продлить жи��нь вашей технике.',
               }}
             ></span>
           </p>
@@ -3612,7 +3612,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'На рынке ремонта бытово�� техники с 2011 года.',
+                    __html: 'Н�� рынке ремонта бытово�� техники с 2011 года.',
                   }}
                 ></span>
               </span>
@@ -3664,7 +3664,7 @@ to {transform: translateX(-2620px);}}
           <p className="frame1196-text260 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Ремонт с��иральных машин в Одессе необходим как новым, так и давно ис��ользованным моделям. Все узлы техники имеют ограниченный ресурс, и при активной эксплуатации однажды выходят из строя. Мы собрали самые частые причины, по которым клиенты обращаются в наш серви��:',
+                __html: 'Ремонт с��иральных машин в Одессе необходим как новым, так и давно ис��ользованным моделям. Все узлы техники имеют ограниченный ресурс, и при активной эксплуатации однажд�� выходят из строя. Мы собрали самые частые причины, по которым клиенты обращаю��ся в наш серви��:',
               }}
             ></span>
           </p>
@@ -3691,7 +3691,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Не запускает��я стирк����� — пр��веряем моду��ь управления или кнопку пи���ания.',
+                    __html: 'Не запускает��я стирк����� — пр��веряем моду��ь управления или кнопку пи�����ания.',
                   }}
                 ></span>
               </span>
@@ -3700,7 +3700,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Т��чёт корпус — уст����няе�� утечки, заменяем шланги, м��нжеты, ������т��убки.',
+                    __html: '����чёт корпус — уст����няе�� утечки, заменяем шланги, м��нжеты, ������т����убки.',
                   }}
                 ></span>
               </span>
@@ -3727,7 +3727,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Регулярное техобслуживан���� — профилакти��а раз в 12 месяцев продлевае�� срок ����ужбы.',
+                    __html: 'Регулярное тех��бслуживан���� — профилакти��а раз в 12 месяцев продлевае�� срок ����ужбы.',
                   }}
                 ></span>
               </span>
@@ -3757,7 +3757,7 @@ to {transform: translateX(-2620px);}}
           <p className="frame1196-text271 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Сервисный центр "Ваше назв��ние"&nbsp;— это современная профессиональная мастерская в Одессе, гд�� выполняются все виды ремонта: от быстрой замены де���алей до полн��го в��сстановления после серьёзных поломок. ��ы берёмся за любую тех��и��у: от массовых моделей до премиум-с��гмента.В����полняем замену амортизато��ов, подшипников, сл��вных насосов, управляющих модулей, датчиков, ТЭ��о��. Также восстанавливаем герметичность, меняем люки, устраняем вибрации и посторонние шумы. Проводим профилактику и г��убокую чистку бараб��на и бака.Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только после с��гласования с клиентом мы приступаем к рабо��е. Мы ценим доверие и работаем аккуратно — без спешки и халтуры.',
+                __html: 'Сервисный центр "Ваше назв��ние"&nbsp;— ��то совр��менная профессион��льная мастерская в Одессе, гд�� выполняются все виды ремонта: от быстрой замены де���алей до полн��го в��сстановления после серьёзных поломок. ��ы берёмся за любую тех��и��у: от массовых моделей до премиум-с��гмента.В����полняем замену амортизато��ов, подшипников, сл��вных насосов, управляющих модулей, датчиков, ТЭ��о��. Также восстанавливаем герметичность, меняем люки, устраняем вибрации и посторонние шумы. Проводим профилактику и г��убокую чистку бараб��на и бака.Каждый ремонт начинается с диагностики — мастер объясняет, в чём проблема, и предлагает решение. Только после с��гласования с клиентом мы приступаем к рабо��е. Мы ценим доверие и работаем аккуратно — без спешки �� ха��туры.',
               }}
             ></span>
           </p>
@@ -3771,7 +3771,7 @@ to {transform: translateX(-2620px);}}
           <p className="textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Ниже на сайте — карта про��зда к наш��й мастер��к��й, а также наши телефоны. Звоните для записи, консультации или если з��метили сбои в работе ��ашей стиральной ��ашины. Мы всё объясним, рассчитаем стоимость и поможем."Ваше название" — это ремонт стиральных машин �� Одессе быстро, надёжно и профессио���ально.',
+                __html: 'Ниже на сайте — карта про��зда к наш��й мастер��к��й, а также наши телефоны. Звоните для записи, консультации или если з��метили сбои в работе ��ашей стиральной ��ашины. Мы всё объясним, рассчитаем стоимость и поможем."Ваше название" — это ремонт стиральных машин �� Одесс�� быстро, надёжно и профессио���ально.',
               }}
             ></span>
           </p>
@@ -3819,8 +3819,8 @@ to {transform: translateX(-2620px);}}
               className="frame1196-frame10701"
             />
             <p className="frame1196-text276">
-              �� долбоеб. я не могу жит�� без стиралки, по��ому что ког��а она
-              с��ома���а �� ����е могу пла��ать на взрыд во время отжима.
+              �� долбоеб. я не могу жит�� без стиралки, по����ому что ког��а она
+              с��ома���а �� ����е могу пла����ть на взрыд во время отжима.
             </p>
             <svg
               width="330"
@@ -3972,7 +3972,7 @@ to {transform: translateX(-2620px);}}
             />
             <p className="frame1196-text278">
               &quot;Я считаю это победа над стиральной м��шино���, которой 12
-              лет))  О��ень круто!! ����лаг������арю!! Она пала в руки мастера и
+              лет))  О��ень круто!! ������лаг������арю!! Она пала в руки мастера и
               отдала��ь ем�� полностью, а н�� ст��ла бры���ать����. ��е зна��, что он т��м
               с ней делал, но сейчас он�� к��к шелковая стира��т мо�� ситцев�����е
               кружевно����� бел��е&lt;3&quot;
@@ -4272,6 +4272,7 @@ to {transform: translateX(-2620px);}}
             overflow: auto;
             position: relative;
             min-height: 100vh;
+            min-height: 100dvh;
             align-items: center;
             flex-direction: column;
             background-size: auto;
@@ -4331,10 +4332,14 @@ to {transform: translateX(-2620px);}}
             text-decoration: none;
           }
 
-          /* ��ерный цвет для заголовка когда нет фоновой картинки (на мобильных экранах) */
+          /* ��ерный цвет для заголовка когда нет фоновой ��артинки (на мобильных экранах) */
           @media (max-width: 767px) {
             .frame1196-text108 {
               color: #000000;
+            }
+            .frame1196-container112 {
+              margin-top: calc(var(--dl-layout-space-twounits) - 10px);
+              gap: calc(var(--dl-layout-space-threeunits) + 10px);
             }
           }
           .frame1196-text110 {
@@ -5093,7 +5098,7 @@ to {transform: translateX(-2620px);}}
               box-shadow: 0px 10px 20px 0px #d4d4d4 !important;
             }
 
-            /* У��еньшение ��азмера шрифта карточек на м��бильных экранах */
+            /* У��еньшение ��азмера шрифта ��арточек на м��бильных экранах */
             .frame1196-text112,
             .frame1196-text113,
             .frame1196-text114,
@@ -8706,7 +8711,7 @@ to {transform: translateX(-2620px);}}
             text-decoration: none;
           }
 
-          /* Hover э��фекты для навигации в футере */
+          /* Hover э���фекты для навигаци�� в футере */
           .frame1196-text288:hover,
           .frame1196-text289:hover,
           .frame1196-text290:hover {
@@ -8746,7 +8751,7 @@ to {transform: translateX(-2620px);}}
             position: absolute;
           }
 
-          /* У��ираем margin-bottom у блока с з��головком и кнопкой до 1618px */
+          /* У���ираем margin-bottom у блока с з��голо��ком и кнопкой до 1618px */
           @media (max-width: 1618px) {
             .frame1196-container112 {
               margin-bottom: 0px;
@@ -11142,8 +11147,8 @@ to {transform: translateX(-2620px);}}
               letter-spacing: 0.3px;
             }
             .frame1196-image57 {
-              width: 55px;
-              height: 56px;
+              width: 66px;
+              height: 62px;
               padding-top: 0px;
               margin-bottom: 0px;
             }

@@ -14,13 +14,11 @@ const SiteTagline = () => {
           width: 100%;
           text-align: center;
           font-family: Nunito;
-          font-size: 18px;
+          font-size: 16px;
           font-weight: 400;
-          line-height: normal;
+          line-height: 1.25;
           text-decoration: none;
-          margin: 10px 0;
-          margin-left: auto;
-          margin-right: auto;
+          margin: 8px auto;
           background: transparent !important;
           box-shadow: none !important;
           border: none !important;
@@ -33,11 +31,19 @@ const SiteTagline = () => {
           font-style: normal;
         }
 
+        @media (max-width: 991px) {
+          .site-tagline {
+            padding: 0 16px calc(50px + env(safe-area-inset-bottom, 0px)) 16px !important;
+          }
+        }
+
         @media (max-width: 479px) {
           .site-tagline {
-            max-width: 300px;
+            max-width: 100%;
             min-width: auto;
-            margin-top: 10px;
+            margin-top: 8px;
+            font-size: 14px;
+            line-height: 1.25;
           }
         }
       `}</style>

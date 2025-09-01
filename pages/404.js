@@ -7,6 +7,7 @@ const NotFound = (props) => {
       <div className="not-found-container1">
         <Head>
           <title>404 - Not Found</title>
+          <meta name="robots" content="noindex, nofollow" />
         </Head>
         <h3>OOPS! PAGE NOT FOUND</h3>
         <div className="not-found-container2">

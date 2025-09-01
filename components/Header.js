@@ -2,10 +2,15 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import WashingMachineAnimation from './WashingMachineAnimation'
+import { PHONE_TEL, PHONE_DISPLAY } from '../utils/contacts'
+import { useState, useEffect } from 'react'
+import dynamic from 'next/dynamic'
+const PhoneModal = dynamic(() => import('./PhoneModal'), { ssr: false })
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
+  const [phoneOpen, setPhoneOpen] = useState(false)
   const router = useRouter()
 
   useEffect(() => {
@@ -42,7 +47,7 @@ const Header = () => {
 
   return (
     <>
-      {/* Изолированный контейн��р для хедера */}
+      {/* Изолированны�� контейн��р для хедера */}
       <div className="header-component">
         <header className="frame1196-container101">
           <div className="frame1196-container102">
@@ -64,11 +69,13 @@ const Header = () => {
             </div>
           </div>
           <div className="frame1196-container104">
-            <img
-              alt="image"
-              src="/ICONS/dla%20hedera%20trubka.svg"
-              className="frame1196-image11"
-            />
+            <button type="button" aria-label={`Открыть контакты ${PHONE_DISPLAY}`} className="phone-link" onClick={() => setPhoneOpen(true)}>
+              <img
+                alt="Позвонить"
+                src="/ICONS/dla%20hedera%20trubka.svg"
+                className="frame1196-image11"
+              />
+            </button>
             <div
               className={`frame1196-burger-menu ${isMenuOpen ? 'frame1196-burger-open' : ''}`}
               onClick={toggleMenu}
@@ -116,26 +123,16 @@ const Header = () => {
             </div>
             <div className="frame1196-telephonadres">
               <div className="frame1196-container108">
-                <img
-                  alt="image"
-                  src="/ICONS/dla%20hedera%20trubka.svg"
-                  className="frame1196-image13"
-                />
+                <button type="button" aria-label={`Открыть контакты ${PHONE_DISPLAY}`} className="phone-link" onClick={() => setPhoneOpen(true)}>
+                  <img
+                    alt="Позвонить"
+                    src="/ICONS/dla%20hedera%20trubka.svg"
+                    className="frame1196-image13"
+                  />
+                </button>
                 <div className="frame1196-container109">
-                  <span className="frame1196-text104">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '+38 (067) 123-45-67',
-                      }}
-                    ></span>
-                  </span>
-                  <span className="frame1196-text105">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: '+38 (067) 123-45-67',
-                      }}
-                    ></span>
-                  </span>
+                  <button type="button" className="frame1196-text104 phone-number" onClick={() => setPhoneOpen(true)}>{PHONE_DISPLAY}</button>
+                  <button type="button" className="frame1196-text105 phone-number" onClick={() => setPhoneOpen(true)}>{PHONE_DISPLAY}</button>
                 </div>
               </div>
               <div className="frame1196-container110">
@@ -259,14 +256,16 @@ const Header = () => {
             </nav>
             <div className="frame1196-sidebar-contact">
               <div className="frame1196-sidebar-phones">
-                <img
-                  alt="image"
-                  src="/ICONS/dla%20hedera%20trubka.svg"
-                  className="frame1196-sidebar-phone-icon"
-                />
+                <button type="button" aria-label={`Открыть контакты ${PHONE_DISPLAY}`} className="phone-link" onClick={() => setPhoneOpen(true)}>
+                  <img
+                    alt="Позвонить"
+                    src="/ICONS/dla%20hedera%20trubka.svg"
+                    className="frame1196-sidebar-phone-icon"
+                  />
+                </button>
                 <div className="frame1196-sidebar-phone-numbers">
-                  <span className="frame1196-sidebar-phone">+38 (067) 123-45-67</span>
-                  <span className="frame1196-sidebar-phone">+38 (067) 123-45-67</span>
+                  <button type="button" className="frame1196-sidebar-phone" onClick={() => setPhoneOpen(true)}>{PHONE_DISPLAY}</button>
+                  <button type="button" className="frame1196-sidebar-phone" onClick={() => setPhoneOpen(true)}>{PHONE_DISPLAY}</button>
                 </div>
               </div>
               <div className="frame1196-sidebar-address">
@@ -286,7 +285,7 @@ const Header = () => {
 
       <style jsx global>
         {`
-          /* Глобальные стили для принужде��ия цвета в sidebar */
+          /* Глобальные стили для принужде���ия цвета в sidebar */
           .frame1196-sidebar-nav a {
             color: white !important;
             font-family: 'Roboto', sans-serif !important;
@@ -548,6 +547,9 @@ const Header = () => {
             object-fit: cover;
             animation: phoneAnimation 5s infinite;
           }
+          .phone-link { display: inline-flex; align-items: center; background: transparent; border: 0; padding: 0; cursor: pointer; }
+          .phone-number { background: transparent; border: 0; padding: 0; text-decoration: none; color: inherit; cursor: pointer; }
+          .phone-number:hover { opacity: 0.9; }
           .frame1196-obshiy {
             gap: var(--dl-layout-space-threeunits);
             display: flex;
@@ -1176,6 +1178,7 @@ const Header = () => {
           }
         `}
       </style>
+      <PhoneModal isOpen={phoneOpen} onClose={() => setPhoneOpen(false)} />
     </>
   )
 }

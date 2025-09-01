@@ -6,7 +6,7 @@ import SEOHead from '../components/SEOHead'
 import Breadcrumbs from '../components/Breadcrumbs'
 import SellModal from '../components/SellModal'
 import { getSEOData } from '../utils/seoConfig'
-import { getServiceData, getLocalBusinessData, getBreadcrumbData } from '../utils/structuredData'
+import { getServiceData, getLocalBusinessData } from '../utils/structuredData'
 import Image from 'next/image'
 
 const Vikup = (props) => {
@@ -19,15 +19,11 @@ const Vikup = (props) => {
   const baseUrl = 'https://remstirmash.od.ua'
   const serviceData = getServiceData(
     'Выкуп б/у стиральны�� машин',
-    'Выкупаем б/у стиральные машины в Одессе дорого. Любые марки и состояние.',
+    'Выкупа��м б/у стиральные машины в Одессе дорого. Любые марки и состояние.',
     `${baseUrl}/vikup`
   )
   const localBusinessData = getLocalBusinessData(`${baseUrl}/vikup`)
-  const breadcrumbData = getBreadcrumbData([
-    { name: 'Главная', url: `${baseUrl}/` },
-    { name: 'Выкуп б/у машин', url: `${baseUrl}/vikup` }
-  ])
-  const structuredData = [serviceData, localBusinessData, breadcrumbData]
+  const structuredData = [serviceData, localBusinessData]
 
   return (
     <>
@@ -670,6 +666,7 @@ const Vikup = (props) => {
             width: 100%;
             display: flex;
             min-height: 100vh;
+            min-height: 100dvh;
             align-items: center;
             flex-direction: column;
             background-color: #ffffff;
@@ -1483,10 +1480,11 @@ const Vikup = (props) => {
             .page1-container15 {
               gap: calc(var(--dl-layout-space-unit) - 6px);
               max-width: 290px;
-              padding-left: var(--dl-layout-space-unit);
+              padding-left: calc(var(--dl-layout-space-unit) - 12px);
               padding-right: 0px;
               flex-direction: column;
             }
+            .page1-image3 { width: 68px; }
             .page1-text29 {
               font-size: 14px;
               font-weight: 500;
@@ -1598,9 +1596,10 @@ const Vikup = (props) => {
               height: 100%;
               align-items: flex-start;
               padding-top: var(--dl-layout-space-twounits);
-              padding-left: var(--dl-layout-space-oneandhalfunits);
+              padding-left: calc(var(--dl-layout-space-oneandhalfunits) - 18px);
               padding-bottom: var(--dl-layout-space-unit);
             }
+            .page1-image3 { width: 68px; }
             .page1-container16 {
               gap: calc(var(--dl-layout-space-twounits) - 6px);
               padding-left: var(--dl-layout-space-halfunit);
