@@ -5,11 +5,13 @@ import Header from '../components/Header'
 import MainFooter from '../components/MainFooter'
 import SEOHead from '../components/SEOHead'
 import PageNavigation from '../components/PageNavigation'
-import OrderModal from '../components/OrderModal'
+const OrderModal = dynamic(() => import('../components/OrderModal'), { ssr: false })
 import Breadcrumbs from '../components/Breadcrumbs'
-import RelatedArticles from '../components/RelatedArticles'
+import dynamic from 'next/dynamic'
+const RelatedArticles = dynamic(() => import('../components/RelatedArticles'))
 import AnchorLinksSection from '../components/AnchorLinksSection'
-import CallMasterSection from '../components/CallMasterSection'
+const CallMasterSection = dynamic(() => import('../components/CallMasterSection'))
+import InterestingAside from '../components/InterestingAside'
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
 
@@ -27,7 +29,7 @@ const Page = (props) => {
   const baseUrl = 'https://remstirmash.od.ua'
   const structuredData = getProblemPageStructuredData(
     'Ремонт стиральной машины которая не крутит барабан',
-    'Профессиональ��ый ремонт стиральных машин с неработающим барабаном в Одессе. Замена ремня, ремонт двигателя.',
+    'Профессиональ��ый ремонт стиральных машин �� неработающим барабаном в Одессе. Замена ремня, ремонт двигателя.',
     `${baseUrl}/nekrutitbaraban`
   )
 
@@ -136,7 +138,7 @@ const Page = (props) => {
                     Включите любой короткий цикл (например, «хлопок») на обычной
                     мощности без загрузки белья. Проследите, начнётся ли
                     вращение барабана на этапе отжима. Если барабан по-прежнему
-                    не вращается, это укажет на неисправность механизма.
+                    не вращ��ется, это укажет на неисправность механизма.
                   </p>
                 </div>
               </div>
@@ -287,7 +289,7 @@ const Page = (props) => {
                   В коллекторных двигателях со врем��нем изнашиваются угольные
                   щётки, и при плохом контакте мотор теряет мощность или вообще
                   не ��апу��кается; иногда слышен только гул мотора без д��ижения
-                  барабана, а при серьёзном ��овреждении обмоток возможен и
+                  барабана, а при серьёзном ��овреждении ��бмоток возможен и
                   полный отказ. При подоз����нии на изн��с щёток или внутренние
                   проблемы мотор�� самостоятельный р��монт не рекомендуется —
                   точную диагн��стику и замену выполняет мастер, который пров��рит
@@ -340,7 +342,7 @@ const Page = (props) => {
                 <p className="page-text49 vicetext">
                   {' '}
                   Отказ платы управления, неисправность та��одатчика или ��ругих
-                  сенсоров может приводить к тому, что контроллер не получает
+                  сенсоров может пр��водить к тому, что контрол��ер не получает
                   корректных данных о поло��ении и оборотах барабана и блокирует
                   отжим; проявления варьирую��ся от мигающих ошибок на д��сплее до
                   полной не��аботос��особности на отдельных этапах. В таких
@@ -387,8 +389,8 @@ const Page = (props) => {
             </svg>
             <RelatedArticles />
           </div>
-          <div className="page-dops-info">
-            <section className="page-frame1299">
+          <div className="page-dops-info"><InterestingAside />
+            <section className="page-frame1299" style={{display:"none"}}>
               <span className="page-text72">Вам будет ��нтересно:</span>
               <div className="page-frame12981">
                 <span className="page-text73">

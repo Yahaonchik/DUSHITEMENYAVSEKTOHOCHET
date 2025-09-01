@@ -3,7 +3,7 @@ import OrderButton from './OrderButton'
 
 const CallMasterSection = ({
   onOrderClick,
-  title = 'Когда вызывать мастера?',
+  title = 'Ког��а вызывать мастера?',
   companyName = 'Ваше название',
   phones = [
     { icon: '/image%203823106.svg', number: '+38 (048) 253-23-23' },
@@ -11,6 +11,11 @@ const CallMasterSection = ({
   ],
   buttonText = 'Заказать мастера',
 }) => {
+  const toTelHref = (s) => {
+    const digits = s.replace(/\D+/g, '');
+    const leadPlus = s.trim().startsWith('+') ? '+' : '';
+    return `tel:${leadPlus}${digits}`;
+  };
   return (
     <section className="callout-container" aria-label={title}>
       {/* corner dots */}
@@ -42,7 +47,7 @@ const CallMasterSection = ({
           {phones.map((p, idx) => (
             <div className="phone-item" key={idx}>
               <img alt="phone" src={p.icon} className="phone-icon" />
-              <strong className="phone-number">{p.number}</strong>
+              <a href={toTelHref(p.number)} className="phone-number" aria-label={`Позвонить по номеру ${p.number}`}>{p.number}</a>
             </div>
           ))}
         </div>
@@ -142,14 +147,23 @@ const CallMasterSection = ({
           text-align: left;
           font-family: 'Noto Serif SC';
           font-weight: 400;
+          text-decoration: none;
         }
         @media (max-width: 767px) {
           .callout-container { max-width: 400px; }
+          .contacts-row { gap: calc(var(--dl-layout-space-unit) * 2); }
+          .top { left: 1px; }
+          .bottom { left: 0px; }
         }
         @media (max-width: 479px) {
           .callout-container { max-width: 290px; padding-left: 15px; padding-right: 15px; }
-          .callout-title { color: rgb(49, 49, 49); font-size: 18px; font-family: Roboto Serif; font-weight: 500; }
-          .callout-text { font-size: 15px; font-family: 'Nunito'; }
+          .callout-title { color: rgb(49, 49, 49); font-size: 17px; font-family: Roboto Serif; font-weight: 500; }
+          .callout-text { font-size: 14px; font-family: 'Nunito'; }
+          .workdays { font-size: 15px; }
+          .phone-number { font-size: 17px; }
+          .contacts-row { gap: calc(var(--dl-layout-space-unit) * 2 - 3px); }
+          .top { left: 1px; }
+          .bottom { left: 0px; }
         }
       `}</style>
     </section>

@@ -45,6 +45,7 @@ const Features1 = (props) => {
                 <img
                   alt={props.feature1ImageAlt}
                   src={props.feature1ImageSrc}
+                  loading="lazy"
                   className="thq-img-ratio-4-3 features1-feature1-image"
                 />
                 <div className="features1-content2 thq-flex-column">
@@ -74,6 +75,7 @@ const Features1 = (props) => {
                 <img
                   alt={props.feature2ImageAlt}
                   src={props.feature2ImageSrc}
+                  loading="lazy"
                   className="thq-img-ratio-4-3 features1-feature2-image"
                 />
                 <div className="features1-content3 thq-flex-column">
@@ -102,6 +104,7 @@ const Features1 = (props) => {
                 <img
                   alt={props.feature3ImageAlt}
                   src={props.feature3ImageSrc}
+                  loading="lazy"
                   className="thq-img-ratio-4-3 features1-feature3-image"
                 />
                 <div className="features1-content4 thq-flex-column">

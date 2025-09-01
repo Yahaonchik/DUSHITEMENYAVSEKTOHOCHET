@@ -102,6 +102,7 @@ const Blue2 = (props) => {
             <img
               alt={props.imageAlt}
               src={props.imageSrc}
+              loading="lazy"
               className="blue2-image"
             />
             <strong className="blue2-text4">

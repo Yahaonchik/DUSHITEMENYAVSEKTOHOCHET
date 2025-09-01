@@ -5,11 +5,13 @@ import Header from '../components/Header'
 import MainFooter from '../components/MainFooter'
 import SEOHead from '../components/SEOHead'
 import PageNavigation from '../components/PageNavigation'
-import OrderModal from '../components/OrderModal'
+const OrderModal = dynamic(() => import('../components/OrderModal'), { ssr: false })
 import Breadcrumbs from '../components/Breadcrumbs'
-import RelatedArticles from '../components/RelatedArticles'
+import dynamic from 'next/dynamic'
+const RelatedArticles = dynamic(() => import('../components/RelatedArticles'))
 import AnchorLinksSection from '../components/AnchorLinksSection'
-import CallMasterSection from '../components/CallMasterSection'
+const CallMasterSection = dynamic(() => import('../components/CallMasterSection'))
+const InterestingAside = dynamic(() => import('../components/InterestingAside'), { ssr: false })
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
 
@@ -115,7 +117,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Многие модели оснащены функцией «Child Lock», которая предотвращает ��лучайное открытие люка в�� время работы. Если эта блокировка активна, дверца не откроется, и на панели обычно горит ��оответствующая пикт��грамма. В таком случае нужно отключить функцию в соответствии с инструкцией к вашей модели — не пытайтесь тянуть дверцу силой, сначала снимит�� защиту.
+                  Многие модели оснащены функцией «Child Lock», которая предотвращает ��лучайное открытие люка в�� время работы. Если эта блокировка активна, дверца ��е откроется, и на панели обычно горит ��оответствующая пикт��грамма. В таком случае нужно отключить функцию в соответствии с инструкцией к вашей модели — не пытайтесь тянуть дверцу силой, сначала снимит�� защиту.
                 </p>
               </div>
             </section>
@@ -151,7 +153,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Машина ��е разблок��рует люк, пока в баке остаётся ��ода, это предохраняет от подтопления. Если цикл был прерван или не завершился, в барабане может остаться вода и блокировка не снимется даже после звукового сигнала об окончании. В такой ситуации попробуйте восстановить нормальную процедуру слива или дождаться автоматического завершения цикла; не дергайте дверцу насильно.
+                  Машина ��е ��азблок��рует люк, пока в баке остаётся ��ода, это предохраняет от подтопления. Если цикл был прерван или не завершился, в барабане может остаться вода и блокировка не снимется даже после звукового сигнала об окончании. В такой ситуации попробуйте восстановить нормальную процедуру слива или дождаться автоматического завершения цикла; не дергайте дверцу насильно.
                 </p>
               </div>
             </section>
@@ -234,7 +236,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Внезапные перебои с питанием или ошибки в модуле управления могут приводить к «замораживанию» замка люка: кон��роллер просто не получает и��и не обрабатывает команду н�� разблокир��в��у. Иногда помогает полная перезагрузка питания, в иных случаях требуе��ся диагностика и ремонт электронной час��и в сервисном центре.
+                  Внезапные перебои с питанием или ошибки в модуле управления могут п��иводить к «замораживанию» замка люка: кон��роллер просто не получает и��и не обрабатывает команду н�� разблокир��в��у. Иногда помогает полная перезагрузка питания, в иных случаях требуе��ся диагностика и ремонт электронной час��и в сервисном центре.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -308,12 +310,12 @@ const Page = (props) => {
             </svg>
             <RelatedArticles />
           </div>
-          <div className="page-dops-info">
-            <section className="page-frame1299">
+          <div className="page-dops-info"><InterestingAside />
+            <section className="page-frame1299" style={{display:"none"}}>
               <span className="page-text72">Вам будет интересно:</span>
               <div className="page-frame12981">
                 <span className="page-text73">
-                  Ошибк��, котор��е приводят к д��рогостоящему ремонту (и как их
+                  Ошиб����, котор��е приводят к д��рогостоящему ремонту (и как их
                   изб��жать)
                 </span>
                 <div className="page-container45"></div>
@@ -321,7 +323,7 @@ const Page = (props) => {
               <div className="page-frame12982">
                 <span className="page-text74">
                   К��к продлить жизнь машине на 3–5 лет — простые привычки,
-                  которые сэкономят деньги
+                  которые сэконо��ят деньги
                 </span>
                 <div className="page-container46"></div>
               </div>
@@ -347,7 +349,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12986">
                 <span className="page-text78">
-                  Мифы о стиралках: что правда, а что — вым��сел?
+                  Мифы о стир��лках: что правда, а что — вым��сел?
                 </span>
                 <div className="page-container50"></div>
               </div>

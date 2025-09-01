@@ -119,7 +119,6 @@ const Vikup = (props) => {
                   layout="fill"
                   objectFit="cover"
                   className="page1-image2"
-                  priority
                 />
               </div>
             </div>

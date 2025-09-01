@@ -45,7 +45,8 @@ const AnchorLinksSection = ({
         .toc-link { color: #000; text-decoration: none; font-family: 'Nunito'; font-size: 15px; }
         .toc-link:hover { text-decoration: underline; }
         .toc-item:hover .toc-icon { filter: invert(64%) sepia(66%) saturate(604%) hue-rotate(162deg) brightness(103%) contrast(101%); }
-        @media (max-width: 479px) { .toc-title { font-size: 15px; } .toc-link { font-size: 14px; } }
+        @media (max-width: 767px) { .toc-container { max-width: 400px; } }
+        @media (max-width: 479px) { .toc-container { max-width: 290px; padding-left: 15px; padding-right: 15px; } .toc-title { font-size: 18px; } .toc-link { font-size: 14px; } }
       `}</style>
     </section>
   )

@@ -9,7 +9,8 @@ import Blue2 from '../components/blue2'
 import Blue1 from '../components/blue1'
 import Header from '../components/Header'
 import MainFooter from '../components/MainFooter'
-import OrderModal from '../components/OrderModal'
+import dynamic from 'next/dynamic'
+const OrderModal = dynamic(() => import('../components/OrderModal'), { ssr: false })
 import Image from 'next/image'
 import QuestionModal from '../components/QuestionModal'
 import OrderButton from '../components/OrderButton'
@@ -160,7 +161,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <Image alt="Стираль������я машина не нагревает воду" src="/problems 2/21-300h.webp" layout="fill" objectFit="cover" className="frame1196-image16" priority />
+                <Image alt="Стира��ь������я машина не нагревает воду" src="/problems 2/21-300h.webp" layout="fill" objectFit="cover" className="frame1196-image16" priority />
               </a>
             </Link>
             <Link href="/protekaet">
@@ -769,7 +770,7 @@ const Frame1196 = (props) => {
                   <span className="frame1196-text151">3</span>
                 </div>
                 <span className="frame1196-text152">
-                  Диагност��ка о��о��удования (при отказе ���� ремонта)
+                  Диагност��ка о��о���удования (при отказе ���� ремонта)
                 </span>
               </div>
               <div className="frame1196-container143">
@@ -1815,7 +1816,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стир��льных машин Indesit в ��дессе - профе����ион����льный серв���с"
+                  alt="Ремонт стир���льных машин Indesit в ��дессе - профе����ион����льный серв���с"
                   src="/brands/image%203823130-200h.webp"
                   loading="eager"
                   className="frame1196-image44"
@@ -2013,7 +2014,7 @@ to {transform: translateX(-2620px);}}
                     <h3 className="frame1196-text218">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: 'Со����р��менное оборуд��вание по диагностике',
+                          __html: 'Со����р��менное оборуд��ван��е по диагностике',
                         }}
                       ></span>
                     </h3>
@@ -3067,7 +3068,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container185">
               <div className="frame1196-container186">
                 <figcaption className="frame1196-text229">
-                  Установка нового у�������лот����ителя двер����ы стиралки Zanussi
+                  Установка нового у�������лот����ителя две������ы стиралки Zanussi
                 </figcaption>
               </div>
             </div>
@@ -3588,7 +3589,7 @@ to {transform: translateX(-2620px);}}
           <p className="frame1196-text251 textITOGI">
             <span
               dangerouslySetInnerHTML={{
-                __html: 'Ст��ральная машина — это те��ника, ко��орая должна работать исправно: отжимать, стирать и радовать стабильнос��ью. Н�� на практике даже самая над��жная техника со времен��м требует внимания. Механическ��е детали изнаш��ваются, электрони��а даёт с��ои, а ��ыто��ая нагрузка делает своё дело. Вот почему ремонт стиральных машин в Одессе — э��о не просто разовая ус��уга, а реальна���� необходимость для большинства владельцев. Важно доверить ремонт проверенным специалистам, а не случайному маст��ру.',
+                __html: 'Ст��ральная машина — это те��ника, ко��орая должна работать исправно: отжима��ь, стирать и радовать стабильнос��ью. Н�� на практике даже самая над��жная техника со времен��м требует внимания. Механическ��е детали изнаш��ваются, электрони��а даёт с��ои, а ��ыто��ая нагрузка делает своё дело. Вот почему ремонт стиральных машин в Одессе — э��о не просто разовая ус��уга, а реальна���� необходимость для большинства владельцев. Важно доверить ремонт проверенным специалистам, а не случайному маст��ру.',
               }}
             ></span>
           </p>
@@ -3611,7 +3612,7 @@ to {transform: translateX(-2620px);}}
               <span className="textITOGI">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'На рынке ремонта бытовой техники с 2011 года.',
+                    __html: 'На рынке ремонта бытово�� техники с 2011 года.',
                   }}
                 ></span>
               </span>
@@ -3807,6 +3808,7 @@ to {transform: translateX(-2620px);}}
               <img
                 alt="unsplash3TLl97HNJo7923"
                 src="/faceposleotsidki-200h.webp"
+                loading="lazy"
                 className="frame1196-unsplash3t-ll97hn-jo1"
               />
               <span className="frame1196-text275">Alia Main</span>
@@ -3958,6 +3960,7 @@ to {transform: translateX(-2620px);}}
               <img
                 alt="unsplash3TLl97HNJo7923"
                 src="/facedosquasha-200h.webp"
+                loading="lazy"
                 className="frame1196-unsplash3t-ll97hn-jo2"
               />
               <span className="frame1196-text277">Alia Main</span>
@@ -4112,6 +4115,7 @@ to {transform: translateX(-2620px);}}
               <img
                 alt="unsplash3TLl97HNJo7923"
                 src="/faceposlesquasha-200h.webp"
+                loading="lazy"
                 className="frame1196-unsplash3t-ll97hn-jo3"
               />
               <span className="frame1196-text279">Alia Main</span>
@@ -4249,6 +4253,7 @@ to {transform: translateX(-2620px);}}
         <img
           alt="Vector8616"
           src="/backgrounds/vector21-1500w.png"
+          loading="lazy"
           className="frame1196-vector"
         />
 
@@ -11744,7 +11749,7 @@ to {transform: translateX(-2620px);}}
             transition: transform 0.4s linear !important;
           }
 
-          /* Hover ��ффекты для ст��ел��к в кар��очках проблем - только SVG path горит при наведении на карточку */
+          /* Hover ��ффекты для ст����л��к в кар��очках проблем - только SVG path горит при наведении на карточку */
           .frame1196-arrow10 svg path,
           .frame1196-arrow11 svg path,
           .frame1196-arrow12 svg path,

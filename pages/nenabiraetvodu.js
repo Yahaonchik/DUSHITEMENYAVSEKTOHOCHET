@@ -5,10 +5,12 @@ import Header from '../components/Header'
 import MainFooter from '../components/MainFooter'
 import SEOHead from '../components/SEOHead'
 import PageNavigation from '../components/PageNavigation'
-import OrderModal from '../components/OrderModal'
+const OrderModal = dynamic(() => import('../components/OrderModal'), { ssr: false })
 import Breadcrumbs from '../components/Breadcrumbs'
-import RelatedArticles from '../components/RelatedArticles'
-import CallMasterSection from '../components/CallMasterSection'
+import dynamic from 'next/dynamic'
+const RelatedArticles = dynamic(() => import('../components/RelatedArticles'))
+const CallMasterSection = dynamic(() => import('../components/CallMasterSection'))
+import InterestingAside from '../components/InterestingAside'
 import AnchorLinksSection from '../components/AnchorLinksSection'
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
@@ -28,7 +30,7 @@ const Page = (props) => {
   const baseUrl = 'https://remstirmash.od.ua'
   const structuredData = getProblemPageStructuredData(
     'Ремонт стиральной машины которая не н��бирает воду',
-    'Профессиональный ремонт стир��льных машин которые не набирают во��у в Одессе. Чистка фильтров, ремонт клапанов.',
+    'Профессиональный ремонт стир��льных машин к��торые не набирают во��у в Одессе. Чистка фильтров, ремонт клапанов.',
     `${baseUrl}/nenabiraetvodu`
   )
 
@@ -110,7 +112,7 @@ const Page = (props) => {
                   </p>
 
                   <p>
-                    <strong>3. Осмотрите заливной шланг.</strong><br />
+                    <strong>3. Осмотрите зал��вной шланг.</strong><br />
                     Убедитесь, что на шланг ничего не давит и нет перегибов. Открутите его от машины (не забудьте поставить под него таз) и проверьте, идёт ли из него вода. Если шл��нг пережат или перекручен, распрямите его или замените.
                   </p>
 
@@ -386,7 +388,7 @@ const Page = (props) => {
                 </figure>
                 <p className="page-text49 vicetext">
                   {' '}
-                  Плата управле��ия — «мозг» стиральной машины. Ес��и она с��оит (из-за перепада напряжения или попа��ания влаги), команды на залив воды могут не передаваться. Призна��и: после включения стирки ма��ина бло��ирует люк, но воды не набирает, нередко выскакивает ��шибка набора воды. Эта неисправность требует диагностики и ремонта.
+                  Плата управле��ия — «мозг» стиральной машины. Ес����и она с��оит (из-за перепада напряжения или попа��ания влаги), команды на залив воды могут не передаваться. Призна��и: после включения стирки ма���ина бло��ирует люк, но воды не набирает, нередко выскакивает ��шибка набора воды. Эта неисправность требует диагностики и ремонта.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -425,8 +427,8 @@ const Page = (props) => {
             </svg>
             <RelatedArticles />
           </div>
-          <div className="page-dops-info">
-            <section className="page-frame1299">
+          <div className="page-dops-info"><InterestingAside />
+            <section className="page-frame1299" style={{display:"none"}}>
               <span className="page-text72">Вам б��дет интересно:</span>
               <div className="page-frame12981">
                 <span className="page-text73">

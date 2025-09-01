@@ -12,6 +12,7 @@ const Stats2 = (props) => {
             <img
               alt={props.image1Alt}
               src={props.image1Src}
+              loading="lazy"
               className="thq-img-ratio-1-1 stats2-image"
             />
           </div>

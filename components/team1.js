@@ -48,7 +48,7 @@ const Team1 = (props) => {
                     <img
                       alt={props.member1Alt}
                       src={props.member1Src}
-                      className="team1-placeholder-image1 thq-img-round thq-img-ratio-1-1"
+                      loading="lazy" className="team1-placeholder-image1 thq-img-round thq-img-ratio-1-1"
                     />
                     <div className="team1-content13">
                       <div className="team1-title1">
@@ -101,7 +101,7 @@ const Team1 = (props) => {
                     <img
                       alt={props.member2Alt}
                       src={props.member2Src}
-                      className="team1-placeholder-image2 thq-img-round thq-img-ratio-1-1"
+                      loading="lazy" className="team1-placeholder-image2 thq-img-round thq-img-ratio-1-1"
                     />
                     <div className="team1-content14">
                       <div className="team1-title2">
@@ -155,7 +155,7 @@ const Team1 = (props) => {
                     <img
                       alt={props.member3Alt}
                       src={props.member3Src}
-                      className="team1-placeholder-image3 thq-img-round thq-img-ratio-1-1"
+                      loading="lazy" className="team1-placeholder-image3 thq-img-round thq-img-ratio-1-1"
                     />
                     <div className="team1-content15">
                       <div className="team1-title3">
@@ -210,7 +210,7 @@ const Team1 = (props) => {
                     <img
                       alt={props.member4Alt}
                       src={props.member4Src}
-                      className="team1-placeholder-image4 thq-img-round thq-img-ratio-1-1"
+                      loading="lazy" className="team1-placeholder-image4 thq-img-round thq-img-ratio-1-1"
                     />
                     <div className="team1-content16">
                       <div className="team1-title4">
@@ -267,7 +267,7 @@ const Team1 = (props) => {
                     <img
                       alt={props.member5Alt}
                       src={props.member5Src}
-                      className="team1-placeholder-image5 thq-img-round thq-img-ratio-1-1"
+                      loading="lazy" className="team1-placeholder-image5 thq-img-round thq-img-ratio-1-1"
                     />
                     <div className="team1-content17">
                       <div className="team1-title5">
@@ -320,7 +320,7 @@ const Team1 = (props) => {
                     <img
                       alt={props.member6Alt}
                       src={props.member6Src}
-                      className="team1-placeholder-image6 thq-img-round thq-img-ratio-1-1"
+                      loading="lazy" className="team1-placeholder-image6 thq-img-round thq-img-ratio-1-1"
                     />
                     <div className="team1-content18">
                       <div className="team1-title6">
@@ -374,7 +374,7 @@ const Team1 = (props) => {
                     <img
                       alt={props.member7Alt}
                       src={props.member7Src}
-                      className="team1-placeholder-image7 thq-img-round thq-img-ratio-1-1"
+                      loading="lazy" className="team1-placeholder-image7 thq-img-round thq-img-ratio-1-1"
                     />
                     <div className="team1-content19">
                       <div className="team1-title7">
@@ -429,7 +429,7 @@ const Team1 = (props) => {
                     <img
                       alt={props.member8Alt}
                       src={props.member8Src}
-                      className="team1-placeholder-image8 thq-img-round thq-img-ratio-1-1"
+                      loading="lazy" className="team1-placeholder-image8 thq-img-round thq-img-ratio-1-1"
                     />
                     <div className="team1-content20">
                       <div className="team1-title8">

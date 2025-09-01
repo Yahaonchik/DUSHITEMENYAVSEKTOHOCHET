@@ -12,14 +12,16 @@
   "author": "TeleportHQ",
   "license": "MIT",
   "dependencies": {
-    "next": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
     "dangerous-html": "0.1.13",
-    "prop-types": "15.7.2"
+    "next": "^12.1.10",
+    "prop-types": "15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "engines": {
     "node": ">=18.x"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@next/bundle-analyzer": "^15.5.2"
+  }
 }

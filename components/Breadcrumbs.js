@@ -202,6 +202,18 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
 
 
           /* Адаптивность */
+          @media (min-width: 992px) and (max-width: 1199px) {
+            .breadcrumbs-wrapper,
+            .breadcrumbs-container.white-left .breadcrumbs-wrapper {
+              transform: translateX(-6px);
+            }
+          }
+          @media (min-width: 1200px) {
+            .breadcrumbs-wrapper,
+            .breadcrumbs-container.white-left .breadcrumbs-wrapper {
+              transform: translateX(-10px);
+            }
+          }
           @media (min-width: 488px) {
             .breadcrumbs-container {
               margin-top: 0;
@@ -222,6 +234,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
               width: auto;
               margin: 0 auto;
               text-align: left;
+              transform: none;
             }
 
             .breadcrumb-item {
@@ -260,6 +273,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
               width: auto;
               margin: 0 auto;
               text-align: left;
+              transform: none;
             }
 
             .breadcrumb-item {

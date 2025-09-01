@@ -59,6 +59,7 @@ const Blue = (props) => {
             <img
               alt={props.imageAlt1}
               src={props.imageSrc1}
+              loading="lazy"
               className="blue-image"
             />
             <span className="blue-text4">

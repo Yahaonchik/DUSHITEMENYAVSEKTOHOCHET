@@ -7,10 +7,12 @@ import SEOHead from '../components/SEOHead'
 import PageNavigation from '../components/PageNavigation'
 import OrderButton from '../components/OrderButton'
 import AnchorLinksSection from '../components/AnchorLinksSection'
-import OrderModal from '../components/OrderModal'
+const OrderModal = dynamic(() => import('../components/OrderModal'), { ssr: false })
 import Breadcrumbs from '../components/Breadcrumbs'
-import RelatedArticles from '../components/RelatedArticles'
-import CallMasterSection from '../components/CallMasterSection'
+import dynamic from 'next/dynamic'
+const RelatedArticles = dynamic(() => import('../components/RelatedArticles'))
+const CallMasterSection = dynamic(() => import('../components/CallMasterSection'))
+import InterestingAside from '../components/InterestingAside'
 import { getSEOData } from '../utils/seoConfig'
 import { getProblemPageStructuredData } from '../utils/structuredData'
 
@@ -113,7 +115,7 @@ const Page = (props) => {
                 <div className="vicetext">
                   <p>
                     <strong>1. Для начала проверьте сливной фильтр.</strong><br />
-                    Он удерживает мелкие предметы — монеты, пуговицы, ворсинки, — и со временем забивается. Когда фильтр перекрыт, вода не проходит в насос, и программа отжима не запускается. Обычно фильтр находится внизу на передней панели: откройте лючок, выкрутите пробку и удалите скопившийся мусор. После очистки попробуйте снова включить сти��ку.
+                    Он удерживает мелкие предметы — монеты, пуговицы, ворсинки, — и со временем забивается. Когда фильтр перекрыт, вода не п��оходит в насос, и программа отжима не запускается. Обычно фильтр находится внизу на передней панели: откройте лючок, выкрутите пробку и удалите скопившийся мусор. После очистки попробуйте снова включить сти��ку.
                   </p>
 
                   <p>
@@ -128,7 +130,7 @@ const Page = (props) => {
 
                   <p>
                     <strong>4. Иногда пробле��а связана с загрузкой ��елья.</strong><br />
-                    Если вещ���� сбил��сь в комок, барабан не может сбалансироваться. Встроенный датчик дисбаланса блокирует разгон, чтобы машина не «скакала» по комнате. Перетряхните бельё в барабан��, добавьте несколько мелких вещей или, наоборот, разделите большую партию на две стирки. Так бельё ра��пределится равномерно, и отжим пройдё�� без проблем.
+                    Если вещ���� сбил��сь в комок, барабан ��е может сбалансироваться. Встроенный датчик дисбаланса блокирует разгон, чтобы машина не «скакала» по комнате. Перетряхните бельё в барабан��, добавьте несколько мелких вещей или, наоборот, разделите большую партию на две стирки. Так бельё ра��пределится равномерно, и отжим пройдё�� без проблем.
                   </p>
 
                   <p>
@@ -265,7 +267,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Изноше��ные щетки двигателя. В большинстве машин двигатель имеет у��ольные ��ётки, которые со временем стираются. Из-за плохого ��онтакта мотор не набирает обороты и искрит. Вы заметите ��скр��ни�� вну��ри корпуса и о��ущение, что барабан «лениво» пытается крутиться, но не раскручивается. Если вовремя не заменить щетки, двигатель может вообще перестать вращать ��арабан.
+                  Изноше��ные щетки двигателя. В большинстве машин двигатель имеет у��ольные ��ётки, которые со временем стираются. Из-за плохого ��онтакта мотор не набирает обороты и искрит. Вы заметит�� ��скр��ни�� вну��ри корпуса и о��ущение, что барабан «лениво» пытается крутиться, но не раскручивается. Если вовремя не заменить щетки, двигатель может вообще перестать вращать ��арабан.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -436,8 +438,8 @@ const Page = (props) => {
             </svg>
             <RelatedArticles />
           </div>
-          <div className="page-dops-info">
-            <section className="page-frame1299">
+          <div className="page-dops-info"><InterestingAside />
+            <section className="page-frame1299" style={{display:"none"}}>
               <span className="page-text72">Вам будет интересно:</span>
               <div className="page-frame12981">
                 <span className="page-text73">
@@ -448,7 +450,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12982">
                 <span className="page-text74">
-                  Как продлить жизнь ��ашине на 3–5 лет — простые прив��чки,
+                  Как продлить жизнь ��ашине на 3–5 лет — простые прив����чки,
                   которые сэ��он��мят деньги
                 </span>
                 <div className="page-container46"></div>

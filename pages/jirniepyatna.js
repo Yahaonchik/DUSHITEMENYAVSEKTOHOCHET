@@ -6,11 +6,13 @@ import MainFooter from '../components/MainFooter'
 import SEOHead from '../components/SEOHead'
 import PageNavigation from '../components/PageNavigation'
 import OrderButton from '../components/OrderButton'
-import OrderModal from '../components/OrderModal'
+const OrderModal = dynamic(() => import('../components/OrderModal'), { ssr: false })
 import Breadcrumbs from '../components/Breadcrumbs'
-import RelatedArticles from '../components/RelatedArticles'
+import dynamic from 'next/dynamic'
+const RelatedArticles = dynamic(() => import('../components/RelatedArticles'))
 import AnchorLinksSection from '../components/AnchorLinksSection'
-import CallMasterSection from '../components/CallMasterSection'
+const CallMasterSection = dynamic(() => import('../components/CallMasterSection'))
+const InterestingAside = dynamic(() => import('../components/InterestingAside'), { ssr: false })
 import { getSEOData } from '../utils/seoConfig'
 import { getArticleStructuredData } from '../utils/structuredData'
 
@@ -196,7 +198,7 @@ const Page = (props) => {
                 </figure>
                 <p className="vicetext">
                   {' '}
-                  Жидкость для мытья посуды содерж��т компоненты, разрушающие жировые загрязнения, поэтому она подходит и для одежды. Нанесите несколько капель средства на п��тно и оставьте на 5–10 минут. Затем постирайте вещь – как правило, этого до��таточно. Для очень застарелых пятен можно предварительно замочить одежду: нанесите гель на пятно, накройте пищевой плёнкой на пару часов, а потом постирайте в тёплой воде с порошком. Это сочетание агрессивного средства и дополнительного времени ��лучшит результат.
+                  Жидкость для мытья посуды содерж��т компоненты, разрушающие жировые загрязнения, поэтому она подходит и для одежды. Нанесите несколько капель средства на п��тно и оставьте на 5–10 минут. Затем постирайте вещь – как правило, этого до��таточно. Для очень застарелых пятен можно предварительно замочить одежду: нанесите гель на пятно, накройте пищево�� плёнкой на пару часов, а потом постирайте в тёплой воде с порошком. Это сочетание агрессивного ��редства и дополнительного времени ��лучшит результат.
                 </p>
               </div>
             </section>
@@ -313,7 +315,7 @@ const Page = (props) => {
               <div className="page-container17">
                 <p className="page-text49 vicetext">
                   {' '}
-                  Если домашние средства не помог��ют, обращаются к магазинным пятновыводителям. На рынке есть гели, спр��и, стикеры и мыло-пятновыводители, предназначенные сп��циально ��ля жирных или сложных пятен. Внимательно читайте инструкцию: существуют средства для белых, цветных и деликатных тканей. Нанесите препарат на загрязнение, выдержите указанное время �� постирайте. Перед применением любого средства проверьте его на незаметном участке, чтобы не испортить вещь.
+                  Если домашние средства не помог��ют, обращаются к магазинным пятновыводителям. На рынке есть гели, спр��и, стикеры и мыло-пятновыводители, предназначенные сп��циально ��ля жирных или сложных пятен. ��нимательно читайте инструкцию: существуют средства для белых, цветных и деликатных тканей. Нанес��те препарат на загрязнение, выдержите указанное время �� постирайте. Перед применением любого средства проверьте его на незаметном участке, чтобы не испортить вещь.
                   Таким образом, комбинация б��стрых мер (промокнуть пятно, не растирать) и одного из перечисленных методов позволит удалить жирный след практически с любой ткани. Важно действовать спокойно и не торопиться – тогда вещь сохранит цвет и форму.
                   <span
                     dangerouslySetInnerHTML={{
@@ -353,8 +355,8 @@ const Page = (props) => {
             </svg>
             <RelatedArticles />
           </div>
-          <div className="page-dops-info">
-            <section className="page-frame1299">
+          <div className="page-dops-info"><InterestingAside />
+            <section className="page-frame1299" style={{display:"none"}}>
               <span className="page-text72">Вам будет интересно:</span>
               <div className="page-frame12981">
                 <span className="page-text73">
@@ -392,7 +394,7 @@ const Page = (props) => {
               </div>
               <div className="page-frame12986">
                 <span className="page-text78">
-                  Мифы о стиралках: что правда, а что — вымысел?
+                  Мифы о стиралках: что правда, а чт�� — вымысел?
                 </span>
                 <div className="page-container50"></div>
               </div>

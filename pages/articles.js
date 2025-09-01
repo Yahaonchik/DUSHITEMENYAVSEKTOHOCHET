@@ -5,7 +5,8 @@ import { useRouter } from 'next/router'
 
 import Header from '../components/Header'
 import MainFooter from '../components/MainFooter'
-import OrderModal from '../components/OrderModal'
+import dynamic from 'next/dynamic'
+const OrderModal = dynamic(() => import('../components/OrderModal'), { ssr: false })
 import QuestionModal from '../components/QuestionModal'
 import SEOHead from '../components/SEOHead'
 import Breadcrumbs from '../components/Breadcrumbs'
