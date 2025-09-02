@@ -32,7 +32,7 @@ const Articles = (props) => {
     { title: 'Стиральная машина зависает на программе', href: '/zavisaetnaprogramme', image: '/problems 2/61-300h.webp', alt: 'Стиральная машина зависает на программе' },
     { title: 'Стиральная машина не отжимает', href: '/neotjimaet', image: '/problems 2/71-300h.webp', alt: 'Стиральная машина не отжимает' },
     { title: 'Стиральная машина не набирает воду', href: '/nenabiraetvodu', image: '/problems/8-300h.webp', alt: 'Стиральная машина не набирает воду' },
-    { title: 'У стиральной машины не открывае��ся дверца', href: '/neotkrivaetsadverca', image: '/problems 2/91-300h.webp', alt: 'Не открывается дверца стиральной машины' },
+    { title: 'У стиральной машины не открывается дверца', href: '/neotkrivaetsadverca', image: '/problems 2/91-300h.webp', alt: 'Не открывается дверца стиральной машины' },
     { title: 'Стиральная машина не крутит барабан', href: '/nekrutitbaraban', image: '/problems/10-300h.webp', alt: 'Стиральная машина не крутит барабан' }
   ]
 

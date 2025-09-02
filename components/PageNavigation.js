@@ -22,7 +22,7 @@ const PageNavigation = ({ prevPage, nextPage }) => {
                 </svg>
               </div>
               <div className="page-nav-text-container">
-                <h4 className="page-nav-title">Пр��дыдущая</h4>
+                <h4 className="page-nav-title">Предыдущая</h4>
                 <span className="page-nav-subtitle">{prevPage.title}</span>
               </div>
             </a>

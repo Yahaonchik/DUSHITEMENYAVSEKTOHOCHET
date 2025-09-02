@@ -113,7 +113,7 @@ const OrderModal = ({ isOpen, onClose, successVariant = 'screenAuto' }) => {
       <div className="modal-overlay" onClick={closeModal}>
         <div className="modal-content" onClick={(e) => e.stopPropagation()}>
           <div className="modal-header">
-            <h2>Оформление ус��уги</h2>
+            <h2>Оформление услуги</h2>
             <button className="modal-close" onClick={closeModal}>×</button>
           </div>
           {bannerVisible && (

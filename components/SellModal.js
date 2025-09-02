@@ -81,7 +81,7 @@ const SellModal = ({ isOpen, onClose }) => {
       <div className="modal-overlay" onClick={closeModal}>
         <div className="modal-content" onClick={(e) => e.stopPropagation()}>
           <div className="modal-header">
-            <h2>П��одать стиральную машину</h2>
+            <h2>Продать стиральную машину</h2>
             <button className="modal-close" onClick={closeModal}>×</button>
           </div>
           <div className="modal-body">

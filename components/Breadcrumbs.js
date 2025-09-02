@@ -20,18 +20,18 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
       breadcrumbs.push({ name: 'Статьи', href: '/articles' })
     }
 
-    // ��ык��п б/у машин
+    // Выкуп б/у машин
     if (pathname === '/vikup') {
-      breadcrumbs.push({ name: '��ыкуп б/у машин', href: '/vikup' })
+      breadcrumbs.push({ name: 'Выкуп б/у машин', href: '/vikup' })
     }
 
-    // Проблемы с��иральных машин
+    // Проблемы стиральных машин
     const problemPages = {
       '/neslivaetvodu': 'Стиральная машина не сливает воду',
-      '/negreetvodu': 'Стир��льная м��шина не греет воду',
-      '/protekaet': 'Стирал��ная машина пр��текает',
-      '/silnoshumit': 'С��иральная машина шумит при отжиме',
-      '/nevkluchaetsa': 'Стиральн��я машина не включается',
+      '/negreetvodu': 'Стиральная машина не греет воду',
+      '/protekaet': 'Стиральная машина протекает',
+      '/silnoshumit': 'Стиральная машина шумит при отжиме',
+      '/nevkluchaetsa': 'Стиральная машина не включается',
       '/zavisaetnaprogramme': 'Стиральная машина зависает на программе',
       '/neotjimaet': 'Стиральная машина не отжимает',
       '/nenabiraetvodu': 'Стиральная машина не набирает воду',
@@ -48,7 +48,7 @@ const Breadcrumbs = ({ customItems = null, style = 'default', className = '' }) 
     const generalArticles = {
       '/jirniepyatna': 'Как избавиться от жирных пятен на одежде',
       '/jvachka': 'Как самостоятельно удалить жвачку с одежды',
-      '/vlapalisvkrov': 'Как удалить пятна крови с одеж��ы',
+      '/vlapalisvkrov': 'Как удалить пятна крови с одежды',
       '/puhovik': 'Как правильно стирать пуховик'
     }
 

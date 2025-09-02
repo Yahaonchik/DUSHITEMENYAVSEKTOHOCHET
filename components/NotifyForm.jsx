@@ -25,7 +25,7 @@ export default function NotifyForm() {
       const raw = await res.text()
       let data = null
       try { data = raw ? JSON.parse(raw) : null } catch {}
-      if (!res.ok) throw new Error((data && data.error) || raw || 'О��ибка')
+      if (!res.ok) throw new Error((data && data.error) || raw || 'Ошибка')
       setStatus('Заявка отправлена — я получил уведомление.')
       setName(''); setPhone(''); setMsg('')
     } catch (err) {

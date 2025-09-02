@@ -90,7 +90,7 @@ const QuestionModal = ({ isOpen, onClose }) => {
               <div className="success-view">
                 <div className="success-icon">✓</div>
                 <h3 className="success-title">Спасибо за обращение!</h3>
-                <p className="success-text">Мы получили ваш вопрос. На�� мастер свяжется с вами в ближайшее время.</p>
+                <p className="success-text">Мы получили ваш вопрос. Наш мастер свяжется с вами в ближайшее время.</p>
               </div>
             ) : (
               <>

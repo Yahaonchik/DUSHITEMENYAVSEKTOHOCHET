@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import OrderButton from './OrderButton'
 import dynamic from 'next/dynamic'
+import { PHONE_DISPLAY, PHONE_DISPLAY_2 } from '../utils/contacts'
 const OrderModal = dynamic(() => import('./OrderModal'), { ssr: false })
 
 const MainFooter = () => {
@@ -49,10 +50,10 @@ const MainFooter = () => {
             <div className="frame1196-container232">
               <div className="frame1196-container233">
                 <p className="frame1196-text282">
-                  <span className="frame1196-text-bold">Тел.:</span> +38 (098) 467-13-52
+                  <span className="frame1196-text-bold">Тел.:</span> {PHONE_DISPLAY}
                 </p>
                 <p className="frame1196-text283">
-                  <span className="frame1196-text-bold">Тел.:</span> +38 (098) 467-13-52
+                  <span className="frame1196-text-bold">Тел.:</span> {PHONE_DISPLAY_2}
                 </p>
               </div>
             </div>
@@ -127,7 +128,7 @@ const MainFooter = () => {
               <span className={`frame1196-text290 ${isArticlesPage ? 'frame1196-nav-active' : ''}`}>
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: 'Стат��и',
+                    __html: 'Статьи',
                   }}
                 ></span>
               </span>

@@ -3,7 +3,7 @@ import OrderButton from './OrderButton'
 
 const CallMasterSection = ({
   onOrderClick,
-  title = 'Ког��а вызывать мастера?',
+  title = 'Когда вызывать мастера?',
   companyName = 'Ваше название',
   phones = [
     { icon: '/image%203823106.svg', number: '+38 (048) 253-23-23' },
@@ -37,7 +37,7 @@ const CallMasterSection = ({
         <span className="company-name">{companyName}</span>
         <span className="company-quote">"</span>
         <span>.</span>
-        <span> Наш�� специалисты быстро приедут к вам в желаемое вами время в любой район Одессы и выполнят качественную диагностику и ремонт.</span>
+        <span> Наши специалисты быстро приедут к вам в желаемое вами время в любой район Одессы и выполнят качественную диагностику и ремонт.</span>
       </p>
       <svg width="330" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 330 20" preserveAspectRatio="none" className="dash mid"><path d="M0 10 H330" fill="none" stroke="#000000" strokeWidth="0.5" vectorEffect="non-scaling-stroke" strokeDasharray="11 11"></path></svg>
       <strong className="workdays">Работаем без выходных</strong>

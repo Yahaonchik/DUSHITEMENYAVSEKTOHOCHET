@@ -18,8 +18,8 @@ const Vikup = (props) => {
   const seoData = getSEOData('/vikup')
   const baseUrl = 'https://remstirmash.od.ua'
   const serviceData = getServiceData(
-    'Выкуп б/у стиральны�� машин',
-    'Выкупа��м б/у стиральные машины в Одессе дорого. Любые марки и состояние.',
+    'Выкуп б/у стиральных машин',
+    'Выкупаем б/у стиральные машины в Одессе дорого. Любые марки и состояние.',
     `${baseUrl}/vikup`
   )
   const localBusinessData = getLocalBusinessData(`${baseUrl}/vikup`)
@@ -110,7 +110,7 @@ const Vikup = (props) => {
               </div>
               <div className="page1-hero-image">
                 <Image
-                  alt="мастер п�� ремонту стиральных машин жмет руку покупателю"
+                  alt="мастер по ремонту стиральных машин жмет руку покупателю"
                   src="/vikupsochi-1500w.webp"
                   layout="fill"
                   objectFit="cover"
@@ -120,7 +120,7 @@ const Vikup = (props) => {
             </div>
             <div className="page1-container14">
               <h2 className="page1-text26">
-                <span>Почему луч��е не выбрасыват��</span>
+                <span>Почему лучше не выбрасывать</span>
                 <br></br>
               </h2>
             </div>
@@ -160,7 +160,7 @@ const Vikup = (props) => {
                     ></path>
                   </svg>
                   <p className="page1-text30">
-                    Мы выкупим вашу машинку �� используем её на благо другим
+                    Мы выкупим вашу машинку и используем её на благо другим
                   </p>
                 </div>
               </div>
@@ -241,7 +241,7 @@ const Vikup = (props) => {
                     ></path>
                   </svg>
                   <p className="page1-text36">
-                    Вы получаете реальную в��году — деньги с��азу на месте
+                    Вы получаете реальную выгоду — деньги сразу на месте
                   </p>
                 </div>
               </div>

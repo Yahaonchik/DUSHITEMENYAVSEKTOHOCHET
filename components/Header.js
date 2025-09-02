@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import WashingMachineAnimation from './WashingMachineAnimation'
-import { PHONE_TEL, PHONE_DISPLAY } from '../utils/contacts'
+import { PHONE_TEL, PHONE_DISPLAY, PHONE_TEL_2, PHONE_DISPLAY_2 } from '../utils/contacts'
 import dynamic from 'next/dynamic'
 const PhoneModal = dynamic(() => import('./PhoneModal'), { ssr: false })
 
@@ -102,7 +102,7 @@ const Header = () => {
                   <span className="frame1196-text102">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: 'Выкуп б/у ма��ин',
+                        __html: 'Выкуп б/у машин',
                       }}
                     ></span>
                   </span>
@@ -131,7 +131,7 @@ const Header = () => {
                 </button>
                 <div className="frame1196-container109">
                   <a href={`tel:${PHONE_TEL}`} className="frame1196-text104 phone-number">{PHONE_DISPLAY}</a>
-                  <a href={`tel:${PHONE_TEL}`} className="frame1196-text105 phone-number">{PHONE_DISPLAY}</a>
+                  <a href={`tel:${PHONE_TEL_2}`} className="frame1196-text105 phone-number">{PHONE_DISPLAY_2}</a>
                 </div>
               </div>
               <div className="frame1196-container110">
@@ -264,7 +264,7 @@ const Header = () => {
                 </button>
                 <div className="frame1196-sidebar-phone-numbers">
                   <a href={`tel:${PHONE_TEL}`} className="frame1196-sidebar-phone">{PHONE_DISPLAY}</a>
-                  <a href={`tel:${PHONE_TEL}`} className="frame1196-sidebar-phone">{PHONE_DISPLAY}</a>
+                  <a href={`tel:${PHONE_TEL_2}`} className="frame1196-sidebar-phone">{PHONE_DISPLAY_2}</a>
                 </div>
               </div>
               <div className="frame1196-sidebar-address">
@@ -374,7 +374,7 @@ const Header = () => {
             }
           }
 
-          /* Глобальные стили для стиральной машины на мобильных */
+          /* Глобальные сти��и для стиральной машины на мобильных */
           @media (max-width: 479px) {
             .frame1196-image10.washing-machine-wrapper {
               position: absolute !important;
@@ -457,12 +457,12 @@ const Header = () => {
           }
           */
 
-          /* Уникальный контейн��р компонента */
+          /* Уникальный контейнер компонента */
           .header-component {
             width: 100%;
           }
 
-          /* Стили для ссыл��к */
+          /* Стили для ссылок */
           .frame1196-container105,
           .frame1196-container106,
           .frame1196-container107 {

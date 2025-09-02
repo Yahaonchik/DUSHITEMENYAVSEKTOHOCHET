@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { PHONE_TEL, PHONE_DISPLAY } from '../utils/contacts'
+import { PHONE_TEL, PHONE_DISPLAY, PHONE_TEL_2, PHONE_DISPLAY_2 } from '../utils/contacts'
 
 const PhoneModal = ({ isOpen, onClose }) => {
   useEffect(() => {
@@ -10,6 +10,7 @@ const PhoneModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null
 
   const phoneDigits = PHONE_TEL.replace(/\D/g, '')
+  const phoneDigits2 = PHONE_TEL_2.replace(/\D/g, '')
   const waHref = `https://wa.me/${phoneDigits}`
   const tgHref = `https://t.me/+${phoneDigits}`
   const viberHref = `viber://chat?number=${phoneDigits}`
@@ -23,7 +24,7 @@ const PhoneModal = ({ isOpen, onClose }) => {
           <div className="pm-center">
             <div className="pm-title">Контакты</div>
             <a href={`tel:+${phoneDigits}`} className="pm-phone">{PHONE_DISPLAY}</a>
-            <a href={`tel:+${phoneDigits}`} className="pm-phone">{PHONE_DISPLAY}</a>
+            <a href={`tel:+${phoneDigits2}`} className="pm-phone">{PHONE_DISPLAY_2}</a>
             <div className="pm-schedule"><span className="pm-schedule-bold">Пн–Вс:</span> <span className="pm-schedule-normal">9:00–21:00</span></div>
             <div className="pm-arcs variant1">
               <div className="wave-left">
